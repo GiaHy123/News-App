@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
 
-
 import 'package:flutter/material.dart';
+import 'package:news_app/screens/search/widgets/newsCard.dart';
+
+import '../home/data/data.dart';
 
 class Search extends StatefulWidget {
   const Search({super.key});
@@ -9,8 +11,9 @@ class Search extends StatefulWidget {
   @override
   State<Search> createState() => _SearchState();
 }
-
 class _SearchState extends State<Search> {
+  final List<String>newsString =[];
+
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
@@ -32,7 +35,19 @@ class _SearchState extends State<Search> {
         ],
           
       ),
-      body: Container(child: Text("Search screen")),
+      body: Container( 
+          child: 
+          Column(
+            children: [
+              ListView.builder(
+              itemCount: dataNews.length,
+              itemBuilder: ((context, index) => newsCard(dataNews[index])          
+              ),
+        
+        ),
+            ],
+          ),
+    )
     );
   }
 }
