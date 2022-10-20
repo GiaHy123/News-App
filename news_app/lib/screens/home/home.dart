@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/screens/home/data/data.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
+import 'package:news_app/screens/home/widget/render_news.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -72,8 +73,8 @@ class _HomeState extends State<Home> {
             ),
             Expanded(
               child: ListView.builder(
-                itemCount: dataCategory.length,
-                itemBuilder: (context, index) =>  RenderCateGory( index == currentCategory ? true : false , dataCategory[index], index ,ChangeCurrentCatagory)
+                itemCount: dataNews.length,
+                itemBuilder: (context, index) =>  RenderNews(dataNews[index],context)
               ),
             ),
           ],
