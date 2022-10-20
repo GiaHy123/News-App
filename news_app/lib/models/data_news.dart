@@ -1,8 +1,9 @@
 class DataNews {
-  String? title = "";
-  String? discription = "";
-  String? category = "";
-  String? content = "";
-  List<String>? images = [];
-  DataNews({this.title, this.discription ,this.category, this.content, this.images});
+  String title = "";
+  String discription = "";
+  String ?category = "";
+  String content = "";
+  List<String> images = [];
+  String source = "Monsieur Kuma";
+  DataNews({required this.title, required this.discription , this.category, required this.content, required this.images});
 }
