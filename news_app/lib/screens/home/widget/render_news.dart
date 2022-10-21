@@ -3,13 +3,18 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_assets.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/models/data_news.dart';
+import 'package:news_app/models/get_data.dart';
+import 'package:news_app/models/new_info.dart';
+import 'package:news_app/models/news_details.dart';
 import 'package:news_app/screens/home/subScreens/read_new.dart';
 
 // ignore: non_constant_identifier_names
-Widget RenderNews(DataNews data, context) {
+Widget RenderNews(NewsInfo data, context) {
   return GestureDetector(
-    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ReadNews(dataNews: data))),
+    onTap: () async  {
+      NewsDetails newsDetails = await GetDataForNews.getNewsDetails(data.uri.toString(), data);
+      Navigator.push(context, MaterialPageRoute(builder: (context) => ReadNews(dataNews: newsDetails,)));
+    },
     child: Container(
         padding: const EdgeInsets.fromLTRB(15,10,15,0),
         child: Container(
@@ -23,7 +28,7 @@ Widget RenderNews(DataNews data, context) {
                   borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(12),
                       topRight: Radius.circular(12)),
-                  child: Image(image: NetworkImage(data.images[0]))),
+                  child: Image(image: NetworkImage(data.images[0].toString()))),
               Container(
                 padding: const EdgeInsets.all(12),
                 child: Column(
