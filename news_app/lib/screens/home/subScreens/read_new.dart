@@ -2,13 +2,11 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:news_app/constants/app_assets.dart';
-import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/models/data_news.dart';
-
+import '../../../constants/app_styles.dart';
+import '../../../models/news_details.dart';
 class ReadNews extends StatelessWidget {
   ReadNews({super.key, required this.dataNews});
-  final DataNews dataNews;
+  final NewsDetails dataNews;
 
   final ScrollController _controller = ScrollController();
   void _scrollTop() {
@@ -21,6 +19,8 @@ class ReadNews extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int numberOfImage = dataNews.images.length - 1;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -43,7 +43,7 @@ class ReadNews extends StatelessWidget {
       ),
       body: ListView(controller: _controller, children: [
         Image(
-          image: NetworkImage(dataNews.images[0]),
+          image: NetworkImage(dataNews.images[0].toString()),
           width: window.physicalSize.width,
         ),
         Container(
@@ -66,7 +66,8 @@ class ReadNews extends StatelessWidget {
                       ClipRRect(
                           borderRadius: BorderRadius.all(Radius.circular(48)),
                           child: Image(
-                            image: AssetImage(AppAssets.avatar),
+                            image: NetworkImage(
+                                "https://img.hoidap247.com/picture/question/20201023/large_1603461860810.jpg"),
                             width: 45,
                             height: 45,
                           )),
@@ -88,45 +89,48 @@ class ReadNews extends StatelessWidget {
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.comment_bank_outlined),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 8.0),
-                      child: Text("8 bình luận", style: AppStyles.regular),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Icon(Icons.favorite_border),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 8.0),
-                      child: Text("34 thích", style: AppStyles.regular),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Icon(Icons.share_rounded),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 8.0),
-                      child: Text("Share", style: AppStyles.regular),
-                    ),
-                  ],
-                ),
-              ],
-            ),
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 20),
-              child: Text(
-                dataNews.content,
-                style: AppStyles.regular.copyWith(fontSize: 16),
+              padding: const EdgeInsets.only(bottom: 8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.comment_bank_outlined),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Text("8 bình luận", style: AppStyles.regular),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(Icons.favorite_border),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Text("34 thích", style: AppStyles.regular),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(Icons.share_rounded),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Text("Share", style: AppStyles.regular),
+                      ),
+                    ],
+                  ),
+                ],
               ),
-            )
+            ),
+            Text("${dataNews.discription}\n",
+              style: AppStyles.regular.copyWith(fontSize: 16)),
+
+            // ignore: avoid_function_literals_in_foreach_calls
+            for(final content in dataNews.content)
+              Text("${content}\n",
+              style: AppStyles.regular.copyWith(fontSize: 16)),
           ]),
         )
       ]),
