@@ -1,6 +1,9 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
 
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:news_app/models/data_news.dart';
 import 'package:news_app/screens/search/widgets/newsCard.dart';
 
 import '../home/data/data.dart';
@@ -12,7 +15,6 @@ class Search extends StatefulWidget {
   State<Search> createState() => _SearchState();
 }
 class _SearchState extends State<Search> {
-  final List<String>newsString =[];
 
   @override
   Widget build(BuildContext context) {
@@ -35,18 +37,19 @@ class _SearchState extends State<Search> {
         ],
           
       ),
-      body: Container( 
-          child: 
-          Column(
-            children: [
-              ListView.builder(
-              itemCount: dataNews.length,
-              itemBuilder: ((context, index) => newsCard(dataNews[index])          
-              ),
-        
-        ),
-            ],
+      body: 
+      Container( 
+        height :window.physicalSize.height,
+        color: Color.fromARGB(255, 181, 196, 203),
+          child:         
+              Container(
+                child: ListView.builder(
+                itemCount: dataNews.length,
+                itemBuilder: (context, index) => newsCard(dataNews[index]),                           
+            
           ),
+              ),
+          
     )
     );
   }
@@ -54,7 +57,7 @@ class _SearchState extends State<Search> {
 
 class CustomSearch extends SearchDelegate{
   List<String>allData = [
-    'Kuma','Russia','Winter','Hot'
+    'News','Russia','Winter','Hot'
   ];
 
   @override
