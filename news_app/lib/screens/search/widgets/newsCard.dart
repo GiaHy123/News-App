@@ -1,10 +1,12 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:news_app/models/data_news.dart';
+//import 'package:news_app/models/data_news.dart';
+import 'package:news_app/models/get_data.dart';
+import 'package:news_app/models/new_info.dart';
 import 'package:news_app/screens/home/data/data.dart';
 import '../../home/data/data.dart';
 
-Widget newsCard(DataNews value) {
+Widget newsCard(NewsInfo value) {
   return Container(
 
     //margin: const EdgeInsets.only(left: 10, right: 10),
@@ -27,8 +29,8 @@ Widget newsCard(DataNews value) {
                   borderRadius: BorderRadius.circular(25),
           child: 
           Image(
-              image: NetworkImage(value.images[0]), height: 130, width: 150,
-              
+              image: NetworkImage(value.images[0].toString()), height: 130, width: 150,
+              fit: BoxFit.contain,
               ))
               ),
       //Image.network(value.images[0]),
