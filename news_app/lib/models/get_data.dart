@@ -50,7 +50,7 @@ class GetDataForNews {
               discription: discriptions[index],
               uri: uris[index],
               images: [
-                "https://pbs.twimg.com/media/FflXdAeVIAEFMF-?format=jpg&name=large"
+                "https://i.pinimg.com/736x/4b/1a/d7/4b1ad71f567a41e89b70efe355378977--best-cigar-discovery-channel.jpg"
               ],
             ));
   }
