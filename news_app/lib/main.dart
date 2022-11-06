@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/screens/home/home.dart';
+import 'package:news_app/screens/login/loginUI.dart';
 import 'package:news_app/screens/profile/profile.dart';
 import 'package:news_app/screens/search/search.dart';
 import 'package:news_app/screens/settings/settings.dart';
@@ -63,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: FittedBox(
           child: FloatingActionButton(
             child: const Icon(Icons.post_add),
-            onPressed: () {}
+            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));}
           ),
         ),
       ),
