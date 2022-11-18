@@ -18,8 +18,7 @@ class ReadNews extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int numberOfImage = dataNews.images.length - 1;
-
+    final author = dataNews.author.length < 20 ? dataNews.author : "Monsieur Kuma";
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -73,7 +72,7 @@ class ReadNews extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(left: 8),
                         child: Text(
-                          "By ${dataNews.author}",
+                          "By $author",
                           style: AppStyles.medium
                               .copyWith(color: Colors.grey, fontSize: 14),
                         ),

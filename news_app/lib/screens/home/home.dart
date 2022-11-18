@@ -1,8 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/models/news.dart';
-import 'package:news_app/screens/home/data/data.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
 import 'package:news_app/screens/home/widget/render_news.dart';
 import 'package:provider/provider.dart';
@@ -18,8 +16,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int currentCategory = 0;
-  List<News> dataNews = [];
   void ChangeCurrentCatagory(index) {
+    if(context.read<Model>().category[index] == "All"){
+      context.read<Model>().setAllNews();
+    }else{
+      context.read<Model>().getNewsFollowCategory(context.read<Model>().category[index]);
+    }
     setState(() {
       currentCategory = index;
     });
@@ -32,8 +34,9 @@ class _HomeState extends State<Home> {
   }
 
   void setUpData() async {
-    context.read<Model>().getDataNews();
+    context.read<Model>().getCategory();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -78,18 +81,18 @@ class _HomeState extends State<Home> {
                 height: 24,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: dataCategory.length,
+                    itemCount: context.watch<Model>().category.length,
                     itemBuilder: (context, index) => RenderCateGory(
                         index == currentCategory ? true : false,
-                        dataCategory[index],
+                        context.watch<Model>().category[index],
                         index,
                         ChangeCurrentCatagory)),
               ),
               Expanded(
                 child: ListView.builder(
-                    itemCount: context.read<Model>().data.length,
+                    itemCount: context.watch<Model>().newsFollowCategory.length,
                     itemBuilder: (context, index) =>
-                        RenderNews(context.read<Model>().data[index], context)),
+                        RenderNews(context.watch<Model>().newsFollowCategory[index], context)),
               ),
             ],
           )

@@ -49,7 +49,7 @@ Widget RenderNews(News data, context) {
                             Container(
                                 margin: const EdgeInsets.only(left: 12),
                                 child: Text(
-                                  data.author,
+                                  data.author.length < 20 ? data.author : "Monsieur Kuma",
                                   style: AppStyles.bold.copyWith(
                                     color: Colors.black45,
                                     fontSize: 14,
