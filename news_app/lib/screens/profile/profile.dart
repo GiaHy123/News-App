@@ -30,7 +30,9 @@ class _ProfileState extends State<Profile> {
             Icons.arrow_back,
             color: Colors.black,
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
       ),
       body: Container(
