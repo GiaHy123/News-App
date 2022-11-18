@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/provider/model.dart';
 import 'package:news_app/screens/home/home.dart';
-import 'package:news_app/screens/login/loginUI.dart';
 import 'package:news_app/screens/profile/profile.dart';
 import 'package:news_app/screens/search/search.dart';
-import 'package:news_app/screens/settings/settings.dart';
+import 'package:news_app/screens/setting/setting.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -47,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Home(),
     Search(),
     Profile(),
-    Settings(),
+    Setting(),
   ];
 
   final PageStorageBucket bucket = PageStorageBucket();
