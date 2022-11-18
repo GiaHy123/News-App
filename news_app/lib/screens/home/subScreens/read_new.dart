@@ -1,12 +1,11 @@
 // ignore_for_file: prefer_const_constructors
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
+import 'package:news_app/models/news.dart';
 import '../../../constants/app_styles.dart';
-import '../../../models/news_details.dart';
 class ReadNews extends StatelessWidget {
   ReadNews({super.key, required this.dataNews});
-  final NewsDetails dataNews;
+  final News dataNews;
 
   final ScrollController _controller = ScrollController();
   void _scrollTop() {
@@ -43,7 +42,7 @@ class ReadNews extends StatelessWidget {
       ),
       body: ListView(controller: _controller, children: [
         Image(
-          image: NetworkImage(dataNews.images[0].toString()),
+          image: NetworkImage(dataNews.images.isNotEmpty ? dataNews.images[0].toString() : "https://pbs.twimg.com/media/Fhwj6IBVIAAGO5N?format=jpg&name=small"),
           width: window.physicalSize.width,
         ),
         Container(
@@ -74,7 +73,7 @@ class ReadNews extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(left: 8),
                         child: Text(
-                          "By ${dataNews.source}",
+                          "By ${dataNews.author}",
                           style: AppStyles.medium
                               .copyWith(color: Colors.grey, fontSize: 14),
                         ),

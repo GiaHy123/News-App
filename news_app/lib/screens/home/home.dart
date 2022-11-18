@@ -1,15 +1,13 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
-
-// ignore: unused_import
-import 'dart:ui';
-
+// ignore_for_file: non_constant_identifier_names
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/models/get_data.dart';
-import 'package:news_app/models/new_info.dart';
+import 'package:news_app/models/news.dart';
 import 'package:news_app/screens/home/data/data.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
 import 'package:news_app/screens/home/widget/render_news.dart';
+import 'package:provider/provider.dart';
+
+import '../../provider/model.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -20,7 +18,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int currentCategory = 0;
-  List<NewsInfo> dataNews = [];
+  List<News> dataNews = [];
   void ChangeCurrentCatagory(index) {
     setState(() {
       currentCategory = index;
@@ -29,33 +27,13 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     setUpData();
   }
 
   void setUpData() async {
-    final temp = await GetDataForNews.getWebsiteData('https://vnexpress.net/');
-    setState(() {
-      dataNews = temp;
-    });
-    List<String?> urls = [];
-    dataNews.forEach((element) {
-      urls.add(element.uri);
-    });
-    List<List<String?>> listImages =
-        await GetDataForNews.getImagesForNews(urls);
-    setState(() {
-      for (int i = 0; i < dataNews.length; i++) {
-        dataNews[i].images = listImages[i].isNotEmpty
-            ? listImages[i]
-            : [
-                "https://i.pinimg.com/736x/4b/1a/d7/4b1ad71f567a41e89b70efe355378977--best-cigar-discovery-channel.jpg"
-              ];
-      }
-    });
+    context.read<Model>().getDataNews();
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -109,12 +87,13 @@ class _HomeState extends State<Home> {
               ),
               Expanded(
                 child: ListView.builder(
-                    itemCount: dataNews.length,
+                    itemCount: context.read<Model>().data.length,
                     itemBuilder: (context, index) =>
-                        RenderNews(dataNews[index], context)),
+                        RenderNews(context.read<Model>().data[index], context)),
               ),
             ],
-          ),
-        ));
+          )
+        ),
+      );
   }
 }

@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/provider/model.dart';
 import 'package:news_app/screens/home/home.dart';
 import 'package:news_app/screens/login/loginUI.dart';
 import 'package:news_app/screens/profile/profile.dart';
 import 'package:news_app/screens/search/search.dart';
 import 'package:news_app/screens/settings/settings.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(create: (_) => Model()),
+    ],
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -54,18 +61,22 @@ class _MyHomePageState extends State<MyHomePage> {
         height: 80.0,
         width: 80.0,
         decoration: BoxDecoration(
-          borderRadius:const BorderRadius.all(Radius.circular(48)),
-          boxShadow:const  [BoxShadow(
-            color: Colors.grey,
-            blurRadius: 10,
-          ),],
+          borderRadius: const BorderRadius.all(Radius.circular(48)),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.grey,
+              blurRadius: 10,
+            ),
+          ],
           border: Border.all(color: Colors.white, width: 8),
         ),
         child: FittedBox(
           child: FloatingActionButton(
-            child: const Icon(Icons.post_add),
-            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));}
-          ),
+              child: const Icon(Icons.post_add),
+              onPressed: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Login()));
+              }),
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
@@ -83,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {
                       setState(() {
                         currentTab = 0;
-                      }); 
+                      });
                     },
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -96,8 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: AppStyles.regular.copyWith(
                                 color: currentTab == 0
                                     ? Colors.blue
-                                    : Colors.grey)
-                        ),
+                                    : Colors.grey)),
                       ],
                     ),
                   ),
@@ -119,8 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: AppStyles.regular.copyWith(
                                 color: currentTab == 1
                                     ? Colors.blue
-                                    : Colors.grey)
-                        ),
+                                    : Colors.grey)),
                       ],
                     ),
                   ),
@@ -147,8 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: AppStyles.regular.copyWith(
                                 color: currentTab == 2
                                     ? Colors.blue
-                                    : Colors.grey)
-                        ),
+                                    : Colors.grey)),
                       ],
                     ),
                   ),
@@ -170,8 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: AppStyles.regular.copyWith(
                                 color: currentTab == 3
                                     ? Colors.blue
-                                    : Colors.grey)
-                        ),
+                                    : Colors.grey)),
                       ],
                     ),
                   ),

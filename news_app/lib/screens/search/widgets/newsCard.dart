@@ -1,9 +1,9 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 //import 'package:news_app/models/data_news.dart';
-import 'package:news_app/models/new_info.dart';
+import 'package:news_app/models/news.dart';
 
-Widget newsCard(NewsInfo value) {
+Widget newsCard(News value) {
   return Container(
 
     //margin: const EdgeInsets.only(left: 10, right: 10),
