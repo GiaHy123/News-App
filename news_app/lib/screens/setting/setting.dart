@@ -19,7 +19,7 @@ class _SettingState extends State<Setting> {
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back,
-            color: Colors.black,
+            color: Colors.white,
           ),
           onPressed: () {},
         ),
@@ -36,9 +36,10 @@ class _SettingState extends State<Setting> {
               decoration: const BoxDecoration(
                   color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(50))),
-              child: Image(
-                  image: NetworkImage(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5Py7uNdxwq-p50yS9MuUvjrz2ll7fcRVug&usqp=CAU")),
+              child: CircleAvatar(
+                radius: 56,
+                child: ClipOval(child: Image.asset('assets/images/avatar.png')),
+              ),
             ),
             Padding(
               padding: const EdgeInsets.all(5),
@@ -58,7 +59,7 @@ class _SettingState extends State<Setting> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 181, 192, 187),
+                  color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(24)),
                 ),
                 height: 50,
@@ -71,14 +72,14 @@ class _SettingState extends State<Setting> {
                         children: [
                           const Icon(
                             Icons.account_box,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
                               "Profile",
                               style: AppStyles.regular
-                                  .copyWith(fontSize: 16, color: Colors.black),
+                                  .copyWith(fontSize: 16, color: Colors.white),
                             ),
                           ),
                         ],
@@ -86,7 +87,7 @@ class _SettingState extends State<Setting> {
                       const Padding(
                         padding: EdgeInsets.only(right: 8.0),
                         child: Icon(Icons.arrow_forward_sharp,
-                            color: Colors.black),
+                            color: Colors.white),
                       ),
                     ],
                   ),
@@ -98,7 +99,7 @@ class _SettingState extends State<Setting> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 181, 192, 187),
+                  color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(24)),
                 ),
                 height: 50,
@@ -111,14 +112,14 @@ class _SettingState extends State<Setting> {
                         children: [
                           const Icon(
                             Icons.privacy_tip_sharp,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
                               "Privacy",
                               style: AppStyles.regular
-                                  .copyWith(fontSize: 16, color: Colors.black),
+                                  .copyWith(fontSize: 16, color: Colors.white),
                             ),
                           ),
                         ],
@@ -126,7 +127,7 @@ class _SettingState extends State<Setting> {
                       const Padding(
                         padding: EdgeInsets.only(right: 8.0),
                         child: Icon(Icons.arrow_forward_sharp,
-                            color: Colors.black),
+                            color: Colors.white),
                       ),
                     ],
                   ),
@@ -138,7 +139,7 @@ class _SettingState extends State<Setting> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 181, 192, 187),
+                  color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(24)),
                 ),
                 height: 50,
@@ -151,14 +152,14 @@ class _SettingState extends State<Setting> {
                         children: [
                           const Icon(
                             Icons.help,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
                               "Help and suport",
                               style: AppStyles.regular
-                                  .copyWith(fontSize: 16, color: Colors.black),
+                                  .copyWith(fontSize: 16, color: Colors.white),
                             ),
                           ),
                         ],
@@ -166,7 +167,7 @@ class _SettingState extends State<Setting> {
                       const Padding(
                         padding: EdgeInsets.only(right: 8.0),
                         child: Icon(Icons.arrow_forward_sharp,
-                            color: Colors.black),
+                            color: Colors.white),
                       ),
                     ],
                   ),
@@ -178,7 +179,7 @@ class _SettingState extends State<Setting> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 181, 192, 187),
+                  color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(24)),
                 ),
                 height: 50,
@@ -191,14 +192,14 @@ class _SettingState extends State<Setting> {
                         children: [
                           const Icon(
                             Icons.contactless,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
                               "Contact",
                               style: AppStyles.regular
-                                  .copyWith(fontSize: 16, color: Colors.black),
+                                  .copyWith(fontSize: 16, color: Colors.white),
                             ),
                           ),
                         ],
@@ -206,7 +207,7 @@ class _SettingState extends State<Setting> {
                       const Padding(
                         padding: EdgeInsets.only(right: 8.0),
                         child: Icon(Icons.arrow_forward_sharp,
-                            color: Colors.black),
+                            color: Colors.white),
                       ),
                     ],
                   ),
@@ -218,7 +219,7 @@ class _SettingState extends State<Setting> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
                 decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 181, 192, 187),
+                  color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(24)),
                 ),
                 height: 50,
@@ -231,14 +232,14 @@ class _SettingState extends State<Setting> {
                         children: [
                           const Icon(
                             Icons.logout,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
                               "Logout",
                               style: AppStyles.regular
-                                  .copyWith(fontSize: 16, color: Colors.black),
+                                  .copyWith(fontSize: 16, color: Colors.white),
                             ),
                           ),
                         ],
@@ -246,7 +247,7 @@ class _SettingState extends State<Setting> {
                       const Padding(
                         padding: EdgeInsets.only(right: 8.0),
                         child: Icon(Icons.arrow_forward_sharp,
-                            color: Colors.black),
+                            color: Colors.white),
                       ),
                     ],
                   ),

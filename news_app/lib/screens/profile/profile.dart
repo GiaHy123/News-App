@@ -40,7 +40,7 @@ class _ProfileState extends State<Profile> {
           child: Column(
             children: [
               CircleAvatar(
-                radius: 60,
+                radius: 56,
                 child: ClipOval(child: Image.asset('assets/images/avatar.png')),
               ),
               Padding(
