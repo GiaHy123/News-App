@@ -2,10 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/screens/login/loginUI.dart';
 import 'package:news_app/screens/profile/profile.dart';
-
-import '../../firebase/auth.dart';
 
 class Setting extends StatefulWidget {
   const Setting({super.key});
@@ -230,9 +227,7 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
-                  },
+                  onPressed: () {},
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
