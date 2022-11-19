@@ -1,5 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/firebase_options.dart';
 import 'package:news_app/provider/model.dart';
 import 'package:news_app/screens/home/home.dart';
 import 'package:news_app/screens/profile/profile.dart';
@@ -7,7 +10,10 @@ import 'package:news_app/screens/search/search.dart';
 import 'package:news_app/screens/setting/setting.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); 
+
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Model()),
