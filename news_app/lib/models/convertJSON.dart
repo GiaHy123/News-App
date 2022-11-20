@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:news_app/models/news.dart';

@@ -4,7 +4,11 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/profile/widgets/CustomInfo.dart';
+import 'package:provider/provider.dart';
+
+import '../../firebase/auth.dart';
 
 class Profile extends StatefulWidget {
   const Profile({super.key});
@@ -48,11 +52,12 @@ class _ProfileState extends State<Profile> {
                 child: TextButton(
                     onPressed: () {}, child: const Text('Change avatar')),
               ),
-              const CustomInfo(title: "Name", data: "Nguyễn Văn Linh"),
-              const CustomInfo(title: "Email", data: "vanlinh14121@gmail.com"),
-              const CustomInfo(title: "Date of birth", data: "10/06/2002"),
+              const CustomInfo(type: "name"),
+              const CustomInfo(type: "email"),
+              const CustomInfo(type: "birthday"),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text("Change", style: AppStyles.regular.copyWith(
