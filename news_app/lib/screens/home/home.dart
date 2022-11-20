@@ -45,6 +45,7 @@ class _HomeState extends State<Home> {
     });
     List<List<String?>> listImages =
         await GetDataForNews.getImagesForNews(urls);
+        if(mounted){
     setState(() {
       for (int i = 0; i < dataNews.length; i++) {
         dataNews[i].images = listImages[i].isNotEmpty
@@ -54,6 +55,7 @@ class _HomeState extends State<Home> {
               ];
       }
     });
+        }
   }
 
   @override

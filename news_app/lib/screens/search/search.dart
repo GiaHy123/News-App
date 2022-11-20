@@ -65,6 +65,7 @@ class _SearchState extends State<Search> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Search"),
+          backgroundColor: Colors.blueGrey,
           // ignore: avoid_unnecessary_containers, sized_box_for_whitespace
           // ignore: prefer_const_literals_to_create_immutables
           actions: [
