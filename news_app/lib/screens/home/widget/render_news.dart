@@ -51,7 +51,7 @@ Widget RenderNews(News data, context) {
                                 child: Text(
                                   data.author.length < 20 ? data.author : "Monsieur Kuma",
                                   style: AppStyles.bold.copyWith(
-                                    color: Colors.black45,
+                                    color: Colors.blueAccent,
                                     fontSize: 14,
                                   ),
                                 )),
@@ -63,32 +63,32 @@ Widget RenderNews(News data, context) {
                       overflow: TextOverflow.ellipsis,
                       style: AppStyles.regular.copyWith(fontSize: 13, color: Colors.black45),
                     ),
-                    Container(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Row(
-                            children: [
-                              Icon(
-                                Icons.favorite_border,
-                                color: Colors.blue,
-                              ),
-                              Container(
-                                  margin:
-                                      const EdgeInsets.symmetric(horizontal: 15),
-                                  child: Icon(Icons.comment_bank_outlined,
-                                      color: Colors.blue)),
-                              Icon(Icons.share_rounded, color: Colors.blue)
-                            ],
-                          ),
-                          Text(
-                            "96 Comments",
-                            style: AppStyles.regular,
-                          ),
-                        ],
-                      ),
-                    )
+                    // Container(
+                    //   padding: const EdgeInsets.symmetric(vertical: 14),
+                    //   child: Row(
+                    //     children: [
+                    //       Row(
+                    //         mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    //         children: [
+                    //           Icon(
+                    //             Icons.favorite_border,
+                    //             color: Colors.blue,
+                    //           ),
+                    //           Container(
+                    //               margin:
+                    //                   const EdgeInsets.symmetric(horizontal: 15),
+                    //               child: Icon(Icons.comment_bank_outlined,
+                    //                   color: Colors.blue)),
+                    //           Icon(Icons.share_rounded, color: Colors.blue)
+                    //         ],
+                    //       ),
+                    //       // Text(
+                    //       //   "96 Comments",
+                    //       //   style: AppStyles.regular,
+                    //       // ),
+                    //     ],
+                    //   ),
+                    // ),
                   ],
                 ),
               )

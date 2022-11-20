@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -25,7 +27,7 @@ class CustomInfo extends StatelessWidget {
       case 'birthday':
         title = "Date of Birth";
         final temp = context.watch<UserManagement>().user.birthday;
-        data = '${temp.day}/${temp.month}/${temp.year}';
+        data = '${temp.toDate().day}/${temp.toDate().month}/${temp.toDate().year}';
         break;
       default:
         break;

@@ -6,7 +6,7 @@ import 'package:news_app/constants/app_styles.dart';
 Widget RenderCateGory(isActive, name, index,  Function onPress) {
   return ElevatedButton(
     style: ElevatedButton.styleFrom(
-      primary: Colors.white,
+      backgroundColor: Colors.white,
       elevation: 0,
     ),
     onPressed: () => onPress(index),
