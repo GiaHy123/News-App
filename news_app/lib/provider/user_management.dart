@@ -35,6 +35,7 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
           _loginSuccess = false;
         }
       });
+    notifyListeners();
   }
 
 }

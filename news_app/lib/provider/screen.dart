@@ -7,20 +7,23 @@ import 'package:news_app/screens/setting/setting.dart';
 
 
 class Screen with ChangeNotifier, DiagnosticableTreeMixin {
-  int _currentScreen = 0;
-  int get currentScreen => _currentScreen;
 
-  final List<Widget> screens = const [
+  final List<Widget> _screens = const [
     Home(),
     Search(),
     Authenticate(),
     Setting(),
   ];
 
-    
+  int _currentTab = 0;
+  int get currentTab => _currentTab;
 
-  void changeScreen(int value){
-    _currentScreen = value;
+  Widget _screen = const Home();
+  Widget get screen => _screen;
+
+  void changeScreen(int value) {
+    _currentTab = value;
+    _screen = _screens[value];
     notifyListeners();
   }
 }

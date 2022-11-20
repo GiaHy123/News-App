@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Icon(
+              const Icon(
                 Icons.menu,
                 color: Colors.blue,
               ),
@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.location_pin,
                             color: Colors.black,
                           ),
@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
                                   .copyWith(color: Colors.black, fontSize: 16)),
                         ],
                       ))),
-              Icon(
+              const Icon(
                 Icons.notifications,
                 color: Colors.blue,
               )

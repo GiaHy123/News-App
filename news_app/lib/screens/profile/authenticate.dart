@@ -32,7 +32,7 @@ class Authenticate extends StatelessWidget {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Bạn chưa đăng nhập",
+          Text("You are not logged in",
               style: AppStyles.medium.copyWith(
                 fontSize: 24,
               )),
@@ -40,6 +40,13 @@ class Authenticate extends StatelessWidget {
             onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => const Login()));
             },
+            style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+                backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(18.0),
+                        side: const BorderSide(color: Colors.blue)))),
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -47,13 +54,6 @@ class Authenticate extends StatelessWidget {
                 style: AppStyles.regular.copyWith(fontSize: 16),
               ),
             ),
-            style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
-                backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-                shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                    RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18.0),
-                        side: BorderSide(color: Colors.blue)))),
           )
         ],
       )),

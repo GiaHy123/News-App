@@ -32,6 +32,7 @@ class Model with ChangeNotifier, DiagnosticableTreeMixin {
       }
     }
     _newsFollowCategory = data;
+    notifyListeners();
   }
 
   void setAllNews () => _newsFollowCategory = _data;

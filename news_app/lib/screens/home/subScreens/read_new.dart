@@ -127,7 +127,7 @@ class ReadNews extends StatelessWidget {
 
             // ignore: avoid_function_literals_in_foreach_calls
             for(final content in dataNews.content)
-              Text("${content}\n",
+              Text("$content\n",
               style: AppStyles.regular.copyWith(fontSize: 16)),
           ]),
         )

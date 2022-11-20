@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/firebase/auth.dart';
+import 'package:news_app/provider/screen.dart';
 import 'package:news_app/provider/user_management.dart';
 import 'package:provider/provider.dart';
 
@@ -70,7 +70,9 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.read<Screen>().changeScreen(2);
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -197,13 +199,13 @@ class _SettingState extends State<Setting> {
                       Row(
                         children: [
                           const Icon(
-                            Icons.contactless,
+                            Icons.abc_outlined,
                             color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
-                              "Contact",
+                              "About us",
                               style: AppStyles.regular
                                   .copyWith(fontSize: 16, color: Colors.white),
                             ),
