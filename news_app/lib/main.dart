@@ -1,19 +1,26 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/provider/model.dart';
+import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/home/home.dart';
-import 'package:news_app/screens/profile/profile.dart';
+import 'package:news_app/screens/profile/authenticate.dart';
 import 'package:news_app/screens/search/search.dart';
 import 'package:news_app/screens/setting/setting.dart';
 import 'package:provider/provider.dart';
+import 'firebase/firebase_options.dart';
 
-void main() {
+Future<void> main() async {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Model()),
+      ChangeNotifierProvider(create: (_) => UserManagement()),
     ],
     child: const MyApp(),
   ));
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -45,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> screens = const [
     Home(),
     Search(),
-    Profile(),
+    Authenticate(),
     Setting(),
   ];
 
