@@ -31,6 +31,7 @@ environment:
 dependencies:
   html: ^0.15.0
   http: ^0.13.5
+  provider: ^6.0.4
   flutter:
     sdk: flutter
 
@@ -64,6 +65,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/logo.jpg
+    - assets/data/
+    - assets/data/dataNews.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

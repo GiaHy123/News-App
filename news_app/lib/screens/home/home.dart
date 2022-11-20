@@ -1,15 +1,11 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
-
-// ignore: unused_import
-import 'dart:ui';
-
+// ignore_for_file: non_constant_identifier_names
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/models/get_data.dart';
-import 'package:news_app/models/new_info.dart';
-import 'package:news_app/screens/home/data/data.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
 import 'package:news_app/screens/home/widget/render_news.dart';
+import 'package:provider/provider.dart';
+
+import '../../provider/model.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -20,8 +16,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int currentCategory = 0;
-  List<NewsInfo> dataNews = [];
   void ChangeCurrentCatagory(index) {
+    if(context.read<Model>().category[index] == "All"){
+      context.read<Model>().setAllNews();
+    }else{
+      context.read<Model>().getNewsFollowCategory(context.read<Model>().category[index]);
+    }
     setState(() {
       currentCategory = index;
     });
@@ -29,33 +29,12 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     setUpData();
   }
 
   void setUpData() async {
-    final temp = await GetDataForNews.getWebsiteData('https://vnexpress.net/');
-    setState(() {
-      dataNews = temp;
-    });
-    List<String?> urls = [];
-    dataNews.forEach((element) {
-      urls.add(element.uri);
-    });
-    List<List<String?>> listImages =
-        await GetDataForNews.getImagesForNews(urls);
-        if(mounted){
-    setState(() {
-      for (int i = 0; i < dataNews.length; i++) {
-        dataNews[i].images = listImages[i].isNotEmpty
-            ? listImages[i]
-            : [
-                "https://pbs.twimg.com/media/FflXdAeVIAEFMF-?format=jpg&name=large"
-              ];
-      }
-    });
-        }
+    context.read<Model>().getCategory();
   }
 
   @override
@@ -102,21 +81,22 @@ class _HomeState extends State<Home> {
                 height: 24,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: dataCategory.length,
+                    itemCount: context.watch<Model>().category.length,
                     itemBuilder: (context, index) => RenderCateGory(
                         index == currentCategory ? true : false,
-                        dataCategory[index],
+                        context.watch<Model>().category[index],
                         index,
                         ChangeCurrentCatagory)),
               ),
               Expanded(
                 child: ListView.builder(
-                    itemCount: dataNews.length,
+                    itemCount: context.watch<Model>().newsFollowCategory.length,
                     itemBuilder: (context, index) =>
-                        RenderNews(dataNews[index], context)),
+                        RenderNews(context.watch<Model>().newsFollowCategory[index], context)),
               ),
             ],
-          ),
-        ));
+          )
+        ),
+      );
   }
 }
