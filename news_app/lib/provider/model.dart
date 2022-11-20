@@ -19,7 +19,7 @@ class Model with ChangeNotifier, DiagnosticableTreeMixin {
     notifyListeners();
   }
 
-  void getCategory() async {
+  Future<void> getCategory() async {
     _category = await ConvertJSON.readCategory();
     notifyListeners();
   }

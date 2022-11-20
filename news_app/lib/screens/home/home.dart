@@ -1,6 +1,8 @@
 // ignore_for_file: non_constant_identifier_names
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/provider/user_management.dart';
+import 'package:news_app/screens/bookmark/bookmark.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
 import 'package:news_app/screens/home/widget/render_news.dart';
 import 'package:provider/provider.dart';
@@ -17,10 +19,12 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int currentCategory = 0;
   void ChangeCurrentCatagory(index) {
-    if(context.read<Model>().category[index] == "All"){
+    if (context.read<Model>().category[index] == "All") {
       context.read<Model>().setAllNews();
-    }else{
-      context.read<Model>().getNewsFollowCategory(context.read<Model>().category[index]);
+    } else {
+      context
+          .read<Model>()
+          .getNewsFollowCategory(context.read<Model>().category[index]);
     }
     setState(() {
       currentCategory = index;
@@ -39,41 +43,46 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+    final userName = context.watch<UserManagement>().user.name;
+    final login = context.watch<UserManagement>().checkLogin();
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.white,
-          elevation: 0,
-          title: Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              const Icon(
-                Icons.menu,
-                color: Colors.blue,
-              ),
-              Expanded(
-                  child: Container(
-                      padding: const EdgeInsets.only(left: 24),
-                      alignment: Alignment.center,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          const Icon(
-                            Icons.location_pin,
-                            color: Colors.black,
-                          ),
-                          Text("HCM City, Viet Nam",
-                              style: AppStyles.regular
-                                  .copyWith(color: Colors.black, fontSize: 16)),
-                        ],
-                      ))),
-              const Icon(
-                Icons.notifications,
-                color: Colors.blue,
-              )
-            ],
-          ),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            // const Icon(
+            //   Icons.menu,
+            //   color: Colors.blue,
+            // ),
+            Expanded(
+                child: Container(
+                    padding: const EdgeInsets.only(left: 24),
+                    alignment: Alignment.center,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        // const Icon(
+                        //   Icons.location_pin,
+                        //   color: Colors.black,
+                        // ),
+                        Text("Wellcome, ${userName}",
+                            style: AppStyles.regular
+                                .copyWith(color: Colors.black, fontSize: 16)),
+                      ],
+                    ))),
+            IconButton(
+              icon: const Icon(Icons.bookmark),
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const Bookmark()));
+              },
+              color: Colors.blue,
+            )
+          ],
         ),
-        body: Container(
+      ),
+      body: Container(
           color: Colors.white,
           child: Column(
             children: [
@@ -91,12 +100,12 @@ class _HomeState extends State<Home> {
               Expanded(
                 child: ListView.builder(
                     itemCount: context.watch<Model>().newsFollowCategory.length,
-                    itemBuilder: (context, index) =>
-                        RenderNews(context.watch<Model>().newsFollowCategory[index], context)),
+                    itemBuilder: (context, index) => RenderNews(
+                        context.watch<Model>().newsFollowCategory[index],
+                        context)),
               ),
             ],
-          )
-        ),
-      );
+          )),
+    );
   }
 }

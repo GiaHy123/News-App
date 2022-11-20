@@ -5,8 +5,16 @@ import 'package:news_app/screens/login/loginUI.dart';
 import 'package:news_app/screens/profile/profile.dart';
 import 'package:provider/provider.dart';
 
-class Authenticate extends StatelessWidget {
+
+
+class Authenticate extends StatefulWidget {
   const Authenticate({super.key});
+
+  @override
+  State<Authenticate> createState() => _AuthenticateState();
+}
+
+class _AuthenticateState extends State<Authenticate> {
 
   @override
   Widget build(BuildContext context) {

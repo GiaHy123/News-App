@@ -7,7 +7,11 @@ import 'package:news_app/provider/user_management.dart';
 import 'package:provider/provider.dart';
 import 'firebase/firebase_options.dart';
 
-Future<void> main() async {
+Future<void> main() async {  
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  ).whenComplete(() => UserManagement().checkLogin());
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Model()),
@@ -17,9 +21,6 @@ Future<void> main() async {
     ],
     child: const MyApp(),
   ));
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
 }
 
 class MyApp extends StatelessWidget {

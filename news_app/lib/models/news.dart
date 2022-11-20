@@ -6,6 +6,7 @@ class News {
   String author = '';
   String category = '';
   List<dynamic> content = [];
+  int id = 0;
   News({
     required this.title, 
     required this.discription, 
@@ -13,8 +14,20 @@ class News {
     required this.uri,
     required this.author,
     required this.category,
-    required this.content
+    required this.content,
+    required this.id,
   });
+
+  Map<String, dynamic> toJson () => {
+    'id': id,
+    'title': title,
+    'discription': discription,
+    'images': images,
+    'uri': uri,
+    'author': author,
+    'category': category,
+    'content': content,
+  };
 
   factory News.fromJson(Map<String, dynamic> data) {
     final title = data['title'] as String;
@@ -24,6 +37,7 @@ class News {
     final author = data['author'] as String;
     final category = data['category'] as String;
     final content = data['content'] as List<dynamic>;
-    return News(title: title, discription: discription, images: images, uri: uri, author: author, category: category, content: content);
+    final id = data['id'] as int;
+    return News(title: title, discription: discription, images: images, uri: uri, author: author, category: category, content: content, id: id);
   }
 }
