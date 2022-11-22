@@ -1,19 +1,41 @@
+// ignore_for_file: file_names
+
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/provider/user_management.dart';
+import 'package:provider/provider.dart';
 
 class CustomInfo extends StatelessWidget {
-  const CustomInfo({super.key, required this.title, required this.data});
+  const CustomInfo({super.key, required this.type});
 
-  final String title;
-  final String data;
+  final String type;
   @override
   Widget build(BuildContext context) {
-    var width = window.physicalSize.width;
+    String title = '';
+    String data = '';
+    switch (type){
+      case 'name':
+        title = "Name";
+        data = context.watch<UserManagement>().user.name.toString();
+        break;
+      case 'email':
+        title = "Email";
+        data = context.watch<UserManagement>().user.email.toString();
+        break;
+      case 'birthday':
+        title = "Date of Birth";
+        final temp = context.watch<UserManagement>().user.birthday;
+        data = '${temp.toDate().day}/${temp.toDate().month}/${temp.toDate().year}';
+        break;
+      default:
+        break;
+    }
+    var widthWindow = window.physicalSize.width;
     return Container(
         margin: const EdgeInsets.symmetric(vertical: 15),
-        width: width * 0.6,
+        width: widthWindow /3,
         decoration: const BoxDecoration(
             border: Border(bottom: BorderSide(width: 1.0, color: Colors.grey))),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

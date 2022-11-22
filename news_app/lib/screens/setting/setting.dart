@@ -2,6 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
+import 'package:news_app/provider/screen.dart';
+import 'package:news_app/provider/user_management.dart';
+import 'package:provider/provider.dart';
 
 class Setting extends StatefulWidget {
   const Setting({super.key});
@@ -13,6 +16,8 @@ class Setting extends StatefulWidget {
 class _SettingState extends State<Setting> {
   @override
   Widget build(BuildContext context) {
+    bool isLogin = context.watch<UserManagement>().loginSuccess;
+
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
@@ -44,13 +49,14 @@ class _SettingState extends State<Setting> {
             Padding(
               padding: const EdgeInsets.all(5),
               child: Text(
-                "Nguyễn Văn Linh",
+                isLogin ? context.watch<UserManagement>().user.name.toString() : 'User',
                 style: AppStyles.medium.copyWith(
                   fontSize: 16,
                 ),
               ),
             ),
-            Text("123@gmail.com",
+            Text(
+                isLogin ? context.watch<UserManagement>().user.email.toString() : '',
                 style: AppStyles.regular.copyWith(
                   fontSize: 14,
                 )),
@@ -64,7 +70,9 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.read<Screen>().changeScreen(2);
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -191,13 +199,13 @@ class _SettingState extends State<Setting> {
                       Row(
                         children: [
                           const Icon(
-                            Icons.contactless,
+                            Icons.abc_outlined,
                             color: Colors.white,
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: Text(
-                              "Contact",
+                              "About us",
                               style: AppStyles.regular
                                   .copyWith(fontSize: 16, color: Colors.white),
                             ),
@@ -214,7 +222,9 @@ class _SettingState extends State<Setting> {
                 ),
               ),
             ),
-            Padding(
+            
+            if (context.watch<UserManagement>().loginSuccess)
+             Padding(
               padding: const EdgeInsets.fromLTRB(25, 25, 25, 0),
               child: Container(
                 padding: const EdgeInsets.only(left: 10),
@@ -224,7 +234,9 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.read<UserManagement>().logOut();
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -253,7 +265,8 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
               ),
-            ),
+            )
+          
           ]),
         ),
       ),

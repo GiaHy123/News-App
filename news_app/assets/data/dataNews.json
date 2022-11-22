@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Chủ tịch Hội đồng thành viên TKV bị cảnh cáo",
         "discription": "Ông Lê Minh Chuẩn, Chủ tịch Hội đồng thành viên Tập đoàn Công nghiệp Than - Khoáng sản Việt Nam (TKV) bị cảnh cáo do có vi phạm, khuyết điểm trong công tác.",
         "images": [
@@ -20,6 +21,7 @@
         ]
     },
     {
+        "id": 2,
         "title": "'Xử lý nghiêm vi phạm trong quảng cáo xuyên biên giới'",
         "discription": "Quốc hội yêu cầu Bộ Thông tin Truyền thông phối hợp thanh tra, xử lý nghiêm các vi phạm trong hoạt động quảng cáo cung cấp xuyên biên giới vào Việt Nam.",
         "images": [
@@ -47,6 +49,7 @@
         ]
     },
     {
+        "id": 3,
         "title": "Yêu cầu xử lý sai phạm trong gần 1.000 dự án gây lãng phí",
         "discription": "Quốc hội yêu cầu Chính phủ làm rõ trách nhiệm tổ chức, cá nhân để xảy ra vi phạm, thất thoát, lãng phí trong gần 1.000 dự án không hiệu quả, chậm tiến độ.",
         "images": [
@@ -73,6 +76,7 @@
         ]
     },
     {
+        "id": 4,
         "title": "'Chuyến thăm của Chủ tịch nước tạo động lực mới cho quan hệ Việt Nam - Thái Lan'",
         "discription": "Chuyến thăm Thái Lan của Chủ tịch nước Nguyễn Xuân Phúc là cơ hội để hai nước tăng hợp tác toàn diện, đặc biệt trong kinh tế, theo Thứ trưởng Ngoại giao Hà Kim Ngọc.",
         "images": [
@@ -99,6 +103,7 @@
         ]
     },
     {
+        "id": 5,
         "title": "Chủ tịch tỉnh Quảng Ninh làm Thứ trưởng Xây dựng",
         "discription": "Ông Nguyễn Tường Văn, Chủ tịch UBND tỉnh Quảng Ninh, được Thủ tướng điều động trở lại làm Thứ trưởng Xây dựng, ngày 15/11.",
         "images": [
@@ -116,6 +121,7 @@
         ]
     },
     {
+        "id": 6,
         "title": "Quốc hội đồng ý bổ sung nơi sinh vào mẫu hộ chiếu mới",
         "discription": "Chiều 15/11, Quốc hội thông qua Nghị quyết kỳ họp 4 trong đó đồng ý bổ sung nơi sinh vào hộ chiếu cấp cho công dân.",
         "images": [
@@ -140,6 +146,7 @@
         ]
     },
     {
+        "id": 7,
         "title": "Quốc hội đề nghị sớm có hành lang pháp lý về tiền số, tài sản ảo",
         "discription": "Luật Phòng chống rửa tiền (sửa đổi) vừa thông qua chưa luật hoá tiền ảo, tài sản ảo, Quốc hội đề nghị Chính phủ sớm nghiên cứu vấn đề này.",
         "images": [
@@ -163,6 +170,7 @@
         ]
     },
     {
+        "id": 8,
         "title": "Sẽ sử dụng công nghệ số kiểm soát tài sản cán bộ",
         "discription": "Quốc hội yêu cầu sau năm 2025 thực hiện chuyển đổi số 100% công tác kiểm soát tài sản, thu nhập cán bộ, công chức bằng cách sử dụng công nghệ số, dữ liệu số.",
         "images": [
@@ -184,6 +192,7 @@
         ]
     },
     {
+        "id": 9,
         "title": "Quốc hội yêu cầu có lộ trình cải cách tiền lương trong năm 2023",
         "discription": "Quốc hội yêu cầu Chính phủ trong năm 2023 trình cấp có thẩm quyền lộ trình thực hiện cải cách chính sách tiền lương theo Nghị quyết 27 của Trung ương.",
         "images": [
@@ -209,6 +218,7 @@
         ]
     },
     {
+        "id": 10,
         "title": "Chốt mức khởi điểm đấu giá biển số ôtô 40 triệu đồng",
         "discription": "Quốc hội quyết định giá khởi điểm và tiền đặt trước của một biển số ôtô đưa ra đấu giá là 40 triệu đồng, bước giá 5 triệu đồng.",
         "images": [
@@ -234,6 +244,7 @@
         ]
     },
     {
+        "id": 11,
         "title": "Cần cơ chế chỉ định thầu để mua thiết bị y tế độc quyền",
         "discription": "Giám đốc Sở Y tế Hà Nội đề xuất cơ chế chỉ định thầu mua trang thiết bị y tế đặc chủng, chỉ có một hoặc hai nhà sản xuất và bán thương mại.",
         "images": [
@@ -265,6 +276,7 @@
         ]
     },
     {
+        "id": 12,
         "title": "Quốc hội yêu cầu có biện pháp bình ổn thị trường bất động sản",
         "discription": "Xử nghiêm các vi phạm trong huy động vốn nhưng Quốc hội yêu cầu kịp thời bình ổn, tạo điều kiện cho thị trường bất động sản hoạt động thông suốt.",
         "images": [
@@ -287,6 +299,7 @@
         ]
     },
     {
+        "id": 13,
         "title": "TP Buôn Ma Thuột được hưởng loạt cơ chế đặc thù",
         "discription": "Dự án đầu tư cà phê tại TP Buôn Ma Thuột được ưu đãi thuế tới 30 năm, tỉnh Đăk Lăk được vay tối đa 40% qua phát hành trái phiếu, từ năm 2023.",
         "images": [
@@ -310,6 +323,7 @@
         ]
     },
     {
+        "id": 14,
         "title": "Bộ trưởng Trần Hồng Hà: Sẽ xây dựng cơ sở dữ liệu giá đất",
         "discription": "Theo Bộ trưởng Tài nguyên và Môi trường, sắp tới người dân có thể thông qua cơ sở dữ liệu hoặc bản đồ địa chính, số hóa đất đai để tiếp cận giá đất.",
         "images": [],
@@ -329,6 +343,7 @@
         ]
     },
     {
+        "id": 15,
         "title": "Bộ Nông nghiệp và Phát triển nông thôn có thứ trưởng mới",
         "discription": "Ông Nguyễn Quốc Trị, Tổng cục trưởng Lâm nghiệp, được Thủ tướng bổ nhiệm giữ chức Thứ trưởng Nông nghiệp và Phát triển nông thôn, ngày 14/11.",
         "images": [
@@ -343,6 +358,7 @@
         ]
     },
     {
+        "id": 16,
         "title": "'Kiểm soát tài sản, thu nhập' là bạo lực gia đình",
         "discription": "Luật Phòng, chống bạo lực gia đình (sửa đổi) bổ sung hành vi bạo lực là \"kiểm soát tài sản, thu nhập người trong nhà để tạo sự lệ thuộc\".",
         "images": [
@@ -366,6 +382,7 @@
         ]
     },
     {
+        "id": 17,
         "title": "Việt Nam - New Zealand ký hai văn kiện hợp tác",
         "discription": "Thủ tướng Phạm Minh Chính và Thủ tướng New Zealand Ardern chứng kiến lễ ký văn kiện hợp tác về giáo dục và hàng không dân dụng, nhân chuyến thăm của bà Ardern đến Việt Nam.",
         "images": [
@@ -396,6 +413,7 @@
         ]
     },
     {
+        "id": 18,
         "title": "Thu hồi đất cần đảm bảo dân có điều kiện sống tốt hơn",
         "discription": "Nhiều đại biểu Quốc hội đề nghị Chính phủ quy định trong dự luật Đất đai sửa đổi nguyên tắc thu hồi đất ngoài đền bù bằng tiền, phải hỗ trợ kế sinh nhai cho người dân.",
         "images": [
@@ -425,6 +443,7 @@
         ]
     },
     {
+        "id": 19,
         "title": "'Khó định giá đất theo thị trường'",
         "discription": "Cho rằng bỏ khung giá đất là \"đột phá tư duy\" nhưng các đại biểu Quốc hội băn khoăn \"thực tế rất khó\" định giá theo thị trường.",
         "images": [
@@ -455,6 +474,7 @@
         ]
     },
     {
+        "id": 20,
         "title": "'Doanh nghiệp cần mua đất khi thực hiện dự án thương mại đơn thuần'",
         "discription": "Theo đại biểu Tô Văn Tám, không nên thu hồi đất cho dự án kinh tế - xã hội thương mại đơn thuần, doanh nghiệp cần thương lượng với người dân để mua đất.",
         "images": [
@@ -484,6 +504,7 @@
         ]
     },
     {
+        "id": 21,
         "title": "Trung ương điều động nhân sự để bầu Chủ tịch Bình Thuận, Phú Yên",
         "discription": "Ủy viên Ủy ban Kiểm tra Trung ương và Thứ trưởng Tài chính được Ban Bí thư điều động, chỉ định làm Phó bí thư tỉnh, giới thiệu bầu Chủ tịch Bình Thuận, Phú Yên.",
         "images": [
@@ -504,6 +525,7 @@
         ]
     },
     {
+        "id": 22,
         "title": "Ban hành kết luận thanh tra trong 15 ngày có dự thảo",
         "discription": "Theo Luật Thanh tra sửa đổi, trong 15 ngày từ khi nhận được dự thảo kết luận, người ra quyết định thanh tra phải ký ban hành kết luận.",
         "images": [
@@ -530,6 +552,7 @@
         ]
     },
     {
+        "id": 23,
         "title": "Tăng khai thác mỏ dầu khí đã cạn",
         "discription": "Luật Dầu khí sửa đổi vừa được thông qua với cơ chế khai thác mỏ ở giai đoạn cuối khi sản lượng giảm được đánh giá \"đột phá\", giúp tăng hiệu quả, thu ngân sách.",
         "images": [
@@ -561,6 +584,7 @@
         ]
     },
     {
+        "id": 24,
         "title": "Thủ tướng Đức dạo phố Hà Nội, thăm đền Ngọc Sơn",
         "discription": "Thủ tướng Đức Olaf Scholz thăm phòng tranh và dạo phố cổ Hà Nội, trước khi cùng Thủ tướng Phạm Minh Chính vào đền Ngọc Sơn dâng hương và được tặng bức thư pháp.",
         "images": [
@@ -628,6 +652,7 @@
         ]
     },
     {
+        "id": 25,
         "title": "Việt Nam - Đức ký ba văn kiện hợp tác",
         "discription": "<span class=\"location-stamp\">Hà Nội</span>Thủ tướng Phạm Minh Chính thông báo Việt Nam và Đức ký ba văn kiện trong các lĩnh vực, sau cuộc hội đàm với Thủ tướng Đức Olaf Scholz.",
         "images": [
@@ -664,6 +689,7 @@
         ]
     },
     {
+        "id": 26,
         "title": "Thủ tướng dự Hội nghị Cấp cao Đông Á",
         "discription": "Thủ tướng Phạm Minh Chính kêu gọi ASEAN và các đối tác Hội nghị Cấp cao Đông Á ưu tiên phục hồi kinh tế và tìm kiếm giải pháp cho thách thức an ninh.",
         "images": [
@@ -683,6 +709,7 @@
         ]
     },
     {
+        "id": 27,
         "title": "Đề nghị bỏ quy định thu hồi đất làm dự án đô thị, nhà ở thương mại",
         "discription": "Đại biểu Quốc hội đề nghị bỏ quy định thu hồi đất để làm dự án đô thị, nhà ở thương mại vì cho rằng đây là hoạt động kinh tế đơn thuần.",
         "images": [
@@ -710,6 +737,7 @@
         ]
     },
     {
+        "id": 28,
         "title": "Thủ tướng Phạm Minh Chính gặp Tổng thống Biden",
         "discription": "Thủ tướng Phạm Minh Chính gặp Tổng thống Mỹ Joe Biden bên lề hội nghị cấp cao tại Phnom Penh và thảo luận các biện pháp thúc đẩy quan hệ song phương.",
         "images": [
@@ -738,6 +766,7 @@
         ]
     },
     {
+        "id": 29,
         "title": "Thủ tướng đề nghị phát triển thương mại cân bằng với Trung Quốc",
         "discription": "Thủ tướng Phạm Minh Chính hội kiến với Thủ tướng Trung Quốc Lý Khắc Cường tại Phnom Penh, đề nghị tăng kết nối giao thông và đảm bảo phát triển thương mại cân bằng.",
         "images": [
@@ -762,6 +791,7 @@
         ]
     },
     {
+        "id": 30,
         "title": "Nhiệm vụ 6 lãnh đạo UBND TP HCM",
         "discription": "Chủ tịch UBND TP HCM Phan Văn Mãi chuyển giao các lĩnh vực quy hoạch, đất đai, xây dựng cho tân Phó chủ tịch Bùi Xuân Cường tiếp quản.",
         "images": [
@@ -784,6 +814,7 @@
         ]
     },
     {
+        "id": 31,
         "title": "Chị em gặp nhau sau 47 năm nhờ dữ liệu dân cư",
         "discription": "<span class=\"location-stamp\">Bình Phước</span>Bà Phạm Thị Minh, 66 tuổi, quốc tịch Mỹ, đã tìm được người em trai ở Việt Nam sau 47 năm xa cách nhờ dữ liệu quốc gia về dân cư.",
         "images": [
@@ -804,6 +835,7 @@
         ]
     },
     {
+        "id": 32,
         "title": "Gia Lai sẽ xây hồ chứa nước hơn 4.000 tỷ đồng",
         "discription": "Dự án hồ cấp nước cho hơn 28.000 dân và khoảng 8.600 ha cây trồng ở huyện Ia Pa và Krông Pa vừa được Phó thủ tướng Lê Văn Thành ký phê duyệt.",
         "images": [],
@@ -818,6 +850,7 @@
         ]
     },
     {
+        "id": 33,
         "title": "Nuôi cá chép trong thửa ruộng bậc thang",
         "discription": "<span class=\"location-stamp\">Hà Giang</span>Hàng nghìn ha ruộng tại Hoàng Su Phì được nuôi thả cá chép cho sản lượng 70-90 tấn, doanh thu đến 10 tỷ đồng mỗi năm.",
         "images": [
@@ -841,6 +874,7 @@
         ]
     },
     {
+        "id": 34,
         "title": "Bình Dương lập các tổ tuần tra đặc biệt",
         "discription": "<span class=\"location-stamp\">Bình Dương</span>Công an tỉnh Bình Dương thành lập 19 Tổ tuần tra đặc biệt (Tổ 171) từ cấp huyện đến tỉnh, tăng trật tự an toàn giao thông và phòng, chống tội phạm.",
         "images": [
@@ -861,6 +895,7 @@
         ]
     },
     {
+        "id": 35,
         "title": "Trồng sâm Ngọc Linh trong rổ nhựa",
         "discription": "<span class=\"location-stamp\">Quảng Nam</span>Sâm Ngọc Linh trồng trong thùng xốp, rổ nhựa, phủ nylon tràn lan ở huyện Nam Trà My, về lâu dài có thể gây ô nhiễm.",
         "images": [
@@ -887,6 +922,7 @@
         ]
     },
     {
+        "id": 36,
         "title": "Bỏ làng vì sợ 'con ma rừng'",
         "discription": "<span class=\"location-stamp\">Kon Tum</span>Những câu chuyện ma mị được thêu dệt sau nhiều cái chết \"đột ngột\", khiến dân làng Chung Tam sợ hãi, lần lượt bỏ khu tái định cư quay về làng cũ sống.",
         "images": [
@@ -914,6 +950,7 @@
         ]
     },
     {
+        "id": 37,
         "title": "Ngày trở về của liệt sĩ biên giới phía Bắc",
         "discription": "Trên chuyến xe lên Hà Giang, bà Lê Thị Hương ôm di ảnh anh trai, liệt sĩ Lê Nam Hòa, thủ thỉ \"Chúng em đưa anh lên chốt chào đồng đội rồi mình về nhà\".",
         "images": [
@@ -948,6 +985,7 @@
         ]
     },
     {
+        "id": 38,
         "title": "Đường cây xanh mát ở cửa ngõ thủ đô",
         "discription": "Những hàng cây xanh, nhiều tầng như một cánh rừng nối dài ở đại lộ Thăng Long, cửa ngõ phía Tây Hà Nội.",
         "images": [
@@ -993,6 +1031,7 @@
         ]
     },
     {
+        "id": 39,
         "title": "TP HCM áp dụng nhiều giải pháp giảm thất thoát nước",
         "discription": "Đặt mục tiêu giảm tỷ lệ thất thoát nước còn 17,5%, Tổng Công ty Cấp nước Sài Gòn (Sawaco) tập trung nguồn lực triển khai nhiều giải pháp đồng bộ.",
         "images": [
@@ -1015,6 +1054,7 @@
         ]
     },
     {
+        "id": 40,
         "title": "TP HCM tạm ngưng cung cấp nước diện rộng",
         "discription": "Việc cấp nước cho nhiều khu vực tại 12 quận nội thành, thành phố Thủ Đức và Bình Chánh sẽ bị gián đoạn do Sawaco bảo trì hệ thống cấp nước vào cuối tuần này.",
         "images": [
@@ -1032,6 +1072,7 @@
         ]
     },
     {
+        "id": 41,
         "title": "Tìm được người thân sau 19 năm thất lạc",
         "discription": "<span class=\"location-stamp\">Nghệ An</span>Bà Lê Thị Thủy, 55 tuổi, sau 19 năm lưu lạc ở Trung Quốc, có hai con, đã trở về Việt Nam tìm được người thân.",
         "images": [
@@ -1052,6 +1093,7 @@
         ]
     },
     {
+        "id": 42,
         "title": "Hàng tấn cá chết ở hồ điều hòa",
         "discription": "<span class=\"location-stamp\">Hải Phòng</span>Khoảng 3 tấn cá tự nhiên chết nổi trắng hồ điều hòa Phương Lưu, bốc mùi hôi thối, khiến người dân xung quanh phải đóng chặt cửa.",
         "images": [
@@ -1071,6 +1113,7 @@
         ]
     },
     {
+        "id": 43,
         "title": "Bồ câu quý hiếm xuất hiện ở Vườn Quốc gia Côn Đảo",
         "discription": "<span class=\"location-stamp\">Bà Rịa - Vũng Tàu</span>Con bồ câu Nicoba quý hiếm với bộ lông màu xanh kim loại được cán bộ kiểm lâm Vườn Quốc gia Côn Đảo phát hiện lúc tuần tra rừng ở hòn Bảy Cạnh.",
         "images": [
@@ -1091,6 +1134,7 @@
         ]
     },
     {
+        "id": 44,
         "title": "Sóng lớn đánh sập nhiều nhà dân ở Nha Trang",
         "discription": "<span class=\"location-stamp\">Khánh Hòa</span>Những ngày qua, biển động mạnh, nhiều căn nhà ở cồn Nhất Trí bị sóng đánh hư hỏng, người dân phải dùng rọ đá, thanh gỗ để gia cố.",
         "images": [
@@ -1134,6 +1178,7 @@
         ]
     },
     {
+        "id": 45,
         "title": "Kiếm trăm triệu mỗi năm nhờ nấm bào ngư, vú sữa hoàng kim",
         "discription": "<span class=\"location-stamp\">Bình Phước</span>Nhiều nông dân huyện Đồng Phú thu lời hàng trăm triệu mỗi năm nhờ đưa các loại cây mới vào trồng thử nghiệm.",
         "images": [
@@ -1146,6 +1191,7 @@
         "content": []
     },
     {
+        "id": 46,
         "title": "Sông chảy qua TP Bà Rịa nổi bọt trắng xóa",
         "discription": "Sông Dinh chảy qua TP Bà Rịa nổi bọt trắng xóa, cao tầm 20 cm, kéo dài vài km, bốc mùi hôi thối.",
         "images": [
@@ -1163,6 +1209,7 @@
         ]
     },
     {
+        "id": 47,
         "title": "Bụi mịn có mùi hôi bay vào nhà dân",
         "discription": "<span class=\"location-stamp\">Quảng Ngãi</span>Hơn 1.000 nhà dân ở Khu kinh tế Dung Quất bị bụi màu trắng, có mùi hôi gây buồn nôn bay vào, chưa rõ nguồn gốc.",
         "images": [
@@ -1182,6 +1229,7 @@
         ]
     },
     {
+        "id": 48,
         "title": "Nghề dệt vải của người La Chí",
         "discription": "<span class=\"location-stamp\">Hà Giang</span>Nghề trồng bông, dệt vải của người La Chí, xã Nà Khương, huyện Quang Bình có từ lâu đời đến nay vẫn được lưu giữ.",
         "images": [
@@ -1199,6 +1247,7 @@
         ]
     },
     {
+        "id": 49,
         "title": "Hàng nghìn người xuống đường dọn rác, trồng cây tại Sa Pa",
         "discription": "UBND thị xã Sa Pa phối hợp với Tập đoàn Sun Group phát động, ra quân dọn dẹp vệ sinh và trồng cây, hoa dọc các tuyến phố, chiều 30/10.",
         "images": [
@@ -1225,6 +1274,7 @@
         ]
     },
     {
+        "id": 50,
         "title": "Lão nông 'nghiện' khởi nghiệp",
         "discription": "<span class=\"location-stamp\">Hà Tĩnh</span>Lỗ cả tỷ đồng vì liên tục thay đổi mô hình kinh tế nông nghiệp, ông Hoàng Ngọc Trà bị nói \"đưa vợ con ra làm thí điểm\".",
         "images": [
@@ -1256,6 +1306,7 @@
         ]
     },
     {
+        "id": 51,
         "title": "Vỡ hồ chứa chất thải rộng 5.000 m2",
         "discription": "<span class=\"location-stamp\">Bà Rịa - Vũng Tàu</span>Hồ chứa chất thải rộng gần 5.000 m2, ở xã Tóc Tiên, thị xã Phú Mỹ bị vỡ, nước hôi thối tràn ra dòng suối, ảnh hưởng hàng trăm hộ dân.",
         "images": [
@@ -1274,6 +1325,7 @@
         ]
     },
     {
+        "id": 52,
         "title": "Biển xâm thực đe dọa rừng phòng hộ",
         "discription": "<span class=\"location-stamp\">Hà Tĩnh</span>2,5 km bờ biển ở xã Xuân Hội, huyện Nghi Xuân, bị sạt lở, sóng đánh bật gốc cây phi lao trong rừng phòng hộ khiến người dân trong vùng bất an.",
         "images": [
@@ -1296,6 +1348,7 @@
         ]
     },
     {
+        "id": 53,
         "title": "'Bức tử' cây xanh ở Thủ đô",
         "discription": "Nhiều cây xanh ở Hà Nội bị giá sắt siết chặt làm biến dạng thân, có cây bị đóng đinh, mắc đèn, treo đồ, ảnh hưởng đến sự phát triển.",
         "images": [
@@ -1349,6 +1402,7 @@
         ]
     },
     {
+        "id": 54,
         "title": "Nghi hai cơ sở in khiến nước ngập đỏ khu dân cư Sài Gòn",
         "discription": "Sở Tài nguyên và Môi trường TP HCM nghi tình trạng nước ngập đỏ ngầu tại khu dân cư quận Tân Phú xuất phát từ hai cơ sở in bông vải ở địa bàn.",
         "images": [
@@ -1371,6 +1425,7 @@
         ]
     },
     {
+        "id": 55,
         "title": "TP HCM đảm bảo an ninh cấp nước tại hai quận trung tâm",
         "discription": "Cấp nước Bến Thành và Công an quận 1 và 3 vừa ký kết quy chế phối hợp đảm bảo an ninh trật tự trong lĩnh vực cấp nước trên địa bàn, chiều 25/10.",
         "images": [
@@ -1390,6 +1445,7 @@
         ]
     },
     {
+        "id": 56,
         "title": "Khu dân cư TP HCM ngập sâu do triều cường cao nhất từ đầu năm",
         "discription": "Triều cường hơn mức 1,7 m, một số khu dân cư ở TP Thủ Đức, Bình Thạnh, quận 7... chìm trong nước, người dân vất vả đi làm, đưa con đến trường, sáng 25/10.",
         "images": [
@@ -1440,6 +1496,7 @@
         ]
     },
     {
+        "id": 57,
         "title": "Di dời xóm nhà thuyền sau 40 năm tồn tại",
         "discription": "<span class=\"location-stamp\">Hải Phòng</span>62 hộ dân với hơn 150 nhân khẩu sống ở xóm nhà thuyền trên sông Tam Bạc sẽ nhận 10 triệu đồng mỗi hộ để di dời đi nơi khác.",
         "images": [
@@ -1460,6 +1517,7 @@
         ]
     },
     {
+        "id": 58,
         "title": "Nước ngập đỏ ngầu ở khu dân cư Sài Gòn",
         "discription": "Sau cơn mưa, một số tuyến đường tại quận Tân Phú bị bủa vây bởi dòng nước màu đỏ, nồng nặc mùi hoá chất, ảnh hưởng hàng trăm hộ dân.",
         "images": [
@@ -1481,6 +1539,7 @@
         ]
     },
     {
+        "id": 59,
         "title": "Thuần rươi, trồng lúa trên ruộng hoang",
         "discription": "Là người đầu tiên ở TP Hà Tĩnh quây ruộng hoang để bắt rươi kết hợp trồng lúa Nàng Xuân, ông Nguyễn Văn Hiển bị nhiều người nói \"đầu óc có vấn đề\".",
         "images": [
@@ -1514,6 +1573,7 @@
         ]
     },
     {
+        "id": 60,
         "title": "Không thể xây nhà vì phải chờ kế hoạch sử dụng đất hàng năm",
         "discription": "<span class=\"location-stamp\">TP HCM</span>Mất 3 năm, anh Nguyễn Công Khang chưa thể chuyển mục đích sử dụng cho 56 m2 đất để xây nhà vì phải chờ phê duyệt kế hoạch sử dụng đất hàng năm của huyện.",
         "images": [
@@ -1546,6 +1606,7 @@
         ]
     },
     {
+        "id": 61,
         "title": "Nhiều tài xế bị phạt nguội vì đỗ ôtô kín đường khi dự đám cưới",
         "discription": "<span class=\"location-stamp\">Hà Tĩnh</span>22 tài xế lái đỗ ôtô lấn lòng đường Xô Viết Nghệ Tĩnh để vào khách sạn gần đó dự đám cưới đã bị Công an TP Hà Tĩnh dán giấy phạt nguội.",
         "images": [
@@ -1571,6 +1632,7 @@
         ]
     },
     {
+        "id": 62,
         "title": "Đề xuất đầu tư 2.100 tỷ đồng xây cao tốc Hòa Liên - Túy Loan",
         "discription": "Cao tốc Hòa Liên - Túy Loan (Đà Nẵng) dài 11,5 km được đề xuất đầu tư 2.100 tỷ đồng bằng vốn ngân sách để đồng bộ với cao tốc La Sơn - Túy Loan đã hoàn thành.",
         "images": [
@@ -1588,6 +1650,7 @@
         ]
     },
     {
+        "id": 63,
         "title": "Đề xuất quy hoạch sân bay tại Ninh Bình không được chấp thuận",
         "discription": "Bộ Giao thông Vận tải không đồng thuận quy hoạch cảng hàng không tại tỉnh Ninh Bình song ủng hộ phương án sân bay chuyên dùng.",
         "images": [
@@ -1608,6 +1671,7 @@
         ]
     },
     {
+        "id": 64,
         "title": "Không chuyển trạm thu phí Bắc Thăng Long về Vĩnh Phúc",
         "discription": "Dù đặt sai vị trí, trạm BOT Bắc Thăng Long - Nội Bài (Hà Nội) không thể chuyển về tuyến tránh Vĩnh Yên (Vĩnh Phúc), theo Cục Đường bộ Việt Nam.",
         "images": [
@@ -1627,6 +1691,7 @@
         ]
     },
     {
+        "id": 65,
         "title": "UBND TP Hà Nội: Buýt nhanh BRT giảm ùn tắc giao thông",
         "discription": "Từ 2017 đến tháng 6/2022, BRT Kim Mã - Yên Nghĩa giúp giảm xe cá nhân ra vào nội đô, thúc đẩy phát triển kinh tế xã hội, theo UBND TP Hà Nội.",
         "images": [
@@ -1653,6 +1718,7 @@
         ]
     },
     {
+        "id": 66,
         "title": "Bộ Quốc phòng chấp thuận Bình Phước quy hoạch sân bay chuyên dùng",
         "discription": "Sân bay chuyên dùng Hớn Quản sẽ được lập quy hoạch trên cơ sở mở rộng sân bay Tecnic nhằm phục vụ phát triển kinh tế xã hội và quốc phòng.",
         "images": [],
@@ -1670,6 +1736,7 @@
         ]
     },
     {
+        "id": 67,
         "title": "Hiện trạng hai đường ven sông Sài Gòn bị bức tường ngăn",
         "discription": "<span class=\"location-stamp\">TP HCM</span>Hai đường nội bộ ở dự án Vinhomes và Saigon Pearl, quận Bình Thạnh, đang được cơ quan chức năng tính toán phá tường ngăn để thông tuyến, giảm ùn tắc ở khu vực.",
         "images": [
@@ -1716,6 +1783,7 @@
         ]
     },
     {
+        "id": 68,
         "title": "Phá hàng rào để buôn bán ở đường dẫn cao tốc Trung Lương",
         "discription": "Hàng rào hành lang bảo vệ cao tốc TP HCM - Trung Lương bị nhiều người cắt phá để buôn bán đồ ăn, xăng dầu gây mất an toàn, nguy cơ cháy nổ.",
         "images": [
@@ -1735,6 +1803,7 @@
         ]
     },
     {
+        "id": 69,
         "title": "Chính phủ phê duyệt đầu tư cao tốc Đồng Nai lên Lâm Đồng",
         "discription": "Phó thủ tướng Lê Văn Thành ký phê duyệt chủ trương đầu tư cao tốc Tân Phú - Bảo Lộc với tổng kinh phí 17.200 tỷ đồng, ngày 10/11.",
         "images": [
@@ -1755,6 +1824,7 @@
         ]
     },
     {
+        "id": 70,
         "title": "Ngổn ngang công trình ở bến Phú Định",
         "discription": "Bến Phú Định, quận 8, địa danh nổi tiếng ở TP HCM, thiếu kết nối giao thông, đìu hiu, ngổn ngang công trình khiến cuộc sống người dân đảo lộn.",
         "images": [
@@ -1808,6 +1878,7 @@
         ]
     },
     {
+        "id": 71,
         "title": "Bình Định chi hơn 2.600 tỷ đồng làm đường kết nối cảng biển",
         "discription": "Bình Định chi 2.659 tỷ đồng làm đường nối quốc lộ 19C với cảng Quy Nhơn và đường biển ĐT.639 đoạn Mỹ Thành - Lại Giang nhằm kết nối hạ tầng, ứng phó thiên tai.",
         "images": [
@@ -1825,6 +1896,7 @@
         ]
     },
     {
+        "id": 72,
         "title": "Ba phương án làm đường Vành đai 4 qua TP HCM",
         "discription": "Sở Giao thông Vận tải thành phố đề xuất nghiên cứu ba phương án làm đường Vành đai 4, đoạn qua TP HCM để tìm hướng phù hợp, giảm chi phí đầu tư.",
         "images": [
@@ -1845,6 +1917,7 @@
         ]
     },
     {
+        "id": 73,
         "title": "12 dự án cao tốc Bắc Nam được chia thành 25 gói thầu",
         "discription": "Bộ Giao thông Vận tải quyết định chia 729 km cao tốc Bắc Nam phía đông giai đoạn 2 (2021-2025) thành 25 gói thầu, mỗi gói trị giá từ 3.000 đến gần 8.000 tỷ đồng.",
         "images": [
@@ -1867,6 +1940,7 @@
         ]
     },
     {
+        "id": 74,
         "title": "Ưu - nhược điểm của đường sắt tốc độ 250 km/h",
         "discription": "Đầu tư tuyến đường sắt tốc độ 250 km/h chở khách và hàng hóa sẽ giúp tăng thị phần vận tải của ngành, song có nhược điểm khó khăn về kỹ thuật chạy tàu.",
         "images": [
@@ -1897,6 +1971,7 @@
         ]
     },
     {
+        "id": 75,
         "title": "Đề xuất làm đường kết nối cao tốc Biên Hòa - Vũng Tàu",
         "discription": "Tuyến đường dài hơn 13 km, tổng vốn đầu tư hơn 9.400 tỷ đồng vừa được kiến nghị đầu tư để kết nối thành phố biển với cao tốc Biên Hòa - Vũng Tàu.",
         "images": [
@@ -1916,6 +1991,7 @@
         ]
     },
     {
+        "id": 76,
         "title": "Ga Sài Gòn bán thêm 7.000 vé tàu Tết về miền Trung",
         "discription": "Đường sắt tăng thêm khoảng 7.000 vé Tết trên các tàu từ ga Sài Gòn, Dĩ An, Biên Hoà về khu vực miền Trung để đáp ứng nhu cầu đi lại tăng cao.",
         "images": [
@@ -1933,6 +2009,7 @@
         ]
     },
     {
+        "id": 77,
         "title": "Tàu Cát Linh - Hà Đông sau một năm vận hành",
         "discription": "<span class=\"location-stamp\">Hà Nội</span>Tàu Cát Linh - Hà Đông thu hút hơn 7,3 triệu lượt khách sau một năm vận hành nhưng chưa thuận tiện do hạn chế kết nối với loại hình vận tải công cộng khác.",
         "images": [],
@@ -1942,6 +2019,7 @@
         "content": []
     },
     {
+        "id": 78,
         "title": "Hầm chui cửa ngõ phía đông TP HCM trước ngày thông xe",
         "discription": "Hầm chui trước bến xe Miền Đông mới, TP Thủ Đức, sau 4 năm thi công sẽ thông xe cuối tháng 11, giúp giảm ùn tắc cửa ngõ thành phố.",
         "images": [
@@ -1999,6 +2077,7 @@
         ]
     },
     {
+        "id": 79,
         "title": "Đường sắt tốc độ cao Bắc Nam được đề xuất thế nào?",
         "discription": "Theo đề xuất của Liên danh tư vấn thẩm tra, dự án đường sắt tốc độ cao Bắc Nam dự kiến có tổng mức đầu tư 61,67 tỷ USD, phân kỳ theo ba giai đoạn.",
         "images": [
@@ -2012,6 +2091,7 @@
         ]
     },
     {
+        "id": 80,
         "title": "Rào một phần đường Nguyễn Xiển để thi công hố ga",
         "discription": "<span class=\"location-stamp\">Hà Nội</span>Bốn điểm trên đường Nguyễn Xiển bị quây tôn chiếm quá nửa lòng đường để thi công hố ga, thuộc dự án Nhà máy Xử lý nước thải Yên Xá.",
         "images": [
@@ -2032,6 +2112,7 @@
         ]
     },
     {
+        "id": 81,
         "title": "Hai vướng mắc khiến 4 bãi xe ngầm ở TP HCM đình trệ",
         "discription": "Vướng quy hoạch và khó thu hút vốn đầu tư khiến 4 dự án bãi xe ngầm ở trung tâm thành phố chưa thể triển khai, theo lãnh đạo Sở Kế hoạch và Đầu tư TP HCM.",
         "images": [
@@ -2055,6 +2136,7 @@
         ]
     },
     {
+        "id": 82,
         "title": "Nghiên cứu đường sắt tốc độ cao 250 km/h",
         "discription": "Hai bộ Kế hoạch và Đầu tư, Giao thông Vận tải thống nhất nghiên cứu đường sắt tốc độ cao Bắc Nam vừa chở khách, vừa chở hàng, tốc độ thiết kế 250 km/h, khai thác 180-225 km/h.",
         "images": [
@@ -2078,6 +2160,7 @@
         ]
     },
     {
+        "id": 83,
         "title": "Loạt chuyên cơ Gulfstream xuất hiện cùng lúc tại Việt Nam",
         "discription": "<span class=\"location-stamp\">Quảng Ninh</span>Thương hiệu Gulfstream giới thiệu ba chuyên cơ G600, G650ER và G700 trong Triển lãm hàng không Airshow 2022, tại Cảng hàng không quốc tế Vân Đồn, ngày 5 và 6/11.",
         "images": [
@@ -2108,6 +2191,7 @@
         ]
     },
     {
+        "id": 84,
         "title": "6 tiêu chí quy hoạch mạng lưới sân bay",
         "discription": "Đơn vị lập quy hoạch mạng lưới sân bay toàn quốc đưa ra 6 tiêu chí như dự báo nhu cầu đi lại, tiềm năng và mục tiêu phát triển kinh tế - xã hội của địa phương.",
         "images": [
@@ -2138,6 +2222,7 @@
         ]
     },
     {
+        "id": 85,
         "title": "Đề xuất mở 17 tuyến xe đưa đón khách từ Tân Sơn Nhất",
         "discription": "<span class=\"location-stamp\">TP HCM</span>Công ty liên doanh vận chuyển quốc tế Hải Vân đề xuất mở 17 tuyến nối sân bay Tân Sơn Nhất với khu đô thị, bến xe... ở thành phố, đáp ứng nhu cầu đi lại.",
         "images": [
@@ -2157,6 +2242,7 @@
         ]
     },
     {
+        "id": 86,
         "title": "Không lùi thời gian đào tạo lái xe trên cabin tập lái",
         "discription": "Bộ Giao thông Vận tải quyết định giữ lộ trình đào tạo học lái xe trên cabin từ 1/1/2023, không lùi thời gian theo đề xuất của Cục Đường bộ Việt Nam.",
         "images": [
@@ -2178,6 +2264,7 @@
         ]
     },
     {
+        "id": 87,
         "title": "Hầm chui ở cửa ngõ TP HCM sắp thông xe",
         "discription": "Sau nhiều lần trì hoãn, hầm chui trước bến xe Miền Đông mới, TP Thủ Đức sẽ khai thác vào cuối tháng 11, tăng kết nối cho bến và giảm ùn tắc cửa ngõ thành phố.",
         "images": [
@@ -2197,6 +2284,7 @@
         ]
     },
     {
+        "id": 88,
         "title": "Lùi thời gian hoàn thành cao tốc Cam Lộ - La Sơn",
         "discription": "Tuyến chính cao tốc Cam Lộ - La Sơn (Quảng Trị - Thừa Thiên Huế) được Bộ Giao thông Vận tải lùi mốc hoàn thành đến ngày 30/11, chậm một tháng so với kế hoạch.",
         "images": [
@@ -2215,6 +2303,7 @@
         ]
     },
     {
+        "id": 89,
         "title": "Khan hiếm vé tàu Tết về miền Trung",
         "discription": "<span class=\"location-stamp\">TP HCM</span>Sau một tuần mở bán vé Tết, nhiều đoàn tàu ở một số chặng đi miền Trung như Đà Nẵng, Quảng Ngãi, Huế... đã kín chỗ khiến nhiều người không thể đặt mua.",
         "images": [
@@ -2238,6 +2327,7 @@
         ]
     },
     {
+        "id": 90,
         "title": "Cầu lún gần nửa mét ở Quảng Nam",
         "discription": "Cầu Quyết Thắng bắc qua sông Vàng, nối xã Ba và Tư, huyện Đông Giang, bị sụt lún gần nửa mét trong đêm 1/11 khiến mặt cầu uốn lượn.",
         "images": [
@@ -2254,6 +2344,7 @@
         ]
     },
     {
+        "id": 91,
         "title": "Cuộc hội đàm giúp bình ổn quan hệ Mỹ - Trung",
         "discription": "Sau cuộc gặp của lãnh đạo Mỹ - Trung tại Indonesia, quan hệ hai nước được cho là sẽ ổn định và lắng dịu căng thẳng, dù chưa thể thoát khỏi thế đối đầu.",
         "images": [
@@ -2284,6 +2375,7 @@
         ]
     },
     {
+        "id": 92,
         "title": "Thắng Thượng viện, đảng Dân chủ tạo lợi thế cho ông Biden",
         "discription": "Kiểm soát Thượng viện, đảng Dân chủ có thể thúc đẩy các đề cử của Tổng thống Biden, đồng thời ngăn phe Cộng hòa cản trở sáng kiến lập pháp của ông.",
         "images": [
@@ -2318,6 +2410,7 @@
         ]
     },
     {
+        "id": 93,
         "title": "Mỹ - Trung nỗ lực lập 'rào chắn an toàn' cho cạnh tranh chiến lược",
         "discription": "Cuộc gặp tại Bali giữa lãnh đạo Mỹ - Trung khó thay đổi quan hệ song phương, nhưng sẽ ngăn cạnh tranh siêu cường leo thang thành xung đột, theo chuyên gia.",
         "images": [
@@ -2350,6 +2443,7 @@
         ]
     },
     {
+        "id": 94,
         "title": "Đảng Cộng hòa hướng tới tương lai không có ông Trump",
         "discription": "Kết quả của cuộc bầu cử giữa kỳ khiến đảng Cộng hòa thất vọng với ảnh hưởng của Trump và tìm kiếm những ứng viên có thể thay thế ông.",
         "images": [
@@ -2398,6 +2492,7 @@
         ]
     },
     {
+        "id": 95,
         "title": "Cuộc gặp có thể giúp ông Biden vạch 'lằn ranh đỏ' với ông Tập",
         "discription": "Tổng thống Biden hy vọng cuộc gặp với ông Tập bên lề hội nghị G20 có thể vạch \"lằn ranh đỏ\" ngăn quan hệ Mỹ - Trung lao dốc thêm.",
         "images": [
@@ -2433,6 +2528,7 @@
         ]
     },
     {
+        "id": 96,
         "title": "Cục diện Kherson tác động tới chiến dịch quân sự Nga",
         "discription": "Quân đội Ukraine tiến vào thành phố Kherson được coi là bước lùi lớn nhất của Nga sau hơn 8 tháng mở chiến dịch quân sự.",
         "images": [
@@ -2468,6 +2564,7 @@
         ]
     },
     {
+        "id": 97,
         "title": "Chuyến thăm của ông Biden củng cố cam kết Mỹ - ASEAN",
         "discription": "Tổng thống Biden tới Campuchia dự các hội nghị cấp cao khu vực, cho thấy Mỹ coi trọng cam kết tăng hợp tác với ASEAN, theo chuyên gia.",
         "images": [
@@ -2500,6 +2597,7 @@
         ]
     },
     {
+        "id": 98,
         "title": "Thống đốc Florida - người đe dọa tham vọng Nhà Trắng của ông Trump",
         "discription": "Dù chưa tuyên bố tranh cử tổng thống, Thống đốc Florida Ron DeSantis đang được coi là ứng viên số một của đảng Cộng hòa, cạnh tranh trực tiếp với ông Trump.",
         "images": [
@@ -2539,6 +2637,7 @@
         ]
     },
     {
+        "id": 99,
         "title": "Thách thức với Ukraine khi Nga rút quân khỏi Kherson",
         "discription": "Nga rút khỏi thành phố Kherson là tín hiệu vui cho Ukraine, song cũng đặt ra thách thức với Kiev khi đối mặt phòng tuyến chặt chẽ hơn của Moskva.",
         "images": [
@@ -2571,6 +2670,7 @@
         ]
     },
     {
+        "id": 100,
         "title": "Ông Tập nỗ lực nâng vị thế đối ngoại Trung Quốc",
         "discription": "Sau hơn hai năm hạn chế các hoạt động đối ngoại, ông Tập tăng cường nỗ lực ngoại giao nhằm nâng vị thế Trung Quốc trên trường quốc tế.",
         "images": [
@@ -2600,6 +2700,7 @@
         ]
     },
     {
+        "id": 101,
         "title": "Lý do kiểm phiếu bầu cử giữa kỳ Mỹ kéo dài",
         "discription": "Dù các hòm phiếu đã đóng vào đêm 8/11, cuộc đua sít sao ở các bang chiến trường khiến quá trình kiểm phiếu bầu cử giữa kỳ ở Mỹ kéo dài nhiều ngày.",
         "images": [
@@ -2641,6 +2742,7 @@
         ]
     },
     {
+        "id": 102,
         "title": "'Sóng đỏ khổng lồ' không như kỳ vọng của ông Trump",
         "discription": "Trước thềm bầu cử giữa kỳ, ông Trump kêu gọi người ủng hộ tạo nên \"sóng đỏ khổng lồ\" cho đảng Cộng hòa, nhưng kỳ vọng đó đang phai nhạt.",
         "images": [
@@ -2687,6 +2789,7 @@
         ]
     },
     {
+        "id": 103,
         "title": "Tương lai chính trị của ông Trump sau bầu cử giữa kỳ",
         "discription": "Thắng lợi của đảng Cộng hòa trong bầu cử giữa kỳ sẽ giúp Trump gia tăng đáng kể quyền lực và mở rộng đường để ông tranh cử tổng thống năm 2024.",
         "images": [
@@ -2732,6 +2835,7 @@
         ]
     },
     {
+        "id": 104,
         "title": "Bóng ma lạm phát đe dọa đảng Dân chủ trong bầu cử giữa kỳ",
         "discription": "Lạm phát là vấn đề rất được cử tri Mỹ quan tâm trong bầu cử giữa kỳ, song đảng Dân chủ và chính quyền Biden lại không có giải pháp cho họ.",
         "images": [
@@ -2768,6 +2872,7 @@
         ]
     },
     {
+        "id": 105,
         "title": "Bầu cử giữa kỳ Mỹ - cuộc trưng cầu về 'chủ nghĩa Trump'",
         "discription": "Bầu cử giữa kỳ Mỹ là cơ hội để đánh giá tác động của \"chủ nghĩa Trump\" với cử tri Mỹ, hai năm sau vụ bạo loạn Đồi Capitol, chuyên gia nhận định.",
         "images": [
@@ -2802,6 +2907,7 @@
         ]
     },
     {
+        "id": 106,
         "title": "Bầu cử giữa kỳ 'tái định hình chính sách đối ngoại Mỹ'",
         "discription": "Bầu cử giữa kỳ không chỉ định đoạt cục diện chính trường Mỹ, mà còn có thể tác động tới chính sách đối ngoại cùng cam kết của Washington với thế giới.",
         "images": [
@@ -2832,6 +2938,7 @@
         ]
     },
     {
+        "id": 107,
         "title": "Mỹ ít khả năng cắt viện trợ cho Ukraine sau bầu cử giữa kỳ",
         "discription": "Kết quả bầu cử giữa kỳ có thể định hình lại ưu tiên chính sách của Mỹ với Ukraine, nhưng sự ủng hộ nhiều khả năng sẽ không bị cắt.",
         "images": [
@@ -2872,6 +2979,7 @@
         ]
     },
     {
+        "id": 108,
         "title": "Thảm kịch giẫm đạp Hàn Quốc cảnh báo nguy cơ từ đám đông",
         "discription": "Khi nhiều người được tự do tận hưởng cuộc sống sau thời gian dài hạn chế vì Covid-19, những thảm kịch như vụ giẫm đạp Hàn Quốc luôn tiềm ẩn.",
         "images": [
@@ -2916,6 +3024,7 @@
         ]
     },
     {
+        "id": 109,
         "title": "Nga cạn phương án gây sức ép với Ukraine",
         "discription": "Quyết định nối lại thỏa thuận ngũ cốc cho thấy Nga đang cạn dần lựa chọn tăng sức ép với Ukraine, trong khi ảnh hưởng của Thổ Nhĩ Kỳ gia tăng.",
         "images": [
@@ -2948,6 +3057,7 @@
         ]
     },
     {
+        "id": 110,
         "title": "Cái bẫy Nga có thể giăng ra ở Kherson",
         "discription": "Nga được cho là đang tìm cách thể hiện hình ảnh thất thế ở Kherson, nhằm kéo quân đội Ukraine vào cái bẫy lớn giăng sẵn trong thành phố.",
         "images": [
@@ -2990,6 +3100,7 @@
         ]
     },
     {
+        "id": 111,
         "title": "Tân Thủ tướng thắp hy vọng cho Anh giữa khủng hoảng",
         "discription": "Là thủ tướng thứ ba của Anh trong hai tháng, ông Sunak được tin có thể giúp Anh vượt qua hỗn loạn dù còn nhiều thách thức, theo chuyên gia.",
         "images": [
@@ -3019,6 +3130,7 @@
         ]
     },
     {
+        "id": 112,
         "title": "Mỹ đối mặt nguy cơ hỗn loạn hậu bầu cử giữa kỳ",
         "discription": "Dù bầu cử giữa kỳ Mỹ chưa diễn ra, một số ứng viên Cộng hòa đã ám chỉ sẽ bác bỏ kết quả bất lợi, làm dấy lên lo ngại về hỗn loạn chính trị.",
         "images": [
@@ -3061,6 +3173,7 @@
         ]
     },
     {
+        "id": 113,
         "title": "Thông điệp của Triều Tiên khi phóng tên lửa nhiều chưa từng thấy",
         "discription": "Phóng tên lửa đạn đạo với số lượng nhiều kỷ lục, Triều Tiên vừa phát thông điệp phô diễn sức mạnh quân sự, vừa tăng sức ép với Mỹ và đồng minh.",
         "images": [
@@ -3098,6 +3211,7 @@
         ]
     },
     {
+        "id": 114,
         "title": "Tổng thống Hàn Quốc đối mặt thách thức sau vụ giẫm đạp",
         "discription": "Vụ giẫm đạp Itaewon được cho là thách thức lớn với Tổng thống Hàn Quốc Yoon Suk-yeol nếu ông không thể trả lời những câu hỏi về ngăn ngừa thảm kịch.",
         "images": [
@@ -3131,6 +3245,7 @@
         ]
     },
     {
+        "id": 115,
         "title": "Ukraine đối mặt 'thảm họa nhân đạo mùa đông'",
         "discription": "Ukraine cảnh báo nguy cơ đối mặt thảm họa nhân đạo trong mùa đông, nếu hạ tầng năng lượng tiếp tục bị phá hủy trong các đợt tập kích của Nga.",
         "images": [
@@ -3159,6 +3274,7 @@
         ]
     },
     {
+        "id": 116,
         "title": "'Việt - Trung rất coi trọng nhau trong chính sách đối ngoại'",
         "discription": "Chuyến thăm của Tổng bí thư Nguyễn Phú Trọng cho thấy Việt Nam và Trung Quốc rất coi trọng nhau nhờ hệ tư tưởng và vị trí địa lý gần gũi, theo Tiến sĩ Nguyễn Thành Trung.",
         "images": [
@@ -3188,6 +3304,7 @@
         ]
     },
     {
+        "id": 117,
         "title": "Hiệu ứng gây thương vong lớn trong vụ giẫm đạp Hàn Quốc",
         "discription": "Phần lớn người chết trong vụ giẫm đạp ở Hàn Quốc là do hiện tượng \"đám đông đè ép\", khi lượng người quá lớn bị dồn nén và sụp đổ lên nhau.",
         "images": [
@@ -3226,6 +3343,7 @@
         ]
     },
     {
+        "id": 118,
         "title": "Lý do phương Tây cần Thổ Nhĩ Kỳ",
         "discription": "Vị thế quan trọng trong NATO cùng vai trò \"chốt chặn\" luồng người di cư vào châu Âu khiến Ankara là nhân tố không thể thiếu với phương Tây.",
         "images": [
@@ -3270,6 +3388,7 @@
         ]
     },
     {
+        "id": 119,
         "title": "Vụ giẫm đạp phơi bày lỗ hổng của Hàn Quốc",
         "discription": "Trước lễ hội Halloween, giới chức Hàn Quốc công bố biện pháp phòng Covid-19 và chống ma túy, nhưng không có hướng dẫn nào về ngăn ngừa giẫm đạp.",
         "images": [
@@ -3310,6 +3429,7 @@
         ]
     },
     {
+        "id": 120,
         "title": "Báo Trung Quốc tiếp tục ca ngợi chuyến thăm của Tổng bí thư Nguyễn Phú Trọng",
         "discription": "Báo Trung Quốc đăng các bài viết cho rằng chuyến thăm của Tổng bí thư Nguyễn Phú Trọng thể hiện sự gắn bó giữa hai đảng, hai nước và sẽ tiếp thêm động lực cho quan hệ Việt - Trung.",
         "images": [
@@ -3336,6 +3456,7 @@
         ]
     },
     {
+        "id": 121,
         "title": "Tré trộn nem chả đặc trưng Bình Định",
         "discription": "Một phần tré trộn Bình Định có sự hòa quyện giữa vị chua của nem, nước tắc (quất), vị đậm đà từ chả bò, chả heo và ớt, tỏi cay nồng.",
         "images": [
@@ -3360,6 +3481,7 @@
         ]
     },
     {
+        "id": 122,
         "title": "10 món ăn dân dã cho lần đầu đến miền Tây",
         "discription": "",
         "images": [
@@ -3403,6 +3525,7 @@
         ]
     },
     {
+        "id": 123,
         "title": "Sáu món ăn từ vịt nổi tiếng châu Á",
         "discription": "<svg class=\"ic ic-comment\"><use xlink:href=\"#Comment-Reg\"></use></svg>\n<span class=\"txt_num_comment font_icon\" data-type=\"comment\" data-objecttype=\"1\" data-objectid=\"4536188\"></span>",
         "images": [
@@ -3434,6 +3557,7 @@
         ]
     },
     {
+        "id": 124,
         "title": "Ba món ngon từ ốc bươu",
         "discription": "Ba khía trộn tỏi ớt, cá lóc nướng trui, chuột chiên nước mắm... là những món dân dã, thường có mặt trong bữa ăn của người miền Tây.",
         "images": [
@@ -3463,6 +3587,7 @@
         ]
     },
     {
+        "id": 125,
         "title": "Chuột đồng nướng - món ngon đậm chất miền Tây",
         "discription": "Cháo vịt Việt Nam, vịt quay Bắc Kinh hay cơm vịt quay Singapore là những món du khách nên thử khi đi du lịch.",
         "images": [
@@ -3484,6 +3609,7 @@
         ]
     },
     {
+        "id": 126,
         "title": "Bánh đúc nóng cho ngày đông",
         "discription": "Ốc bươu có thể nướng tiêu xanh, nhồi thịt hay hấp sả chấm cùng nước mắm chua ngọt hoặc nước mắm gừng.",
         "images": [
@@ -3506,6 +3632,7 @@
         ]
     },
     {
+        "id": 127,
         "title": "Những món ăn cay nổi tiếng thế giới",
         "discription": "Thịt chuột dai, thơm, thấm đều vị chao béo và sa tế, là món khoái khẩu của nhiều thực khách khi đến miền Tây.",
         "images": [
@@ -3527,6 +3654,7 @@
         ]
     },
     {
+        "id": 128,
         "title": "Mẹt bánh mì gốc Bắc hơn 70 năm trên vỉa hè Sài Gòn",
         "discription": "<span class=\"location-stamp\">Hà Nội</span> Bánh đúc nóng mềm, chan nước mắm chua ngọt, là món quà chiều quen thuộc của người thủ đô khi trời trở lạnh.",
         "images": [
@@ -3553,6 +3681,7 @@
         ]
     },
     {
+        "id": 129,
         "title": "Những món ăn 'đáng sợ' nhưng nên thử ở Việt Nam",
         "discription": "Tom yum, lẩu tứ xuyên, cánh gà Mỹ... là những món ăn cay được CNN gợi ý nên thử một lần trong đời.",
         "images": [
@@ -3571,6 +3700,7 @@
         ]
     },
     {
+        "id": 130,
         "title": "Năm món ngon cho người lần đầu đến Long Xuyên",
         "discription": "Bánh mì cụ Lý trên vỉa hè đường Hai Bà Trưng, quận 3, chỉ có giò chả và hành tây, dưa leo, bán trong ba tiếng buổi sáng, mỗi ngày 450 ổ.",
         "images": [
@@ -3602,6 +3732,7 @@
         ]
     },
     {
+        "id": 131,
         "title": "Nhà hàng ăn theo khả năng, trả tiền theo ý thích",
         "discription": "Trứng vịt lộn, tiết canh, chả rươi... là những món khiến nhiều khách quốc tế sợ khi lần đầu nhìn thấy, nhưng lại muốn ăn tiếp khi đã thử.",
         "images": [
@@ -3627,6 +3758,7 @@
         ]
     },
     {
+        "id": 132,
         "title": "Gỏi tép nhảy là đặc sản ở đâu?",
         "discription": "<span class=\"location-stamp\">An Giang</span> Lẩu cháo cua đồng, cơm tấm nhuyễn, bánh xèo rau rừng... mang hương vị dân dã vùng Tây Nam Bộ.",
         "images": [],
@@ -3638,6 +3770,7 @@
         ]
     },
     {
+        "id": 133,
         "title": "Thịt nướng mua mang về kèm bếp than",
         "discription": "<span class=\"location-stamp\">Áo</span> Một nhà hàng buffet tại Vienna chọn cách tin tưởng khách hàng, để họ ăn thoải mái và trả tiền tùy tâm, thậm chí là miễn phí.",
         "images": [
@@ -3656,6 +3789,7 @@
         ]
     },
     {
+        "id": 134,
         "title": "Những món người Việt thích ăn, khách quốc tế ít biết",
         "discription": "Món ăn thường dễ tìm thấy ở các hàng quán vỉa hè, chợ địa phương, tép vẫn nhảy tanh tách khi thực khách đang ăn.",
         "images": [
@@ -3677,6 +3811,7 @@
         ]
     },
     {
+        "id": 135,
         "title": "Sạp hủ tiếu hơn 60 năm giữa Sài Gòn",
         "discription": "<span class=\"location-stamp\">Trung Quốc</span> Khách gọi thịt nướng mang đi được kèm sẵn một bếp than nhỏ và diêm để tự nướng thịt tại nhà.",
         "images": [
@@ -3698,6 +3833,7 @@
         ]
     },
     {
+        "id": 136,
         "title": "Quán chay trên vách đá muốn ăn phải trèo đèo lội suối",
         "discription": "Ngoài phở, bánh mì hay bún chả đã quá phổ biến với du khách quốc tế, Taste Atlas liệt kê 9 món khác ngon không kém nhưng ít nổi.",
         "images": [
@@ -3719,6 +3855,7 @@
         ]
     },
     {
+        "id": 137,
         "title": "10 món ăn nên thử khi tới Qatar xem World Cup",
         "discription": "Nằm trong khu chợ cũ trên đường Tôn Thất Đạm, quận 1, sạp hủ tiếu bà Chánh đã có từ hàng chục năm nay, là nơi lui tới của nhiều khách quen.",
         "images": [
@@ -3741,6 +3878,7 @@
         ]
     },
     {
+        "id": 138,
         "title": "Món mì làm từ đậu nành của người Hoa",
         "discription": "<span class=\"location-stamp\">Ninh Thuận</span> Nằm biệt lập trên vách đá cách trung tâm vịnh Vĩnh Hy gần 2 km, quán chay thử thách thực khách khi lần đầu tìm đến.",
         "images": [
@@ -3762,6 +3900,7 @@
         ]
     },
     {
+        "id": 139,
         "title": "Đến Điện Biên ăn xôi sắn, cơm lam nếp nương",
         "discription": "Cơm thịt gà majboos, bánh ngọt umm alil hay trà sữa karak là những món phổ biến, được người dân địa phương yêu thích.",
         "images": [
@@ -3784,6 +3923,7 @@
         ]
     },
     {
+        "id": 140,
         "title": "Quán bánh rán bán 5.000 chiếc mỗi ngày",
         "discription": "Được làm từ bột đậu nành và trứng, những sợi mì sụa nổi bật với màu vàng, to tròn, vị ngọt đặc trưng.",
         "images": [],
@@ -3793,6 +3933,7 @@
         "content": []
     },
     {
+        "id": 141,
         "title": "Sáu kiểu bánh mì phổ biến ở Sài Gòn",
         "discription": "Người Thái ở Điện Biên ăn xôi sắn, cơm lam chấm với muối ớt, chẳm chéo.",
         "images": [
@@ -3830,6 +3971,7 @@
         ]
     },
     {
+        "id": 142,
         "title": "Quán thịt nướng 'đắp chăn' bán gần 2.000 chiếc mỗi ngày",
         "discription": "<span class=\"location-stamp\">Hà Nội</span> Anh Nguyễn Quốc Khánh ở Thái Thịnh thừa hưởng công thức bánh rán từ ông nội, tạo nên hai loại vỏ đường và mật, trong có nhân đỗ mặn, thu hút đông khách mua mỗi ngày.",
         "images": [],
@@ -3839,6 +3981,7 @@
         "content": []
     },
     {
+        "id": 143,
         "title": "Cua ghẹ sống ngâm tương là đặc sản ở nước nào?",
         "discription": "Chiếc bánh mì giòn kết hợp nhiều loại nhân như xíu mại, chả cá, thịt heo quay, bì... được nhiều người ưa chuộng.",
         "images": [],
@@ -3850,6 +3993,7 @@
         ]
     },
     {
+        "id": 144,
         "title": "Sáu món ăn phong cách kinh dị dịp Halloween",
         "discription": "<span class=\"location-stamp\">Hà Nội</span> Anh Trần Quang Tuấn làm món thịt 'đắp chăn' với một lớp phô mai phủ trên bề mặt, tạo hương vị béo ngậy, hợp khẩu vị những người trẻ.",
         "images": [
@@ -3868,6 +4012,7 @@
         ]
     },
     {
+        "id": 145,
         "title": "Quán thịt nướng mắc khén bán trăm cân mỗi ngày",
         "discription": "Cua ghẹ sống ngâm tương được gọi là gejang hoặc gejeot, có từ thế kỷ 17, ăn rất tốn cơm.",
         "images": [],
@@ -3877,6 +4022,7 @@
         "content": []
     },
     {
+        "id": 146,
         "title": "Ba món cá cho bữa tối se lạnh ở Điện Biên",
         "discription": "Bánh hình con mắt, ngón tay phù thủy hay cocktail máu ma cà rồng... là những món ăn thường được bày bán vào dip tháng 10 hằng năm.",
         "images": [
@@ -3904,6 +4050,7 @@
         ]
     },
     {
+        "id": 147,
         "title": "Bánh lọt xào trứng - món ăn Campuchia hút khách Việt",
         "discription": "<span class=\"location-stamp\">Hà Nội</span> Quán thịt nướng của bà Phan Thị Hương trên phố Trương Định thu hút khách bởi hương vị đặc trưng của vùng núi Tây Bắc như mắc khén, hạt dổi...",
         "images": [
@@ -3924,6 +4071,7 @@
         ]
     },
     {
+        "id": 148,
         "title": "Bí quyết giữ chân khách của nhà hàng Hương Xưa - Phú Mỹ Hưng",
         "discription": "Dưới cái lạnh của buổi tối miền cao, quây quần bên bếp lửa để ăn cá nướng Pa Pỉnh Tộp là một trải nghiệm khó quên.",
         "images": [
@@ -3952,6 +4100,7 @@
         ]
     },
     {
+        "id": 149,
         "title": "Bánh ướt lòng gà kiểu Đà Lạt",
         "discription": "Từng sợi bánh lọt dai mềm xào cùng dầu hào, nước tương, giá, hẹ, áo thêm lớp trứng là món ăn phổ biến xứ sở chùa tháp.",
         "images": [
@@ -3976,6 +4125,7 @@
         ]
     },
     {
+        "id": 150,
         "title": "'Gà ăn mày' là tên gọi khác của đặc sản nào ở miền Tây?",
         "discription": "<span class=\"location-stamp\">TP HCM</span> Giữ hồn và đặc trưng của hương vị Bắc ngay tại trung tâm khu Cảnh Viên 3, Phú Mỹ Hưng, quận 7, nhà hàng Hương Xưa thu hút thực khách suốt 8 năm qua.",
         "images": [],
@@ -3987,6 +4137,7 @@
         ]
     },
     {
+        "id": 151,
         "title": "Đề bài kinh tế khó giải của G20 năm nay",
         "discription": "Xung đột, lạm phát và căng thẳng Mỹ - Trung đang chia rẽ các nền kinh tế lớn, gây khó khăn cho việc phối hợp ứng phó suy thoái.",
         "images": [
@@ -4025,6 +4176,7 @@
         ]
     },
     {
+        "id": 152,
         "title": "Kinh tế Nhật bất ngờ suy giảm",
         "discription": "Nằm ngoài dự báo, số liệu công bố hôm nay cho thấy GDP Nhật Bản bất ngờ giảm 1,2% trong quý III.",
         "images": [
@@ -4053,6 +4205,7 @@
         ]
     },
     {
+        "id": 153,
         "title": "Kinh tế thế giới ra sao năm 2023?",
         "discription": "2022 là một năm ảm đạm với nền kinh tế toàn cầu nhưng năm sau có thể còn tệ hơn, theo Bloomberg.",
         "images": [
@@ -4102,6 +4255,7 @@
         ]
     },
     {
+        "id": 154,
         "title": "Nhiều 'ông lớn' thiệt hại vì FTX phá sản",
         "discription": "SoftBank, quỹ đầu tư của chính phủ Singapore và hàng loạt doanh nghiệp kinh doanh về tiền số đang chịu tổn thất hàng trăm triệu USD khi FTX phá sản.",
         "images": [
@@ -4129,6 +4283,7 @@
         ]
     },
     {
+        "id": 155,
         "title": "World Cup 2022 có thể mang lại doanh thu kỷ lục cho FIFA",
         "discription": "FIFA có thể vượt mục tiêu 6,4 tỷ USD doanh thu giai đoạn 2019 – 2022, chủ yếu nhờ World Cup, như bán bản quyền, vé, tiền tài trợ,...",
         "images": [
@@ -4148,6 +4303,7 @@
         ]
     },
     {
+        "id": 156,
         "title": "Giá vàng tuần tới có thể tăng tiếp",
         "discription": "Các nhà phân tích phố Wall dự báo giá vàng kỳ hạn 12 tháng sẽ tăng vào tuần tới, lên 1.768 USD mỗi ounce.",
         "images": [
@@ -4170,6 +4326,7 @@
         ]
     },
     {
+        "id": 157,
         "title": "Khủng hoảng thừa container do cầu về tiêu dùng giảm sâu",
         "discription": "Cầu tiêu dùng giảm trước lo ngại lạm phát và suy thoái kinh tế khiến ngành vận tải biển rơi vào cảnh \"container chất đầy cảng\".",
         "images": [
@@ -4191,6 +4348,7 @@
         ]
     },
     {
+        "id": 158,
         "title": "USD có tuần hạ nhiệt",
         "discription": "USD vừa có tuần giảm mạnh nhất kể từ những ngày đầu của đại dịch, và có thể duy trì thời gian tới nhưng khó giảm sâu.",
         "images": [
@@ -4215,6 +4373,7 @@
         ]
     },
     {
+        "id": 159,
         "title": "Kinh tế toàn cầu có thể đi lên mà không làm tăng ô nhiễm môi trường",
         "discription": "Thế giới đang có nhiều tín hiệu cho thấy mối tương quan giữa tăng trưởng kinh tế và phát thải carbon suốt nhiều thế kỷ qua đã bị phá vỡ.",
         "images": [
@@ -4250,6 +4409,7 @@
         ]
     },
     {
+        "id": 160,
         "title": "Châu Âu tiết kiệm 22% khí đốt nhờ các gia đình tắt sưởi",
         "discription": "Châu Âu đã kìm hãm mức tiêu thụ khí đốt vào tháng trước nhờ các hộ gia đình ngừng sưởi ấm trong bối cảnh thời tiết ấm áp.",
         "images": [],
@@ -4270,6 +4430,7 @@
         ]
     },
     {
+        "id": 161,
         "title": "Sàn giao dịch tiền số lớn thứ ba thế giới phá sản",
         "discription": "Sàn giao dịch tiền số lớn thứ ba thế giới FTX đã đệ đơn xin phá sản, CEO Sam Bankman-Fried cũng từ chức ngay sau đó.",
         "images": [],
@@ -4290,6 +4451,7 @@
         ]
     },
     {
+        "id": 162,
         "title": "Chủ tịch WEF ấn tượng về kết quả phục hồi kinh tế của Việt Nam",
         "discription": "Chủ tịch WEF cho biết rất ấn tượng về kết quả phục hồi, duy trì ổn định vĩ mô của Việt Nam trong bối cảnh kinh tế toàn cầu gặp thách thức.",
         "images": [
@@ -4311,6 +4473,7 @@
         ]
     },
     {
+        "id": 163,
         "title": "Kinh tế Anh tiến đến bờ vực suy thoái",
         "discription": "Tăng trưởng GDP quý III của Anh giảm 0,2% báo hiệu sự khởi đầu của một cuộc suy thoái kéo dài.",
         "images": [
@@ -4334,6 +4497,7 @@
         ]
     },
     {
+        "id": 164,
         "title": "Musk cảnh báo Twitter phá sản nếu tiếp tục 'đốt' tiền",
         "discription": "Trong bài phát biểu đầu tiên trước nhân viên Twitter sau thương vụ mua lại, Musk cho rằng họ có thể phá sản nếu vẫn ngốn nhiều tiền mà không hiệu quả.",
         "images": [],
@@ -4352,6 +4516,7 @@
         ]
     },
     {
+        "id": 165,
         "title": "'Ông lớn' cho vay tiền số BlockFi lao đao",
         "discription": "BlockFi - một trong những hãng cho vay tiền số lớn nhất thế giới - vừa thông báo ngừng cho người dùng rút tiền sau khủng hoảng của sàn FTX.",
         "images": [],
@@ -4372,6 +4537,7 @@
         ]
     },
     {
+        "id": 166,
         "title": "Chứng khoán châu Á bật tăng theo Mỹ",
         "discription": "Hang Seng Index (Hong Kong) sáng nay tăng hơn 5%, thị trường Nhật Bản, Hàn Quốc cũng lên gần 3%.",
         "images": [],
@@ -4390,6 +4556,7 @@
         ]
     },
     {
+        "id": 167,
         "title": "Giá vàng, chứng khoán Mỹ tăng vọt",
         "discription": "Mỗi ounce vàng hôm qua tăng gần 50 USD, còn chỉ số DJIA lên thêm hơn 1.200 điểm sau số liệu lạm phát Mỹ.",
         "images": [
@@ -4411,6 +4578,7 @@
         ]
     },
     {
+        "id": 168,
         "title": "Kinh tế Hàn Quốc thêm sức ép sau thảm kịch giẫm đạp",
         "discription": "Vụ giẫm đạp trong lễ hội Halloween ở Seoul có thể khiến chi tiêu hộ gia đình yếu hơn, gây thêm áp lực lên kinh tế Hàn Quốc.",
         "images": [
@@ -4435,6 +4603,7 @@
         ]
     },
     {
+        "id": 169,
         "title": "Qatar giàu lên như thế nào",
         "discription": "Nhờ dầu khí, Qatar từ làng chài nghèo khó trở thành một trong những nước có GDP bình quân cao nhất thế giới sau vài thập kỷ.",
         "images": [
@@ -4480,6 +4649,7 @@
         ]
     },
     {
+        "id": 170,
         "title": "5 kiến nghị để ASEAN 'chung tay ứng phó thách thức'",
         "discription": "Thủ tướng Phạm Minh Chính đề cập nhu cầu xây dựng ASEAN đoàn kết, thống nhất, phục hồi nhanh và ứng phó thách thức hiệu quả trong giai đoạn biến động.",
         "images": [
@@ -4506,6 +4676,7 @@
         ]
     },
     {
+        "id": 171,
         "title": "Vốn hóa Amazon mất 1.000 tỷ USD sau hơn một năm",
         "discription": "Lạm phát kỷ lục, Fed nâng lãi suất và dự báo kết quả kinh doanh gây thất vọng khiến cổ phiếu Amazon giảm kỷ lục năm nay.",
         "images": [
@@ -4523,6 +4694,7 @@
         ]
     },
     {
+        "id": 172,
         "title": "Bitcoin xuống đáy hai năm khi Binance hủy mua FTX",
         "discription": "Giá tiền số lớn nhất thế giới sáng nay lùi về sát 15.500 USD khi Binance thông báo bỏ ý định mua lại sàn FTX.",
         "images": [
@@ -4552,6 +4724,7 @@
         ]
     },
     {
+        "id": 173,
         "title": "Elon Musk thuyết phục khách hàng quảng cáo ở lại Twitter",
         "discription": "Người giàu nhất thế giới hôm qua đưa ra loạt kế hoạch của ông với Twitter và muốn các khách hàng cho nền tảng này một cơ hội.",
         "images": [],
@@ -4572,6 +4745,7 @@
         ]
     },
     {
+        "id": 174,
         "title": "Qatar có thể thu về 17 tỷ USD từ World Cup",
         "discription": "World Cup được kỳ vọng là cú hích kinh tế cho quốc gia Vùng Vịnh, chủ yếu thúc đẩy ngành xây dựng và du lịch.",
         "images": [
@@ -4593,6 +4767,7 @@
         ]
     },
     {
+        "id": 175,
         "title": "Máy bay 'Made in China' nhận loạt đơn đặt hàng",
         "discription": "Tập đoàn Máy bay Thương mại Trung Quốc (Comac) vừa nhận thêm các đơn đặt hàng gồm 300 chiếc C919 sau hơn một tháng được cấp phép.",
         "images": [
@@ -4613,6 +4788,7 @@
         ]
     },
     {
+        "id": 176,
         "title": "Tỷ phú tiền số mất hơn 14 tỷ USD sau một đêm",
         "discription": "Hôm qua, CEO sàn tiền số FTX Sam Bankman-Fried vẫn sở hữu 15,6 tỷ USD, nhưng giờ chỉ còn 1 tỷ USD.",
         "images": [
@@ -4641,6 +4817,7 @@
         ]
     },
     {
+        "id": 177,
         "title": "Elon Musk bán gần 4 tỷ USD cổ phiếu Tesla sau khi mua Twitter",
         "discription": "CEO Tesla Elon Musk đã bán ít nhất 3,95 tỷ USD cổ phiếu hãng xe điện, chỉ vài ngày sau khi hoàn tất thương vụ mua Twitter.",
         "images": [],
@@ -4658,6 +4835,7 @@
         ]
     },
     {
+        "id": 178,
         "title": "Giá vàng thế giới tăng vọt",
         "discription": "Đồng USD yếu đi và lực mua kỹ thuật giúp giá vàng thế giới tăng gần 40 USD một ounce hôm qua.",
         "images": [
@@ -4678,6 +4856,7 @@
         ]
     },
     {
+        "id": 179,
         "title": "Bitcoin về mức thấp nhất 11 tháng",
         "discription": "Bitcoin giảm về mức thấp nhất kể từ đầu năm, dưới 17.500 USD một đơn vị, sau cuộc khẩu chiến giữa hai tỷ phú tiền số.",
         "images": [],
@@ -4700,6 +4879,7 @@
         ]
     },
     {
+        "id": 180,
         "title": "Các nước nghèo vạ lây vì cơn khát năng lượng của châu Âu",
         "discription": "Các nước nghèo phải chịu chi phí lớn hơn về năng lượng khi châu Âu săn lùng dầu và khí đốt thay thế cho nguồn cung Nga.",
         "images": [
@@ -4735,6 +4915,7 @@
         ]
     },
     {
+        "id": 181,
         "title": "Cha đẻ của bom nguyên tử",
         "discription": "Nhà vật lý Robert J. Oppenheimer từng gọi bản thân là “kẻ hủy diệt thế giới” sau khi Mỹ thả hai quả bom nguyên tử xuống Hiroshima và Nagasaki.",
         "images": [],
@@ -4746,6 +4927,7 @@
         ]
     },
     {
+        "id": 182,
         "title": "Vật thể nhân tạo đầu tiên bay vào vũ trụ",
         "discription": "ĐứcTên lửa V2 với vận tốc tối đa 5.760 km/h bay lên độ cao 175 km vào ngày 20/6/1944, trở thành vật thể nhân tạo đầu tiên bay vào không gian.",
         "images": [],
@@ -4757,6 +4939,7 @@
         ]
     },
     {
+        "id": 183,
         "title": "Giày đi bộ nhanh nhất thế giới",
         "discription": "Công ty khởi nghiệp Shift Robotics giới thiệu mẫu giày Moonwalker có thể giúp người đeo tăng 250% tốc độ đi bộ nhờ thuật toán AI.",
         "images": [],
@@ -4776,6 +4959,7 @@
         ]
     },
     {
+        "id": 184,
         "title": "Trung Quốc phát triển 'pin nước biển' sản xuất điện sạch",
         "discription": "Các nhà khoa học Trung Quốc kết hợp vi sinh vật với nước biển để chuyển đổi ánh sáng thành đường, sau đó sử dụng đường để tạo ra điện.",
         "images": [
@@ -4801,6 +4985,7 @@
         ]
     },
     {
+        "id": 185,
         "title": "Áo khoác tàng hình trước camera hồng ngoại",
         "discription": "AnhCông ty khởi nghiệp Vollebak tại London hợp tác với Đại học Manchester để phát triển Áo ngụy trang nhiệt, giúp cơ thể người trở nên vô hình trước camera hồng ngoại.",
         "images": [
@@ -4820,6 +5005,7 @@
         ]
     },
     {
+        "id": 186,
         "title": "Camera dưới nước không cần pin",
         "discription": "MỹCác nhà nghiên cứu ở Viện Công nghệ Massachusetts (MIT) phát triển loại camera mới không cần pin và truyền ảnh chụp không dây qua mặt nước.",
         "images": [
@@ -4837,6 +5023,7 @@
         ]
     },
     {
+        "id": 187,
         "title": "Thiết kế vũ khí vượt thời gian của Leonardo da Vinci",
         "discription": "Leonardo da Vinci từng thiết kế nhiều loại vũ khí độc đáo từ xe bọc thép, súng liên thanh 33 nòng tới chiếc nỏ khổng lồ.",
         "images": [
@@ -4871,6 +5058,7 @@
         ]
     },
     {
+        "id": 188,
         "title": "Nhật Bản tạo robot gián",
         "discription": "Nghiên cứu mới của Viện RIKEN sẽ góp phần hiện thực hóa việc sử dụng sinh vật cơ khí để thay thế con người trong những nhiệm vụ nguy hiểm.",
         "images": [
@@ -4893,6 +5081,7 @@
         ]
     },
     {
+        "id": 189,
         "title": "Mũ bảo hiểm lọc 80% chất ô nhiễm trong không khí",
         "discription": "Ấn ĐộMũ bảo hiểm của Shellios Technolabs giúp người lái xe môtô bảo vệ sức khỏe khi tham gia giao thông trên những con đường đầy ắp khói bụi.",
         "images": [
@@ -4916,6 +5105,7 @@
         ]
     },
     {
+        "id": 190,
         "title": "Mẫu máy bay bị khai tử sau 9 chuyến bay",
         "discription": "Pháp70 năm trước, máy bay cất hạ cánh thẳng đứng Coleoptere gây chú ý ngay khi ra mắt với hình dạng độc đáo nhưng bị khai tử chỉ sau 9 chuyến bay.",
         "images": [],
@@ -4927,6 +5117,7 @@
         ]
     },
     {
+        "id": 191,
         "title": "Có gì trong những cuốn sổ tay của Leonardo da Vinci?",
         "discription": "ItalyChứa đầy hình phác thảo phức tạp và ghi chú chi tiết, sổ tay của Leonardo hé lộ niềm đam mê và tư duy đi trước thời đại hàng trăm năm của ông.",
         "images": [
@@ -4960,6 +5151,7 @@
         ]
     },
     {
+        "id": 192,
         "title": "Cỗ máy xây dựng bằng sóng âm",
         "discription": "Tây Ban NhaCỗ máy LeviPrint do nhóm nghiên cứu ở Đại học Navarra phát triển sử dụng sóng âm tần số cao để xây dựng nhiều cấu trúc khác nhau mà không cần chạm vào đồ vật.",
         "images": [],
@@ -4971,6 +5163,7 @@
         ]
     },
     {
+        "id": 193,
         "title": "Robot hình người thám hiểm xác tàu đắm dưới đáy biển",
         "discription": "MỹRobot OceanOneK của phòng thí nghiệm Stanford Robotics có thể lặn sâu một kilomet để thu hồi cổ vật, thám hiểm xác tàu đắm và sửa chữa công trình dưới biển.",
         "images": [],
@@ -4982,6 +5175,7 @@
         ]
     },
     {
+        "id": 194,
         "title": "Phát minh hệ sinh thái mini 200 năm trước",
         "discription": "Những hộp kính chứa cây độc đáo do bác sĩ người Anh sáng tạo ra giúp cây có thể tươi tốt trong nhiều ngày mà không cần tưới.",
         "images": [],
@@ -4993,6 +5187,7 @@
         ]
     },
     {
+        "id": 195,
         "title": "Turbine nổi biến sóng thành điện",
         "discription": "Hà LanSau nhiều năm phát triển và thử nghiệm, máy phát điện nổi của công ty năng lượng bền vững Slow Mill đã sẵn sàng hoạt động trên biển.",
         "images": [
@@ -5012,6 +5207,7 @@
         ]
     },
     {
+        "id": 196,
         "title": "Những phát minh độc đáo kết hợp sức người hoặc điện",
         "discription": "Tàu một ray chạy bằng sức người, xe đạp siêu tốc có thể vượt cả cả ôtô khách, tàu ngầm mini đa năng … là những phát minh phục vụ đời sống con người.",
         "images": [],
@@ -5023,6 +5219,7 @@
         ]
     },
     {
+        "id": 197,
         "title": "Carrier kỷ niệm 120 năm ngày phát minh ra điều hòa không khí",
         "discription": "Kỹ sư Willis Carrier phát minh ra máy điều hòa không khí vào năm 1902, sau đó lập công ty cung cấp hệ thống làm mát cho các tòa nhà và ngành đông lạnh.",
         "images": [
@@ -5045,6 +5242,7 @@
         ]
     },
     {
+        "id": 198,
         "title": "Sáng chế cần gạt nước ôtô nhờ cái chớp mắt",
         "discription": "MỹKỹ sư Robert Kearns (1927-2005) đã sáng chế ra cần gạt nước ôtô nhờ quan sát chuyển động của đôi mắt và từng dành phần lớn cuộc đời mình để đòi lại bản quyền.",
         "images": [],
@@ -5056,6 +5254,7 @@
         ]
     },
     {
+        "id": 199,
         "title": "Người đàn ông để rắn độc cắn hơn 200 lần",
         "discription": "Một thợ máy người Mỹ từng kinh qua nhát cắn của những loài rắn độc nhất thế giới để giúp các nhà miễn dịch học tạo ra hợp chất kháng nọc độc.",
         "images": [
@@ -5080,6 +5279,7 @@
         ]
     },
     {
+        "id": 200,
         "title": "Phát hiện bất ngờ của Archimedes khi đang tắm",
         "discription": "Phát hiện của Archimedes chợt đến khi đang tắm đã giúp ông tìm ra cách để chiếc tàu lớn bằng thép, có thể nổi được trên nước dễ dàng như một chiếc thuyền con bằng gỗ.",
         "images": [],
@@ -5091,6 +5291,7 @@
         ]
     },
     {
+        "id": 201,
         "title": "Phát kiến của người bán xe đạp mở đường cho ngành hàng không",
         "discription": "MỹAnh em nhà Wright làm nghề sửa chữa và bán xe đạp, có được đồng vốn kha khá, họ chuyển sang chế tạo tàu lượn, máy bay, trở thành người mở đường cho ngành hàng không thế giới.",
         "images": [],
@@ -5102,6 +5303,7 @@
         ]
     },
     {
+        "id": 202,
         "title": "Loa mỏng như tờ giấy",
         "discription": "MỹCác kỹ sư ở Viện Công nghệ Massachusetts (MIT) phát triển một loại loa mỏng như tờ giấy có thể biến bất kỳ bề mặt nào thành nguồn âm thanh.",
         "images": [
@@ -5120,6 +5322,7 @@
         ]
     },
     {
+        "id": 203,
         "title": "Băng gạc điện diệt vi khuẩn gây hại ở vết thương",
         "discription": "MỹCác nhà nghiên cứu tìm ra cách ứng dụng điện để chữa lành vết thương, giúp thúc đẩy quá trình hồi phục bằng cách tiêu diệt vi khuẩn.",
         "images": [
@@ -5138,6 +5341,7 @@
         ]
     },
     {
+        "id": 204,
         "title": "Hệ thống lỏng lưu trữ năng lượng mặt trời",
         "discription": "Thụy ĐiểnCác nhà nghiên cứu ở Đại học Công nghệ Chalmers thiết kế một hệ thống năng lượng để lưu trữ năng lượng mặt trời ở dạng lỏng trong thời gian lên tới 18 năm.",
         "images": [
@@ -5157,6 +5361,7 @@
         ]
     },
     {
+        "id": 205,
         "title": "'Áo giáp' ngăn côn trùng ăn hoa màu",
         "discription": "MỹCác nhà nghiên cứu phát triển một vật liệu có cấu trúc như mê cung khiến côn trùng gây hại nhỏ không thể đến gần cây trồng.",
         "images": [
@@ -5176,6 +5381,7 @@
         ]
     },
     {
+        "id": 206,
         "title": "Giấy tạo từ phấn hoa có thể in và xóa nhiều lần",
         "discription": "Các nhà nghiên cứu Singapore thiết kế loại giấy mới có thể in và xóa tới 8 lần mà không ảnh hưởng tới chất lượng giấy và hình in.",
         "images": [
@@ -5193,6 +5399,7 @@
         ]
     },
     {
+        "id": 207,
         "title": "Lều cứu hộ lấy cảm hứng từ gấu Bắc Cực",
         "discription": "Nhóm sinh viên đến từ Viện hàn lâm Hoàng gia Đan Mạch thiết kế lều lấy cảm hứng từ gấu Bắc Cực với lớp vỏ gấp kiểu origami biến tuyết thành lớp cách nhiệt tự nhiên.",
         "images": [
@@ -5210,6 +5417,7 @@
         ]
     },
     {
+        "id": 208,
         "title": "Tai nghe ngăn không khí ô nhiễm",
         "discription": "AnhCông ty Dyson kết hợp tai nghe chụp tai với máy lọc khí giúp người dân ở các thành phố đối phó với ô nhiễm tiếng ồn và không khí.",
         "images": [
@@ -5229,6 +5437,7 @@
         ]
     },
     {
+        "id": 209,
         "title": "Thuốc in 3D trong 7 giây",
         "discription": "MỹCác nhà nghiên cứu ở Đại học London phát triển kỹ thuật in 3D mới cho phép sản xuất thuốc nhanh chóng tại chỗ.",
         "images": [
@@ -5246,6 +5455,7 @@
         ]
     },
     {
+        "id": 210,
         "title": "Tấm chắn khiến vật thể tàng hình",
         "discription": "AnhCông ty Invisiblity Shield Co tạo ra tấm chắn giúp người hoặc vật thể ở phía sau gần như \"biến mất\".",
         "images": [],
@@ -5263,6 +5473,7 @@
         ]
     },
     {
+        "id": 211,
         "title": "Lòng thù hận với vợ cũ của chồng",
         "discription": "MỹSau khi giúp chồng lên kế hoạch sát hại vợ cũ, che giấu tội ác, bộ mặt thật của cô giáo mầm non Cynthia Wilder chỉ lộ ra qua cuộc trò chuyện bị bí mật ghi âm vào năm 2015.",
         "images": [
@@ -5310,6 +5521,7 @@
         ]
     },
     {
+        "id": 212,
         "title": "Ngôi làng tử thần của những bà vợ độc ác",
         "discription": "HungarySau Thế chiến thứ nhất, khi những người đàn ông mang thương tật trở về, nhiều bà vợ trong làng Nagyrev mù quáng tin theo lời một góa phụ để hạ độc hết chồng.",
         "images": [
@@ -5342,6 +5554,7 @@
         ]
     },
     {
+        "id": 213,
         "title": "Gã triệu phú sát hại nhân tình vì 'nghiện kiểm soát'",
         "discription": "MỹNăm 1994, Anne chia tay Capano vì không chịu nổi sự kiểm soát của người tình trong suốt hai năm vụng trộm, chỉ vài tháng sau, cô mất tích không dấu vết.",
         "images": [],
@@ -5351,6 +5564,7 @@
         "content": []
     },
     {
+        "id": 214,
         "title": "Vụ nổ súng gây sốc của chủ nhà vào nam sinh gõ cửa nhầm",
         "discription": "MỹTrên đường đến bữa tiệc Halloween, Yoshihiro Hattori bị Rodney Peairs bắn chết vì tưởng có ý đồ phạm tội. Bản án tuyên Rodney vô tội vào năm 1993 đã thu hút sự chú ý.",
         "images": [
@@ -5399,6 +5613,7 @@
         ]
     },
     {
+        "id": 215,
         "title": "6 ngày mưu trí làm bạn với kẻ bắt cóc",
         "discription": "MỹHaskell Bohn bị bắt cóc song được cho ăn ngon, tâm sự hàng ngày, cuối cùng được giảm tiền chuộc còn 1/7 và được trả lại 7 USD đã cho chúng \"vay\".",
         "images": [
@@ -5437,6 +5652,7 @@
         ]
     },
     {
+        "id": 216,
         "title": "'Cảnh sát ác quỷ' khét tiếng Hong Kong",
         "discription": "Là cảnh sát bắn súng giỏi, Từ Bộ Cao bất mãn với công việc nên phục kích, sát hại đồng nghiệp và gây nhiều vụ án khác, từ năm 2001 đến 2006.",
         "images": [
@@ -5483,6 +5699,7 @@
         ]
     },
     {
+        "id": 217,
         "title": "Cuộc trả thù kẻ hiếp dâm của 400 phụ nữ",
         "discription": "Ấn ĐộÔng trùm tội phạm khu ổ chuột, Akku Yadav, liên tục giết người và hãm hiếp phụ nữ vì được cảnh sát bảo kê. Quá uất ức, các nạn nhân tự tìm công lý theo cách riêng.",
         "images": [
@@ -5495,6 +5712,7 @@
         "content": []
     },
     {
+        "id": 218,
         "title": "Nữ sát thủ nghiện truyện ngôn tình",
         "discription": "MỹNannie Doss đam mê truyện ngôn tình từ nhỏ, mơ tìm được tình yêu hoàn hảo, nhưng 5 lần kết hôn đều thất vọng. Bà ta liên tục gây án với các ông chồng, từ năm 1945.",
         "images": [
@@ -5536,6 +5754,7 @@
         ]
     },
     {
+        "id": 219,
         "title": "Kẻ vượt ngục gây ra 52 vụ hiếp dâm tàn bạo",
         "discription": "Trung QuốcVương Vạn Minh khiến cả thành phố Tây An sống trong lo sợ vì hiếp dâm 52 vụ, sát hại 21 nạn nhân, sau khi trốn tù đến đây, năm 1992 đến 1998.",
         "images": [
@@ -5575,6 +5794,7 @@
         ]
     },
     {
+        "id": 220,
         "title": "Ngôi sao trượt ván chôn vùi danh tiếng vì trả thù mù quáng",
         "discription": "MỹCựu vô địch trượt ván Mark Rogowski chôn vùi danh tiếng khi trút cơn hận vào cô gái có ngoại hình và tính cách giống người yêu cũ, năm 1991.",
         "images": [
@@ -5616,6 +5836,7 @@
         ]
     },
     {
+        "id": 221,
         "title": "Kế hoạch sát hại cấp trên của thẩm phán biến chất",
         "discription": "MỹNăm 1960, lương tháng thẩm phán chỉ 250 USD nhưng Joseph Peel đã sống xa hoa nhờ bảo kê tội phạm.",
         "images": [
@@ -5667,6 +5888,7 @@
         ]
     },
     {
+        "id": 222,
         "title": "Bài học 'đắt' từ trò chọc tức sư tử trong sở thú",
         "discription": "MỹPháo hoa, bia rượu chưa đủ vui cho đêm Quốc khánh, ba chàng trai đột nhập sở thú trêu sư tử và một người bị vồ chết. Hôm sau, sư tử bị sát thủ bí ẩn bắn chết, năm 1970.",
         "images": [],
@@ -5695,6 +5917,7 @@
         ]
     },
     {
+        "id": 223,
         "title": "Kế độc của người đàn ông ngoại tình",
         "discription": "Trung QuốcLý Thành Sinh tạo tai nạn giả, đổ tội giết tình địch cho người khác. Trong khi đó, hắn cùng nhân tình bỏ trốn, sống trong cảnh nghèo khổ, 18 năm sau sa lưới, 2012.",
         "images": [
@@ -5745,6 +5968,7 @@
         ]
     },
     {
+        "id": 224,
         "title": "Kẻ sát nhân ghi giấy ở hiện trường để đánh lừa cảnh sát",
         "discription": "Trung QuốcGây thảm án, thiếu niên bất hảo Vương Hải Trung bỏ trốn, lăn lộn đủ nghề trước khi khoác vỏ bọc ông chủ nhà hàng.",
         "images": [
@@ -5783,6 +6007,7 @@
         ]
     },
     {
+        "id": 225,
         "title": "Âm mưu sát hại cha dượng để giải thoát mẹ",
         "discription": "CanadaNăm 2001, để thực hiện kế hoạch giết cha dượng, Elizabeth đã biến chính con trai ruột thành hung thủ.",
         "images": [],
@@ -5792,6 +6017,7 @@
         "content": []
     },
     {
+        "id": 226,
         "title": "Âm mưu sau vụ tai nạn ngã thang kỳ lạ",
         "discription": "AustraliaLainie Coldwell được xác định chết do tai nạn ngã khỏi thang khi tháo dây đèn trên cây, nhưng sự thật không phải vậy.",
         "images": [
@@ -5828,6 +6054,7 @@
         ]
     },
     {
+        "id": 227,
         "title": "Cú trượt dài của huyền thoại âm nhạc đêm gặp vũ nữ thoát y",
         "discription": "MỹĐược vinh danh Top 100 nghệ sĩ vĩ đại nhất lịch sử, cũng là người thu âm cho The Beatles và John Lennon, Phil Spector mất tất cả sau đêm định mệnh đưa vũ nữ thoát y về nhà, năm 2003.",
         "images": [
@@ -5853,6 +6080,7 @@
         ]
     },
     {
+        "id": 228,
         "title": "Màn tự bào chữa lố ​​bịch của tên cướp ngông cuồng",
         "discription": "Bất chấp đối mặt với án tử hình, Tan Chor Jin, kẻ gây ra một trong 25 vụ án rúng động nhất Singapore, tự tin từ chối luật sư đại diện trước tòa để tự bào chữa song kết quả rất thảm hại.",
         "images": [
@@ -5903,6 +6131,7 @@
         ]
     },
     {
+        "id": 229,
         "title": "Kẻ hiếp dâm sa lưới vì đòi hẹn hò với nạn nhân",
         "discription": "Quận Tuen Mun, khu dân cư đông đúc bậc nhất Hong Kong, liên tiếp xảy ra nhiều vụ cưỡng hiếp, ba nạn nhân trong đó bị sát hại, năm 1992.",
         "images": [
@@ -5947,6 +6176,7 @@
         ]
     },
     {
+        "id": 230,
         "title": "Vụ kiện của chủ tiệm bánh mì và bản án tồi nhất trong lịch sử Mỹ",
         "discription": "Bị bắt vì ép nhân viên làm quá nhiều, chủ tiệm cho rằng nhà nước không thể can thiệp vào thoả thuận lao động. Vụ án tạo cú xoay chuyển quan điểm về Hiến pháp Mỹ trong hơn 100 năm qua.",
         "images": [
@@ -5975,6 +6205,7 @@
         ]
     },
     {
+        "id": 231,
         "title": "Bi kịch của cô gái mong được đại gia bao nuôi",
         "discription": "Trung QuốcCặp vợ chồng trung niên đến đồn cảnh sát trình báo con gái Ngô Tiểu Linh, 25 tuổi, có vẻ ngoài xinh đẹp bỗng mất tích, tháng 11/2012.",
         "images": [
@@ -6019,6 +6250,7 @@
         ]
     },
     {
+        "id": 232,
         "title": "'Sự im lặng của bầy cừu' khởi nguồn từ bác sĩ đao phủ",
         "discription": "MexicoPhóng viên Thomas Harris khi tiếp xúc với kẻ tử tù là bác sĩ trong trại giam đã sử dụng nhân vật này là nguyên mẫu cho tiểu thuyết nổi tiếng 'Sự im lặng của bầy cừu'.",
         "images": [
@@ -6051,6 +6283,7 @@
         ]
     },
     {
+        "id": 233,
         "title": "Kỳ án sát thủ viết thư tay thách thức cảnh sát",
         "discription": "MỹSau khi gây án, kẻ sát nhân bí ẩn liên tục gửi thư cho báo chí và cảnh sát, tự nhận là đặc vụ của tổ chức quốc tế bí mật. Suốt gần một thế kỷ qua, danh tính hắn vẫn là bí ẩn.",
         "images": [
@@ -6100,6 +6333,7 @@
         ]
     },
     {
+        "id": 234,
         "title": "Vụ án giáo phái khủng bố vũ khí hóa học khuấy đảo Nhật Bản",
         "discription": "Tự nhận đấng cứu thế, gánh vác vận mệnh nhân loại hậu tận thế, Asahara Shoko lập giáo phái, sản xuất vũ khí hóa học, gây hại cho hàng nghìn người, năm 1995.",
         "images": [
@@ -6148,6 +6382,7 @@
         ]
     },
     {
+        "id": 235,
         "title": "Sát nhân khiến cảnh sát Hàn Quốc mất 33 năm truy tìm",
         "discription": "Hàn QuốcCảnh sát mất 33 năm mới xác định được hung thủ của hàng loạt vụ giết người kể từ năm 1986, thậm chí họ còn bắt oan một người dân vô tội suốt 20 năm.",
         "images": [],
@@ -6157,6 +6392,7 @@
         "content": []
     },
     {
+        "id": 236,
         "title": "Kỳ án danh ca Hong Kong khơi mào cuộc chiến băng đảng",
         "discription": "Thập niên 1990, minh tinh Mai Diễm Phương từng bị xã hội đen nhắm tới, phải tạm ở ẩn để lánh nạn. Sự việc phần nào phản ánh thực trạng rối ren của ngành công nghiệp điện ảnh Hong Kong thời đó.",
         "images": [
@@ -6202,6 +6438,7 @@
         ]
     },
     {
+        "id": 237,
         "title": "Phát súng trả thù của người cha với kẻ ấu dâm",
         "discription": "MỹTối 16/3/1984, khi nghi phạm bắt cóc con trai 12 tuổi của Gary Plauche bước xuống sân bay ở Louisiana, người cha đã chờ sẵn.",
         "images": [
@@ -6247,6 +6484,7 @@
         ]
     },
     {
+        "id": 238,
         "title": "Siêu lừa bảo hiểm táo tợn nhất lịch sử Mỹ",
         "discription": "MỹLuật sư Rex DeGeorge lợi dụng các kẽ hở để kiếm hàng triệu USD tiền bồi thường, trở thành một trong những tên tội phạm bảo hiểm táo tợn nhất mọi thời đại.",
         "images": [
@@ -6290,6 +6528,7 @@
         ]
     },
     {
+        "id": 239,
         "title": "Cuộc chiến pháp lý giữa người mắc ung thư với công ty thuốc lá",
         "discription": "MỹTrước năm 1950, các tập đoàn thuốc lá khẳng định sản phẩm vô hại, việc in cảnh báo \"có hại cho sức khỏe\" thậm chí không bắt buộc, cho đến khi quá nhiều người chết vì ung thư.",
         "images": [
@@ -6331,6 +6570,7 @@
         ]
     },
     {
+        "id": 240,
         "title": "44 phút đấu súng trong vụ cướp ngân hàng ở Mỹ",
         "discription": "Năm 1997, cuộc đấu súng xảy ra giữa hàng trăm sĩ quan và hai tên cướp ngân hàng ở Mỹ khiến nhà chức trách thay đổi cách trang bị, đào tạo cảnh sát.",
         "images": [
@@ -6379,6 +6619,7 @@
         ]
     },
     {
+        "id": 241,
         "title": "Bruno Fernandes lạnh nhạt với Ronaldo",
         "discription": "Bồ Đào Nha Bruno Fernandes nói điều gì đó khiến Cristiano Ronaldo đứng sững trong phòng thay đồ tuyển Bồ Đào Nha.",
         "images": [
@@ -6402,6 +6643,7 @@
         ]
     },
     {
+        "id": 242,
         "title": "Man Utd tìm cách cắt hợp đồng của Ronaldo",
         "discription": "Anh Các luật sư của Man Utd đang nghiên cứu hợp đồng để sa thải Cristiano Ronaldo trước hạn.",
         "images": [
@@ -6424,6 +6666,7 @@
         ]
     },
     {
+        "id": 243,
         "title": "New Zealand cam kết hỗ trợ tuyển nữ Việt Nam đá World Cup",
         "discription": "Hà Nội Trong cuộc gặp mặt chiều 15/11, bà Jacinda Ardern khẳng định tuyển nữ Việt Nam sẽ được thi đấu như trên sân nhà khi tới New Zealand dự World Cup 2023.",
         "images": [
@@ -6443,6 +6686,7 @@
         ]
     },
     {
+        "id": 244,
         "title": "Ronaldo tươi cười trên sân tập của Bồ Đào Nha",
         "discription": "Giữa bão dư luận vì tố cáo Man Utd, Cristiano Ronaldo vẫn vui vẻ trong buổi tập đầu tiên cùng đội tuyển Bồ Đào Nha tối 14/11.",
         "images": [
@@ -6474,6 +6718,7 @@
         ]
     },
     {
+        "id": 245,
         "title": "Ferdinand: 'Ronaldo làm mọi thứ để rời Man Utd'",
         "discription": "Anh Cựu trung vệ Rio Ferdinand cho rằng đồng đội cũ Cristiano Ronaldo cố tình tạo ra cuộc phỏng vấn gây tranh cãi để rời Man Utd giữa mùa giải.",
         "images": [
@@ -6493,6 +6738,7 @@
         ]
     },
     {
+        "id": 246,
         "title": "Messi, Neymar xin phép HLV PSG về giữa trận",
         "discription": "Pháp Sau khi được thay ra ở phút 75 trận gặp Auxerre, Neymar và Lionel Messi xin HLV Christopher Galtier để ra về trước khi mãn cuộc.",
         "images": [
@@ -6511,6 +6757,7 @@
         ]
     },
     {
+        "id": 247,
         "title": "Đội hạng 7 Anh hỏi mượn Haaland dịp World Cup",
         "discription": "Ashton United đề nghị mượn Erling Haaland trong 28 ngày để giúp tiền đạo Na Uy duy trì thể lực và cảm giác bóng khi không dự World Cup 2022.",
         "images": [
@@ -6534,6 +6781,7 @@
         ]
     },
     {
+        "id": 248,
         "title": "Lewandowski: 'Vô địch World Cup cần may mắn'",
         "discription": "Sau khi nhận Giày Vàng 2022, tiền đạo Robert Lewandowski chia sẻ trên báo Marca về thời gian đầu khoác áo Barca và những nhận định trước thềm World Cup 2022.",
         "images": [
@@ -6599,6 +6847,7 @@
         ]
     },
     {
+        "id": 249,
         "title": "Ronaldo có thể đã đàm phán với Bayern",
         "discription": "Anh Theo tờ Daily Mail, đại diện của Cristiano Ronaldo đã gặp gỡ lãnh đạo Bayern, trước khi tung ra các cáo buộc nhắm vào Man Utd.",
         "images": [
@@ -6619,6 +6868,7 @@
         ]
     },
     {
+        "id": 250,
         "title": "Man Utd thông báo về cuộc phỏng vấn của Ronaldo",
         "discription": "Man Utd ám chỉ rằng họ sẽ chờ xem cuộc phỏng vấn đầy đủ 90 phút của Cristiano Ronaldo với MC Piers Morgan, trước khi kết luận điều gì.",
         "images": [
@@ -6638,6 +6888,7 @@
         ]
     },
     {
+        "id": 251,
         "title": "Ronaldo tự yêu cầu được phỏng vấn",
         "discription": "Anh Theo nhà báo người Anh Piers Morgan, Cristiano Ronaldo chủ động tiếp cận ông để thực hiện cuộc phỏng vấn, nơi anh công khai chỉ trích Man Utd và HLV Erik ten Hag.",
         "images": [
@@ -6659,6 +6910,7 @@
         ]
     },
     {
+        "id": 252,
         "title": "Man Utd họp bàn phạt Ronaldo",
         "discription": "Anh Lãnh đạo Man Utd họp cùng HLV Erik ten Hag hôm nay 14/11, và có thể phạt tiền Cristiano Ronaldo tới hơn 1 triệu USD.",
         "images": [
@@ -6678,6 +6930,7 @@
         ]
     },
     {
+        "id": 253,
         "title": "HLV Ten Hag khuyên Garnacho khiêm tốn",
         "discription": "Anh Theo HLV Erik ten Hag, cầu thủ 18 tuổi Alejandro Garnacho không nên xao nhãng luyện tập vì đã nổi tiếng hơn sau khi ghi bàn giúp Man Utd hạ Fulham ở Ngoại hạng Anh.",
         "images": [
@@ -6698,6 +6951,7 @@
         ]
     },
     {
+        "id": 254,
         "title": "Allegri: 'Không ai tin Juventus lên thứ 3 Serie A'",
         "discription": "HLV Max Allegri ca ngợi tinh thần của Juventus sau khi đội hạ Lazio 3-0 ở vòng 15 ngày 13/11 để vượt chính đối thủ và vươn lên thứ ba Serie A.",
         "images": [
@@ -6719,6 +6973,7 @@
         ]
     },
     {
+        "id": 255,
         "title": "HLV Scolari nghỉ hưu",
         "discription": "HLV Brazil vô địch World Cup 2002 Luiz Felipe Scolari thông báo kết thúc sự nghiệp cầm quân sau 40 năm hành nghề.",
         "images": [
@@ -6739,6 +6994,7 @@
         ]
     },
     {
+        "id": 256,
         "title": "Chị Ronaldo: 'Sự thật đang được nói ra'",
         "discription": "Anh Elma Aveiro ủng hộ em trai Cristiano Ronaldo sau khi anh chỉ trích Man Utd và HLV Ten Hag.",
         "images": [
@@ -6759,6 +7015,7 @@
         ]
     },
     {
+        "id": 257,
         "title": "Ronaldo chưa chúc mừng Benzema giành Quả Bóng Vàng",
         "discription": "Tiền đạo Karim Benzema tiết lộ đồng đội cũ Cristiano Ronaldo chưa chúc mừng về việc anh giành Quả Bóng Vàng đầu tiên trong sự nghiệp hồi tháng 10.",
         "images": [
@@ -6779,6 +7036,7 @@
         ]
     },
     {
+        "id": 258,
         "title": "Mourinho xin lỗi trọng tài",
         "discription": "Anh HLV Jose Mourinho xin lỗi trọng tài Antonio Rapuano, sau khi bị truất quyền chỉ đạo vì phản ứng thái quá cuối trận Roma hòa Torino 1-1 ở Serie A ngày 13/11.",
         "images": [
@@ -6801,6 +7059,7 @@
         ]
     },
     {
+        "id": 259,
         "title": "Hai cầu thủ Ngoại hạng Anh hẹn hò",
         "discription": "Anh Cặp cầu thủ của một CLB Ngoại hạng Anh được cho là công khai quan hệ yêu đồng tính với các đồng đội, sau khi hẹn hò gần một năm.",
         "images": [
@@ -6820,6 +7079,7 @@
         ]
     },
     {
+        "id": 260,
         "title": "CĐV Man Utd: 'Ronaldo là kẻ phản diện'",
         "discription": "Nhiều người hâm mộ Man Utd không hài lòng khi siêu sao Cristiano Ronaldo công khai chê bai Man Utd, HLV Erik ten Hag hay Wayne Rooney trong phỏng vấn hôm 13/11.",
         "images": [
@@ -6844,6 +7104,7 @@
         ]
     },
     {
+        "id": 261,
         "title": "Ronaldo: 'Man Utd phản bội tôi'",
         "discription": "Anh Trong trò chuyện dài 90 phút trên chương trình Piers Morgan Uncensored, Cristiano Ronaldo công khai chỉ trích Man Utd và HLV Erik ten Hag.",
         "images": [
@@ -6879,6 +7140,7 @@
         ]
     },
     {
+        "id": 262,
         "title": "Man Utd thắng ở phút bù cuối",
         "discription": "Anh Bàn thắng ở những giây cuối cùng của tiền vệ Alejandro Garnacho giúp Man Utd thắng Fulham 2-1 ở vòng 16 Ngoại hạng Anh hôm 13/11.",
         "images": [
@@ -6903,6 +7165,7 @@
         ]
     },
     {
+        "id": 263,
         "title": "Arteta lo Arsenal mất nhịp độ vì World Cup",
         "discription": "Anh Theo HLV Mikel Arteta, World Cup 2022 diễn ra vào thời điểm không lý tưởng, ngay sau khi Arsenal nới rộng khoảng cách với Man City lên năm điểm ở Ngoại hạng Anh.",
         "images": [
@@ -6923,6 +7186,7 @@
         ]
     },
     {
+        "id": 264,
         "title": "Tuyển Hà Lan nhận tin dữ trước World Cup",
         "discription": "Italy Hậu vệ cánh Denzel Dumfries chấn thương đúng một tuần trước khi World Cup 2022 khởi tranh.",
         "images": [
@@ -6942,6 +7206,7 @@
         ]
     },
     {
+        "id": 265,
         "title": "Nam Định trụ lại V-League",
         "discription": "Nhờ hat-trick của Rodrigo, Nam Định đánh bại đối thủ đua trụ hạng Sài Gòn 3-0 ở vòng 25 chiều 13/11, qua đó ở lại V-League.",
         "images": [
@@ -6966,6 +7231,7 @@
         ]
     },
     {
+        "id": 266,
         "title": "Mbappe ghi bàn trận cuối trước World Cup",
         "discription": "Kylian Mbappe đá trọn 90 phút và góp một bàn, khi PSG thắng Auxerre 5-0 tại vòng 15 Ligue 1 ngày 13/11.",
         "images": [
@@ -6990,6 +7256,7 @@
         ]
     },
     {
+        "id": 267,
         "title": "Guardiola: 'Man City thua không phải vì World Cup'",
         "discription": "Anh HLV Pep Guardiola cho rằng Man City thua trận đầu trên sân Etihad mùa này vì Brentford chơi hay hơn, không phải học trò của ông đá giữ chân.",
         "images": [
@@ -7010,6 +7277,7 @@
         ]
     },
     {
+        "id": 268,
         "title": "Ten Hag: 'Man Utd không quan tâm tới World Cup'",
         "discription": "Anh HLV Erik Ten Hag yêu cầu các cầu thủ Man Utd không được giữ chân cho World Cup 2022, mà phải thi đấu hết sức trước Fulham ở vòng 16 Ngoại hạng Anh.",
         "images": [
@@ -7029,6 +7297,7 @@
         ]
     },
     {
+        "id": 269,
         "title": "Arsenal bỏ cách Man City 5 điểm",
         "discription": "Anh Cú đúp của thủ quân Martin Odegaard giúp Arsenal hạ Wolves 2-0 ở vòng 16, qua đó nới rộng khoảng cách với Man City lên năm điểm ở Ngoại hạng Anh.",
         "images": [
@@ -7051,6 +7320,7 @@
         ]
     },
     {
+        "id": 270,
         "title": "Chelsea thua trận thứ ba liên tiếp",
         "discription": "Anh Thất bại 0-1 trước Newcastle ở vòng 16 khiến Chelsea tụt xuống thứ tám ở Ngoại hạng Anh, tối 12/11.",
         "images": [
@@ -7074,6 +7344,7 @@
         ]
     },
     {
+        "id": 271,
         "title": "Suy thận, tổn thương não do tự chữa đái tháo đường",
         "discription": "Phú Thọ Người đàn ông 67 tuổi, đái tháo đường 10 năm song không đi khám thường xuyên mà tự mua thuốc uống, gần đây mệt mỏi, khát nước, nước tiểu ít.",
         "images": [],
@@ -7092,6 +7363,7 @@
         ]
     },
     {
+        "id": 272,
         "title": "Sửa trái tim dị tật cho em bé nặng hơn 800 g",
         "discription": "Hà Nội Bé trai sinh non nặng 870 g, mắc bệnh tim bẩm sinh \"còn ống động mạch\", tức là ống động mạch không đóng vào khi trẻ chào đời.",
         "images": [
@@ -7115,6 +7387,7 @@
         ]
     },
     {
+        "id": 273,
         "title": "Bệnh nhân sốt rét ác tính thoát chết nhờ bác sĩ quân y Việt Nam",
         "discription": "Nam Sudan Ngày 15/11, đại diện Bệnh viện Dã chiến cấp 2 số 4 cho biết vừa cứu sống hai bệnh nhân nam mắc sốt rét thể ác tính nặng và khó.",
         "images": [
@@ -7135,6 +7408,7 @@
         ]
     },
     {
+        "id": 274,
         "title": "Cắt 24 khối u xơ tử cung trong khi sinh mổ",
         "discription": "Sản phụ 27 tuổi, được các bác sĩ Bệnh viện Sản Nhi tỉnh Phú Thọ mổ bắt con đồng thời cắt bỏ 24 khối u xơ tử cung.",
         "images": [
@@ -7157,6 +7431,7 @@
         ]
     },
     {
+        "id": 275,
         "title": "Thuyên tắc phổi sau 4 năm uống thuốc tránh thai",
         "discription": "TP HCM Người phụ nữ 47 tuổi, khoảng 4 năm qua uống thuốc tránh thai hàng ngày, nay đột nhiên đau ngực, khó thở và sưng to một bên chân.",
         "images": [],
@@ -7173,6 +7448,7 @@
         ]
     },
     {
+        "id": 276,
         "title": "Chuyển đổi số ngành y gặp khó",
         "discription": "Ngành y tế TP HCM đứng trước nhiều khó khăn khi triển khai y tế thông minh như phần mềm còn lạc hậu, thiếu kinh phí và nhân lực chất lượng cao.",
         "images": [
@@ -7201,6 +7477,7 @@
         ]
     },
     {
+        "id": 277,
         "title": "Cứu sống người đàn ông nhiều lần ngừng tim",
         "discription": "Hà Nội Người đàn ông 46 tuổi, bị xơ gan do uống rượu nhiều năm, viêm màng não, viêm phổi, điều trị tại Bệnh viện Đa khoa Thạch Thất trong tình trạng nhiều lần ngừng tim.",
         "images": [
@@ -7220,6 +7497,7 @@
         ]
     },
     {
+        "id": 278,
         "title": "Điều gì giúp nhân loại tăng tuổi thọ?",
         "discription": "Quỹ Dân số Liên Hợp Quốc dự báo tuổi thọ trung bình toàn cầu đạt 77,2 vào năm 2050 nhờ các tiến bộ y học, điều kiện vệ sinh, sinh hoạt, thực phẩm và dinh dưỡng được cải thiện.",
         "images": [
@@ -7245,6 +7523,7 @@
         ]
     },
     {
+        "id": 279,
         "title": "Bé gái Philippines là người thứ 8 tỷ của thế giới",
         "discription": "Bé gái chào đời lúc 1h29 ngày 15/11 tại Manila, Philippines, được ghi nhận là người thứ 8 tỷ của thế giới.",
         "images": [
@@ -7271,6 +7550,7 @@
         ]
     },
     {
+        "id": 280,
         "title": "'BHYT sẽ chi trả cho bệnh viện hơn 4.000 tỷ đồng vượt dự toán'",
         "discription": "Hơn 4.000 tỷ vượt tổng mức khám chữa bệnh năm 2021 sẽ được Quỹ Bảo hiểm y tế chi trả toàn bộ sau khi Chính phủ cho phép thanh toán bằng mức chi.",
         "images": [
@@ -7294,6 +7574,7 @@
         ]
     },
     {
+        "id": 281,
         "title": "Kỳ tích quả thận ghép sống gần 30 năm",
         "discription": "Hà Nội Quả thận ghép sống trong ổ bụng ông Lê Thanh Nghiêm gần 30 năm qua, được các bác sĩ xem là một kỳ tích của nền y học Việt Nam.",
         "images": [
@@ -7327,6 +7608,7 @@
         ]
     },
     {
+        "id": 282,
         "title": "Sự 'báo thù' của các virus gây bệnh hô hấp",
         "discription": "Mỹ Sau hai năm giãn cách, phần đông dân số không tiếp xúc với các loại virus thông thường khiến hệ miễn dịch dễ tổn thương trước mầm bệnh cúm và hô hấp.",
         "images": [
@@ -7351,6 +7633,7 @@
         ]
     },
     {
+        "id": 283,
         "title": "6 kiến nghị 'cứu' bệnh viện tự chủ",
         "discription": "Sở Y tế kiến nghị UBND TP HCM 6 giải pháp để các bệnh viện sớm ổn định những khó khăn hiện nay, từ đó phát triển bền vững hơn với cơ chế tự chủ tài chính.",
         "images": [
@@ -7378,6 +7661,7 @@
         ]
     },
     {
+        "id": 284,
         "title": "Dân số thế giới sẽ cán mốc 8 tỷ người vào ngày mai",
         "discription": "Liên Hợp Quốc cho biết dân số thế giới sẽ chạm mốc 8 tỷ người vào ngày 15/11, dự báo Ấn Độ có thể vượt Trung Quốc trở thành nước đông dân nhất.",
         "images": [
@@ -7400,6 +7684,7 @@
         ]
     },
     {
+        "id": 285,
         "title": "Số ca Covid-19 tại Trung Quốc tăng cao",
         "discription": "Bắc Kinh và một số thành phố lớn khác báo cáo số ca nhiễm nCoV tăng cao nhất kể từ tháng 4, khiến chính quyền chịu áp lực dập dịch nhanh chóng.",
         "images": [
@@ -7420,6 +7705,7 @@
         ]
     },
     {
+        "id": 286,
         "title": "Giáo sư Nguyễn Anh Trí: 'Bệnh viện cần cơ chế hơn cần tiền'",
         "discription": "GS.TS Nguyễn Anh Trí cho rằng \"thí điểm bệnh viện tự chủ toàn diện\" thất bại là do cơ chế chính sách chưa hoàn thiện, dễ phạm sai và nếu làm không khéo sẽ dẫn đến tư nhân hóa viện công.",
         "images": [
@@ -7451,6 +7737,7 @@
         ]
     },
     {
+        "id": 287,
         "title": "Bỏ du học về nước đồng hành cùng mẹ chữa ung thư",
         "discription": "Cần Thơ Đang du học tại Nhật, Hoàng Bùi Lan Hương nhận tin mẹ bị ung thư vú, cô đấu tranh tư tưởng và quyết định về nước sát cánh cùng mẹ.",
         "images": [
@@ -7478,6 +7765,7 @@
         ]
     },
     {
+        "id": 288,
         "title": "Chiếc mũi nhân tạo được 'nuôi' trên cánh tay",
         "discription": "Pháp Một chiếc mũi nhân tạo được nuôi trên cánh tay người phụ nữ 50 tuổi, sau đó ghép vào khuôn mặt, giúp bệnh nhân có khứu giác trở lại sau 8 năm.",
         "images": [
@@ -7497,6 +7785,7 @@
         ]
     },
     {
+        "id": 289,
         "title": "Dấu hiệu sớm cảnh báo mắc bệnh tiểu đường",
         "discription": "Singapore Thường xuyên khát nước, tiểu nhiều, mệt mỏi, giảm cân bất thường, tầm nhìn giảm, có thể là những dấu hiệu đầu tiên cảnh báo bạn bị tiểu đường.",
         "images": [
@@ -7528,6 +7817,7 @@
         ]
     },
     {
+        "id": 290,
         "title": "Thiền giúp giảm lo âu tương đương dùng thuốc",
         "discription": "Mỹ Nghiên cứu từ Đại học Georgetown cho thấy thiền có thể giúp giảm rối loạn lo âu và trầm cảm, tương đương tác dụng của một số loại thuốc.",
         "images": [
@@ -7550,6 +7840,7 @@
         ]
     },
     {
+        "id": 291,
         "title": "Gần 5 triệu người Việt bị bệnh tiểu đường",
         "discription": "Gần 5 triệu người Việt bị đái tháo đường (còn gọi tiểu đường) nhưng chỉ khoảng 35% được chẩn đoán, còn lại không biết mình mắc bệnh.",
         "images": [
@@ -7574,6 +7865,7 @@
         ]
     },
     {
+        "id": 292,
         "title": "Khối u tử cung 4 kg khiến người phụ nữ như mang bầu",
         "discription": "Nghệ An Bệnh nhân nữ 46 tuổi, nhập viện do đau bụng, phát hiện khối u xơ tử cung kích thước lớn đã xâm lấn cơ quan khác.",
         "images": [
@@ -7594,6 +7886,7 @@
         ]
     },
     {
+        "id": 293,
         "title": "Phát hiện ung thư phổi sau dấu hiệu ho khan",
         "discription": "Hà Nội Bệnh nhân nữ 60 tuổi, không đau ngực, không sút cân, chỉ ho khan, khó thở một tuần, đi khám phát hiện ung thư phổi di căn.",
         "images": [],
@@ -7613,6 +7906,7 @@
         ]
     },
     {
+        "id": 294,
         "title": "Bé trai suýt chết do điện giật khi câu cá",
         "discription": "Phú Thọ Nam sinh 12 tuổi, câu cá tại ao gần đường điện cao thế, bị giật ngã xuống nước, bất tỉnh, tính mạng nguy kịch.",
         "images": [
@@ -7632,6 +7926,7 @@
         ]
     },
     {
+        "id": 295,
         "title": "Chi trăm nghìn USD kéo dài chân thêm 15 cm",
         "discription": "Mỹ Nhiều người đàn ông sở hữu chiều cao khiêm tốn đã chi gần 290.000 USD để kéo dài chân thêm 15 cm nhằm gây ấn tượng với phụ nữ.",
         "images": [
@@ -7659,6 +7954,7 @@
         ]
     },
     {
+        "id": 296,
         "title": "TP HCM kiến nghị lập hội đồng tư vấn tự chủ bệnh viện",
         "discription": "Sở Y tế TP HCM kiến nghị UBND thành lập Hội đồng tư vấn tự chủ bệnh viện, chịu trách nhiệm hướng dẫn, tư vấn những vấn đề vướng mắc liên quan hoạt động tự chủ tài chính.",
         "images": [
@@ -7682,6 +7978,7 @@
         ]
     },
     {
+        "id": 297,
         "title": "Hai lầm tưởng phổ biến về cách chữa cảm lạnh",
         "discription": "Uống trà gừng, ăn nhiều rau xanh, trái cây sai cách không giúp chữa cảm lạnh mà còn khiến các triệu chứng trầm trọng hơn.",
         "images": [
@@ -7706,6 +8003,7 @@
         ]
     },
     {
+        "id": 298,
         "title": "Nguy kịch do uống hơn một lít rượu mỗi ngày",
         "discription": "Phú Thọ Bệnh nhân 53 tuổi, nghiện rượu hơn 10 năm, mỗi ngày uống hơn một lít rượu, nhập viện cấp cứu do xuất huyết tiêu hóa trên nền xơ gan.",
         "images": [
@@ -7724,6 +8022,7 @@
         ]
     },
     {
+        "id": 299,
         "title": "Hoại tử xương hàm - bệnh ở người lớn tuổi từng mắc Covid",
         "discription": "TP HCM 13 bệnh nhân đến viện khám vì hoại tử xương hàm và sọ không rõ nguyên nhân, khó chẩn đoán can thiệp triệt để, điểm chung là đều trên 57 tuổi và từng mắc Covid-19 có triệu chứng.",
         "images": [
@@ -7752,6 +8051,7 @@
         ]
     },
     {
+        "id": 300,
         "title": "Bệnh viện quá tải điều trị sốt xuất huyết",
         "discription": "Hà Nội Số người bị sốt xuất huyết tăng nhanh, nhiều bệnh viện kín giường điều trị nên người bệnh phải nằm ghép hoặc quay về nhà.",
         "images": [

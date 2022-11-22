@@ -1,16 +1,23 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/provider/model.dart';
-import 'package:news_app/screens/home/home.dart';
-import 'package:news_app/screens/profile/profile.dart';
-import 'package:news_app/screens/search/search.dart';
-import 'package:news_app/screens/setting/setting.dart';
+import 'package:news_app/provider/screen.dart';
+import 'package:news_app/provider/user_management.dart';
 import 'package:provider/provider.dart';
+import 'firebase/firebase_options.dart';
 
-void main() {
+Future<void> main() async {  
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  ).whenComplete(() => UserManagement().checkLogin());
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Model()),
+      ChangeNotifierProvider(create: (_) => UserManagement()),
+      ChangeNotifierProvider(create: (_) => Screen()),
+
     ],
     child: const MyApp(),
   ));
@@ -41,14 +48,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int currentTab = 0;
-  final List<Widget> screens = const [
-    Home(),
-    Search(),
-    Profile(),
-    Setting(),
-  ];
-
   final PageStorageBucket bucket = PageStorageBucket();
   @override
   void initState() {
@@ -60,152 +59,29 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: PageStorage(
         bucket: bucket,
-        child: screens[currentTab],
+        child: context.watch<Screen>().screen,
       ),
-      // floatingActionButton: Container(
-      //   height: 80.0,
-      //   width: 80.0,
-      //   decoration: BoxDecoration(
-      //     borderRadius: const BorderRadius.all(Radius.circular(48)),
-      //     boxShadow: const [
-      //       BoxShadow(
-      //         color: Colors.grey,
-      //         blurRadius: 10,
-      //       ),
-      //     ],
-      //     border: Border.all(color: Colors.white, width: 8),
-      //   ),
-      //   child: FittedBox(
-      //     child: FloatingActionButton(
-      //         child: const Icon(Icons.post_add),
-      //         onPressed: () {
-      //           Navigator.push(
-      //               context, MaterialPageRoute(builder: (context) => Login()));
-      //         }),
-      //   ),
-      // ),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         child: SizedBox(
           height: 60,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              // Row(
-              //   crossAxisAlignment: CrossAxisAlignment.center,
-              //   children: [
-              //     MaterialButton(
-              //       minWidth: 40,
-              //       onPressed: () {
-              //         setState(() {
-              //           currentTab = 0;
-              //         });
-              //       },
-              //       child: Column(
-              //         mainAxisAlignment: MainAxisAlignment.center,
-              //         children: [
-              //           Icon(
-              //             Icons.home,
-              //             color: currentTab == 0 ? Colors.blue : Colors.grey,
-              //           ),
-              //           Text("Home",
-              //               style: AppStyles.regular.copyWith(
-              //                   color: currentTab == 0
-              //                       ? Colors.blue
-              //                       : Colors.grey)),
-              //         ],
-              //       ),
-              //     ),
-              //     MaterialButton(
-              //       minWidth: 40,
-              //       onPressed: () {
-              //         setState(() {
-              //           currentTab = 1;
-              //         });
-              //       },
-              //       child: Column(
-              //         mainAxisAlignment: MainAxisAlignment.center,
-              //         children: [
-              //           Icon(
-              //             Icons.search,
-              //             color: currentTab == 1 ? Colors.blue : Colors.grey,
-              //           ),
-              //           Text("Search",
-              //               style: AppStyles.regular.copyWith(
-              //                   color: currentTab == 1
-              //                       ? Colors.blue
-              //                       : Colors.grey)),
-              //         ],
-              //       ),
-              //     ),
-              //   ],
-              // ),
-              // Row(
-              //   crossAxisAlignment: CrossAxisAlignment.start,
-              //   children: [
-              //     MaterialButton(
-              //       minWidth: 40,
-              //       onPressed: () {
-              //         setState(() {
-              //           currentTab = 2;
-              //         });
-              //       },
-              //       child: Column(
-              //         mainAxisAlignment: MainAxisAlignment.center,
-              //         children: [
-              //           Icon(
-              //             Icons.account_box,
-              //             color: currentTab == 2 ? Colors.blue : Colors.grey,
-              //           ),
-              //           Text("Profile",
-              //               style: AppStyles.regular.copyWith(
-              //                   color: currentTab == 2
-              //                       ? Colors.blue
-              //                       : Colors.grey)),
-              //         ],
-              //       ),
-              //     ),
-              //     MaterialButton(
-              //       minWidth: 40,
-              //       onPressed: () {
-              //         setState(() {
-              //           currentTab = 3;
-              //         });
-              //       },
-              //       child: Column(
-              //         mainAxisAlignment: MainAxisAlignment.center,
-              //         children: [
-              //           Icon(
-              //             Icons.settings,
-              //             color: currentTab == 3 ? Colors.blue : Colors.grey,
-              //           ),
-              //           Text("Settings",
-              //               style: AppStyles.regular.copyWith(
-              //                   color: currentTab == 3
-              //                       ? Colors.blue
-              //                       : Colors.grey)),
-              //         ],
-              //       ),
-              //     ),
-              //   ],
-              // ),
               MaterialButton(
                 minWidth: 40,
                 onPressed: () {
-                  setState(() {
-                    currentTab = 0;
-                  });
+                  context.read<Screen>().changeScreen(0);
                 },
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.home,
-                      color: currentTab == 0 ? Colors.blue : Colors.grey,
+                      color: context.watch<Screen>().currentTab == 0 ? Colors.blue : Colors.grey,
                     ),
                     Text("Home",
                         style: AppStyles.regular.copyWith(
-                            color: currentTab == 0
+                            color: context.watch<Screen>().currentTab == 0
                                 ? Colors.blue
                                 : Colors.grey)),
                   ],
@@ -214,20 +90,18 @@ class _MyHomePageState extends State<MyHomePage> {
               MaterialButton(
                 minWidth: 40,
                 onPressed: () {
-                  setState(() {
-                    currentTab = 1;
-                  });
+                  context.read<Screen>().changeScreen(1);
                 },
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.search,
-                      color: currentTab == 1 ? Colors.blue : Colors.grey,
+                      color: context.watch<Screen>().currentTab == 1 ? Colors.blue : Colors.grey,
                     ),
                     Text("Search",
                         style: AppStyles.regular.copyWith(
-                            color: currentTab == 1
+                            color: context.watch<Screen>().currentTab == 1
                                 ? Colors.blue
                                 : Colors.grey)),
                   ],
@@ -236,20 +110,18 @@ class _MyHomePageState extends State<MyHomePage> {
               MaterialButton(
                 minWidth: 40,
                 onPressed: () {
-                  setState(() {
-                    currentTab = 2;
-                  });
+                  context.read<Screen>().changeScreen(2);
                 },
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.account_box,
-                      color: currentTab == 2 ? Colors.blue : Colors.grey,
+                      color: context.watch<Screen>().currentTab == 2 ? Colors.blue : Colors.grey,
                     ),
                     Text("Profile",
                         style: AppStyles.regular.copyWith(
-                            color: currentTab == 2
+                            color: context.watch<Screen>().currentTab == 2
                                 ? Colors.blue
                                 : Colors.grey)),
                   ],
@@ -258,20 +130,18 @@ class _MyHomePageState extends State<MyHomePage> {
               MaterialButton(
                 minWidth: 40,
                 onPressed: () {
-                  setState(() {
-                    currentTab = 3;
-                  });
+                  context.read<Screen>().changeScreen(3);
                 },
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.settings,
-                      color: currentTab == 3 ? Colors.blue : Colors.grey,
+                      color: context.watch<Screen>().currentTab == 3 ? Colors.blue : Colors.grey,
                     ),
                     Text("Settings",
                         style: AppStyles.regular.copyWith(
-                            color: currentTab == 3
+                            color: context.watch<Screen>().currentTab == 3
                                 ? Colors.blue
                                 : Colors.grey)),
                   ],
