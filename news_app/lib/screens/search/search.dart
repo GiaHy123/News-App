@@ -3,6 +3,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:news_app/models/news.dart';
 //import 'package:news_app/models/data_news.dart';
 import 'package:news_app/screens/search/widgets/newsCard.dart';
 import 'package:provider/provider.dart';
@@ -17,13 +18,14 @@ class Search extends StatefulWidget {
 
 class _SearchState extends State<Search> {
 
+
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return Scaffold(
         appBar: AppBar(
           title: const Text("Search"),
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.white,
           // ignore: avoid_unnecessary_containers, sized_box_for_whitespace
           // ignore: prefer_const_literals_to_create_immutables
           actions: [
@@ -31,7 +33,7 @@ class _SearchState extends State<Search> {
                 onPressed: () {
                   showSearch(context: context, delegate: CustomSearch());
                 },
-                icon: const Icon(Icons.search))
+                icon: const Icon(Icons.search,color: Colors.blue,))
           ],
         ),
         body: Container(
@@ -40,7 +42,7 @@ class _SearchState extends State<Search> {
           child: Container(
             child: ListView.builder(
               itemCount: context.watch<Model>().data.length,
-              itemBuilder: (context, index) => newsCard(context.watch<Model>().data[index]),
+              itemBuilder: (context, index) => newsCard(context.watch<Model>().data[index],context),
             ),
           ),
         ));
@@ -49,7 +51,10 @@ class _SearchState extends State<Search> {
 
 class CustomSearch extends SearchDelegate {
   List<String> allData = ['News', 'Russia', 'Winter', 'Hot'];
-
+    //List<String> allData = News;
+  
+  
+  
   @override
   List<Widget>? buildActions(BuildContext context) {
     return [

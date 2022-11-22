@@ -3,8 +3,14 @@ import 'package:flutter/material.dart';
 //import 'package:news_app/models/data_news.dart';
 import 'package:news_app/models/news.dart';
 
-Widget newsCard(News value) {
-  return Container(
+import '../../home/subScreens/read_new.dart';
+
+Widget newsCard(News value,context ) {
+  return GestureDetector(
+    onTap: () async  {
+      Navigator.push(context, MaterialPageRoute(builder: (context) => ReadNews(dataNews: value)));
+    },
+   child :Container(
 
     //margin: const EdgeInsets.only(left: 10, right: 10),
     //color: Color.fromARGB(255, 203, 214, 214),
@@ -14,10 +20,10 @@ Widget newsCard(News value) {
     decoration: BoxDecoration(
       shape: BoxShape.rectangle,
       // ignore: prefer_const_constructors
-      color: Color.fromARGB(255, 235, 239, 246),
+      color: Colors.white,
     ),
     //margin: const EdgeInsets.only(left: 10, right: 10),
-    margin: const EdgeInsets.all(7),
+    margin: const EdgeInsets.all(6),
     // ignore: prefer_const_literals_to_create_immutables
     child: Row(children: [
       Container(
@@ -46,20 +52,20 @@ Widget newsCard(News value) {
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: const <Widget>[
-            Icon(
-              Icons.hotel_class,
-              color: Colors.pink,
-              size: 24.0,
-              //semanticLabel: 'Text to announce in accessibility modes',
-            ),
-            Icon(
-              Icons.local_drink,
-              color: Colors.green,
-              size: 30.0,
-            ),
+            // Icon(
+            //   Icons.hotel_class,
+            //   color: Colors.pink,
+            //   size: 24.0,
+            //   //semanticLabel: 'Text to announce in accessibility modes',
+            // ),
+            // Icon(
+            //   Icons.local_drink,
+            //   color: Colors.green,
+            //   size: 30.0,
+            // ),
           ],
         )
       ])),
     ]),
-  );
+  ));
 }
