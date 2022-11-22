@@ -2,11 +2,13 @@
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/constants/collection.dart';
 import 'package:news_app/firebase/cloud_firesotre.dart';
 import 'package:news_app/models/news.dart';
 import 'package:news_app/models/news_status.dart';
 import 'package:news_app/models/user_info.dart';
 import 'package:news_app/provider/user_management.dart';
+import 'package:news_app/screens/comment/commentScreen.dart';
 import 'package:provider/provider.dart';
 import '../../../constants/app_styles.dart';
 
@@ -23,6 +25,7 @@ class _ReadNewsState extends State<ReadNews> {
   late UserInfo user;
   bool isLike = false;
   bool isBookmark = false;
+  bool hearing = false;
   @override
   void initState() {
     // TODO: implement initState
@@ -34,16 +37,18 @@ class _ReadNewsState extends State<ReadNews> {
 
   @override
   void dispose() {
-    CloudFirestore().updateData('users', user.id.toString(), user.toJson());
-    CloudFirestore().updateData('news_status', widget.dataNews.id.toString(), status.toJson());
-    // context.read<UserManagement>().getUser();
+    if(hearing){
+      CloudFirestore().updateData(Collection.users, user.id.toString(), user.toJson());
+      CloudFirestore().updateData(Collection.newsStatus, widget.dataNews.id.toString(), status.toJson());
+    }
+    // context.read<UserManagement>().getUser(user.id!);
     super.dispose();
   }
 
   // get cmt and like
   void setUpData() async {
     var data = await CloudFirestore()
-        .getData('news_status', widget.dataNews.id.toString());
+        .getData(Collection.newsStatus, widget.dataNews.id.toString());
     setState(() {
       status = NewsStatus.fromJson(data!);
       isBookmark = user.bookmark
@@ -157,6 +162,7 @@ class _ReadNewsState extends State<ReadNews> {
                     onPressed: () {
                       setState(() {
                         isLike = !isLike;
+                        hearing = true;
                       });
                       final user = context.read<UserManagement>().user;
                       final findLike =
@@ -184,7 +190,9 @@ class _ReadNewsState extends State<ReadNews> {
                     ),
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => CommentScreen(idNews: dataNews.id.toString(), status: status)));
+                    },
                     child: Row(
                       children: [
                         Icon(

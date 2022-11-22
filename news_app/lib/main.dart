@@ -11,13 +11,12 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-  ).whenComplete(() => UserManagement().checkLogin());
+  );
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Model()),
       ChangeNotifierProvider(create: (_) => UserManagement()),
       ChangeNotifierProvider(create: (_) => Screen()),
-
     ],
     child: const MyApp(),
   ));
