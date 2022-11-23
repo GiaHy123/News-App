@@ -20,7 +20,7 @@ class UserInfo {
         "birthday": birthday,
         "avatar": avatar,
         "bookmark": bookmark,
-      };
+  };
 
   factory UserInfo.fromJson(Map<String, dynamic> data) {
     final id = data['id'] as String;

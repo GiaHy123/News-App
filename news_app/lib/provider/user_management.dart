@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:news_app/constants/collection.dart';
 import 'package:news_app/firebase/auth.dart';
 import 'package:news_app/firebase/cloud_firesotre.dart';
 import 'package:news_app/models/user_info.dart';
@@ -26,7 +27,7 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
       });
   }
   Future<void> getUser(String uid) async {
-    final data = await CloudFirestore().checkDataExists('users', uid);
+    final data = await CloudFirestore().checkDataExists(Collection.users, uid);
     if(data.exists){
       _user = UserInfo.fromJson(data.data()!);
     }else{
@@ -34,9 +35,10 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
       userData.name = _auth.auth.currentUser?.displayName;
       userData.email = _auth.auth.currentUser?.email;
       userData.avatar = _auth.auth.currentUser?.photoURL;
-      CloudFirestore().addData('users', uid, user);
+      CloudFirestore().addData(Collection.users, uid, userData.toJson());
       _user = userData;
     }
+    notifyListeners();
   }
 
   Future<void> loginWithGoogle () => _auth.signInWithGoogle().then((value) => _onStateChange());

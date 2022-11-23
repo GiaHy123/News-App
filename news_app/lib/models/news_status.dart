@@ -1,7 +1,7 @@
-import 'package:news_app/models/comment.dart';
+import 'package:news_app/models/comment_news.dart';
 
 class NewsStatus {
-  List<Comment> comment = [];
+  List<dynamic> comment = [];
   List<String> like = [];
 
   NewsStatus({
@@ -17,6 +17,6 @@ class NewsStatus {
   factory NewsStatus.fromJson(Map<String, dynamic> data) {
     final comment = data['comment'] as List<dynamic>;
     final like = data['like'] as List<dynamic>;
-    return NewsStatus(comment: comment.cast<Comment>(), like: like.cast<String>());
+    return NewsStatus(comment: comment, like: like.cast<String>());
   }
 }
