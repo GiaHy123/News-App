@@ -34,8 +34,8 @@ class _ReadNewsState extends State<ReadNews> {
 
   @override
   void dispose() {
-    CloudFirestore().updateData('users', user.id.toString(), user.toJson());
-    CloudFirestore().updateData('news_status', widget.dataNews.id.toString(), status.toJson());
+   // CloudFirestore().updateData('users', user.id.toString(), user.toJson());
+    //CloudFirestore().updateData('news_status', widget.dataNews.id.toString(), status.toJson());
     // context.read<UserManagement>().getUser();
     super.dispose();
   }
