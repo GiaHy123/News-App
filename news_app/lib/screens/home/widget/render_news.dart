@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_assets.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/models/news.dart';
-import 'package:news_app/screens/home/subScreens/read_new.dart';
+import 'package:news_app/screens/home/subScreens/read_news.dart';
 
 // ignore: non_constant_identifier_names
 Widget RenderNews(News data, context) {

@@ -35,7 +35,7 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
       userData.name = _auth.auth.currentUser?.displayName;
       userData.email = _auth.auth.currentUser?.email;
       userData.avatar = _auth.auth.currentUser?.photoURL;
-      CloudFirestore().addData(Collection.users, uid, user);
+      CloudFirestore().addData(Collection.users, uid, userData.toJson());
       _user = userData;
     }
     notifyListeners();

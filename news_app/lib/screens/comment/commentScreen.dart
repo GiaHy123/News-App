@@ -10,9 +10,10 @@ import 'package:news_app/screens/comment/widgets/render_comment.dart';
 import 'package:provider/provider.dart';
 
 class CommentScreen extends StatefulWidget {
-  const CommentScreen({super.key, required this.idNews, required this.status});
+  const CommentScreen({super.key, required this.idNews, required this.status, required this.isChangeComment});
   final String idNews;
   final NewsStatus status;
+  final Function isChangeComment;
   @override
   State<CommentScreen> createState() => _CommentScreenState();
 }
@@ -92,6 +93,7 @@ class _CommentScreenState extends State<CommentScreen> {
                         myController.text = '';
                         listCmt.add(cmt);
                         widget.status.comment.add(cmt.toJson());
+                        widget.isChangeComment();
                       });
                     },
                     icon: const Icon(
