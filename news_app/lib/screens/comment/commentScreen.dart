@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:news_app/constants/app_styles.dart';
-import 'package:news_app/constants/collection.dart';
-import 'package:news_app/firebase/cloud_firesotre.dart';
 import 'package:news_app/models/comment_news.dart';
 import 'package:news_app/models/news_status.dart';
 import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/comment/widgets/render_comment.dart';
+import 'package:news_app/screens/login/loginUI.dart';
+import 'package:news_app/screens/login/widgets/alertLogin.dart';
 import 'package:provider/provider.dart';
 
 class CommentScreen extends StatefulWidget {
-  const CommentScreen({super.key, required this.idNews, required this.status, required this.isChangeComment});
+  const CommentScreen(
+      {super.key,
+      required this.idNews,
+      required this.status,
+      required this.isChangeComment});
   final String idNews;
   final NewsStatus status;
   final Function isChangeComment;
@@ -85,16 +88,23 @@ class _CommentScreenState extends State<CommentScreen> {
                 ),
                 IconButton(
                     onPressed: () {
-                      CommentNews cmt = CommentNews(
-                        content: myController.text, 
-                        idUser: context.read<UserManagement>().user.id!, 
-                        nameUser: context.read<UserManagement>().user.name!);
-                      setState(() {
-                        myController.text = '';
-                        listCmt.add(cmt);
-                        widget.status.comment.add(cmt.toJson());
-                        widget.isChangeComment();
-                      });
+                      if (context.read<UserManagement>().loginSuccess) {
+                        CommentNews cmt = CommentNews(
+                          content: myController.text,
+                          idUser: context.read<UserManagement>().user.id!,
+                          nameUser: context.read<UserManagement>().user.name!,
+                          avatarUser:
+                              context.read<UserManagement>().user.avatar!,
+                        );
+                        setState(() {
+                          myController.text = '';
+                          listCmt.add(cmt);
+                          widget.status.comment.add(cmt.toJson());
+                          widget.isChangeComment();
+                        });
+                      } else {
+                        alertLogin(context);
+                      }                        
                     },
                     icon: const Icon(
                       Icons.send,

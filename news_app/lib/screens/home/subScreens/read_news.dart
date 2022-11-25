@@ -2,6 +2,7 @@
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/constants/app_assets.dart';
 import 'package:news_app/constants/collection.dart';
 import 'package:news_app/firebase/cloud_firesotre.dart';
 import 'package:news_app/models/news.dart';
@@ -9,6 +10,8 @@ import 'package:news_app/models/news_status.dart';
 import 'package:news_app/models/user_info.dart';
 import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/comment/commentScreen.dart';
+import 'package:news_app/screens/login/loginUI.dart';
+import 'package:news_app/screens/login/widgets/alertLogin.dart';
 import 'package:provider/provider.dart';
 import '../../../constants/app_styles.dart';
 
@@ -94,17 +97,21 @@ class _ReadNewsState extends State<ReadNews> {
         actions: [
           IconButton(
               onPressed: () {
-                setState(() {
-                  isChangeBookMark = !isChangeBookMark;
-                  isBookmark = !isBookmark;
-                });
-                final findNews =
-                    user.bookmark.indexWhere((v) => v == dataNews.id);
-                if (findNews == -1 && isBookmark) {
-                  user.bookmark.add(dataNews.id);
-                }
-                if (!isBookmark) {
-                  user.bookmark.remove(dataNews.id);
+                if (context.read<UserManagement>().loginSuccess){
+                  setState(() {
+                    isChangeBookMark = !isChangeBookMark;
+                    isBookmark = !isBookmark;
+                  });
+                  final findNews =
+                      user.bookmark.indexWhere((v) => v == dataNews.id);
+                  if (findNews == -1 && isBookmark) {
+                    user.bookmark.add(dataNews.id);
+                  }
+                  if (!isBookmark) {
+                    user.bookmark.remove(dataNews.id);
+                  }
+                }else{
+                  alertLogin(context);
                 }
               },
               icon: Icon(isBookmark ? Icons.bookmark : Icons.bookmark_border,
@@ -138,8 +145,7 @@ class _ReadNewsState extends State<ReadNews> {
                       ClipRRect(
                           borderRadius: BorderRadius.all(Radius.circular(48)),
                           child: Image(
-                            image: NetworkImage(
-                                "https://img.hoidap247.com/picture/question/20201023/large_1603461860810.jpg"),
+                            image: AssetImage(AppAssets.avatar),
                             width: 45,
                             height: 45,
                           )),
@@ -163,18 +169,22 @@ class _ReadNewsState extends State<ReadNews> {
                 children: [
                   TextButton(
                     onPressed: () {
-                      setState(() {
-                        isLike = !isLike;
-                        isChangeLike = !isChangeLike;
-                      });
-                      final user = context.read<UserManagement>().user;
-                      final findLike =
-                          status.like.indexWhere((v) => v == user.id);
-                      if (findLike == -1 && isLike) {
-                        status.like.add(user.id!);
-                      }
-                      if (!isLike) {
-                        status.like.remove(user.id!);
+                      if (context.read<UserManagement>().loginSuccess){
+                        setState(() {
+                          isLike = !isLike;
+                          isChangeLike = !isChangeLike;
+                        });
+                        final user = context.read<UserManagement>().user;
+                        final findLike =
+                            status.like.indexWhere((v) => v == user.id);
+                        if (findLike == -1 && isLike) {
+                          status.like.add(user.id!);
+                        }
+                        if (!isLike) {
+                          status.like.remove(user.id!);
+                        }
+                      }else{
+                        alertLogin(context);
                       }
                     },
                     child: Row(

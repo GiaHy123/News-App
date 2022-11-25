@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/constants/app_assets.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/models/comment_news.dart';
 
@@ -17,7 +18,7 @@ class RenderComment extends StatelessWidget {
           margin: const EdgeInsets.only(right: 10),
           child: CircleAvatar(
                   radius: 24,
-                  child: ClipOval(child: Image.asset('assets/images/avatar.png')),
+                  child: ClipOval(child: Image.asset(cmt.avatarUser)),
           ),
         ),
         Column(
