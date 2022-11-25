@@ -40,7 +40,7 @@ class _AuthenticateState extends State<Authenticate> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("You are not logged in",
+          Text("You are not login",
               style: AppStyles.medium.copyWith(
                 fontSize: 24,
               )),

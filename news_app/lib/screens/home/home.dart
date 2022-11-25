@@ -1,10 +1,12 @@
 // ignore_for_file: non_constant_identifier_names
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/bookmark/bookmark.dart';
 import 'package:news_app/screens/home/widget/render_category.dart';
 import 'package:news_app/screens/home/widget/render_news.dart';
+import 'package:news_app/screens/login/widgets/alertLogin.dart';
 import 'package:provider/provider.dart';
 
 import '../../provider/model.dart';
@@ -52,10 +54,6 @@ class _HomeState extends State<Home> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            // const Icon(
-            //   Icons.menu,
-            //   color: Colors.blue,
-            // ),
             Expanded(
                 child: Container(
                     padding: const EdgeInsets.only(left: 24),
@@ -63,10 +61,6 @@ class _HomeState extends State<Home> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        // const Icon(
-                        //   Icons.location_pin,
-                        //   color: Colors.black,
-                        // ),
                         Text("Wellcome, ${userName}",
                             style: AppStyles.regular
                                 .copyWith(color: Colors.black, fontSize: 16)),
@@ -75,7 +69,11 @@ class _HomeState extends State<Home> {
             IconButton(
               icon: const Icon(Icons.bookmark),
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const Bookmark()));
+                if (context.read<UserManagement>().loginSuccess){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const Bookmark()));
+                }else{
+                  alertLogin(context);
+                }
               },
               color: Colors.blue,
             )

@@ -34,12 +34,18 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
       UserInfo userData = UserInfo(id: uid, name: '');
       userData.name = _auth.auth.currentUser?.displayName;
       userData.email = _auth.auth.currentUser?.email;
-      userData.avatar = _auth.auth.currentUser?.photoURL;
       CloudFirestore().addData(Collection.users, uid, userData.toJson());
       _user = userData;
     }
     notifyListeners();
   }
+
+  Future<void> updateUser() async {
+    CloudFirestore().updateData(Collection.users, _user.id.toString(), _user.toJson());
+    notifyListeners();
+  }
+
+
 
   Future<void> loginWithGoogle () => _auth.signInWithGoogle().then((value) => _onStateChange());
 
@@ -53,6 +59,7 @@ class UserManagement with ChangeNotifier, DiagnosticableTreeMixin {
           getUser(event.uid);
         }
         else{
+          _user = UserInfo(id: '', name: 'Guest');
           _loginSuccess = false;
         }
       });

@@ -27,7 +27,7 @@ class CustomInfo extends StatelessWidget {
       case 'birthday':
         title = "Date of Birth";
         final temp = context.watch<UserManagement>().user.birthday;
-        data = '${temp.toDate().day}/${temp.toDate().month}/${temp.toDate().year}';
+        data = '${temp.day}/${temp.month}/${temp.year}';
         break;
       default:
         break;

@@ -43,7 +43,7 @@ class _SettingState extends State<Setting> {
                   borderRadius: BorderRadius.all(Radius.circular(50))),
               child: CircleAvatar(
                 radius: 56,
-                child: ClipOval(child: Image.asset('assets/images/avatar.png')),
+                child: ClipOval(child: Image.asset(context.watch<UserManagement>().user.avatar.toString())),
               ),
             ),
             Padding(
