@@ -46,21 +46,7 @@ class NewCard extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          // Row(
-          //   mainAxisAlignment: MainAxisAlignment.end,
-          //   children: const <Widget>[
-          //     Icon(
-          //       Icons.hotel_class,
-          //       color: Colors.pink,
-          //       size: 24.0,
-          //     ),
-          //     Icon(
-          //       Icons.local_drink,
-          //       color: Colors.green,
-          //       size: 30.0,
-          //     ),
-          //   ],
-          // )
+          
         ])),
       ]),
       ),
