@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/models/news.dart';
 import 'package:news_app/provider/model.dart';
 import 'package:news_app/provider/user_management.dart';
@@ -29,27 +28,11 @@ class _BookmarkState extends State<Bookmark> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        backgroundColor: Colors.white,
-        elevation: 0,
-        title: Text("Bookmark",
-            style: AppStyles.regular.copyWith(
-              fontSize: 24,
-              color: Colors.black,
-            )),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          color: Colors.black,
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
-      ),
       body: Center(
           child: ListView.builder(
-              itemCount: bookmark.length,
-              itemBuilder: (context, index) => newsCard(dataNews[index]))),
+        itemCount: bookmark.length,
+        itemBuilder: (context, index) => NewCard(news: dataNews[index]),
+      )),
     );
   }
 }
