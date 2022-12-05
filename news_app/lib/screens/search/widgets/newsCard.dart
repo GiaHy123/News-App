@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 //import 'package:news_app/models/data_news.dart';
 import 'package:news_app/models/news.dart';
-import 'package:news_app/screens/home/subScreens/read_new.dart';
+import 'package:news_app/screens/home/subScreens/read_news.dart';
+//import 'package:news_app/screens/home/subScreens/read_new.dart';
 
 class NewCard extends StatelessWidget {
   const NewCard({super.key, required this.news});
