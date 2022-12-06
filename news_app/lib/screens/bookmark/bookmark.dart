@@ -49,7 +49,7 @@ class _BookmarkState extends State<Bookmark> {
       body: Center(
           child: ListView.builder(
               itemCount: bookmark.length,
-              itemBuilder: (context, index) => newsCard(dataNews[index]))),
+              itemBuilder: (context, index) => NewsCard(news: dataNews[index])),),
     );
   }
 }
