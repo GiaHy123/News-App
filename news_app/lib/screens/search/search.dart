@@ -21,25 +21,15 @@ class _SearchState extends State<Search> {
   late List<News> dataNews;
   FocusNode focus = FocusNode();
   @override
-  // Mount
   void initState() {
     super.initState();
-    dataNews = context.read<Model>().data;
-    print("Khởi tạo");
-  }
-
-  //mount và unmount
-
-  @override
-  void dispose() {
-    super.dispose();
-    print("Hủy");
+    dataNews = context.read<Model>().data;  
   }
 
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
-    print("Render component");
+    
     return Scaffold(
         appBar: AppBar(
             backgroundColor: Colors.white,
@@ -122,7 +112,7 @@ class _SearchState extends State<Search> {
                 flex: 17,
                 child: ListView.builder(
                   itemCount: dataNews.length,
-                  itemBuilder: (context, index) => NewCard(news: dataNews[index]),
+                  itemBuilder: (context, index) => NewsCard(news: dataNews[index]),
                 ),
               ),
             ],

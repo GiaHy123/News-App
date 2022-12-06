@@ -6,8 +6,8 @@ import 'package:news_app/models/news.dart';
 import 'package:news_app/screens/home/subScreens/read_news.dart';
 //import 'package:news_app/screens/home/subScreens/read_new.dart';
 
-class NewCard extends StatelessWidget {
-  const NewCard({super.key, required this.news});
+class NewsCard extends StatelessWidget {
+  const NewsCard({super.key, required this.news});
   final News news;
 
   @override
