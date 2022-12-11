@@ -44,13 +44,6 @@ class _ProfileState extends State<Profile> {
         centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.white,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back,
-            color: Colors.black,
-          ),
-          onPressed: () {},
-        ),
       ),
       body: SingleChildScrollView(
         child: Container(

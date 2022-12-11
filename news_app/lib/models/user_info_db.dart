@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:news_app/constants/app_assets.dart';
 
-class UserInfo {
+class UserInfoDB {
   String? id = '';
   String? name = '';
   String? email = '';
@@ -9,7 +9,7 @@ class UserInfo {
   String? avatar = AppAssets.avatar;
   List<int> bookmark = [];
 
-  UserInfo({
+  UserInfoDB({
     required this.id,
     required this.name,
   });
@@ -23,14 +23,14 @@ class UserInfo {
         "bookmark": bookmark,
   };
 
-  factory UserInfo.fromJson(Map<String, dynamic> data) {
+  factory UserInfoDB.fromJson(Map<String, dynamic> data) {
     final id = data['id'] as String;
     final name = data['name'] as String;
     final email = data['email'] as String;
     final birthday = data['birthday'] as Timestamp;
     final avatar = data['avatar'] as String;
     final bookmark = data['bookmark'] as List<dynamic>;
-    final UserInfo user = UserInfo(id: id, name: name);
+    final UserInfoDB user = UserInfoDB(id: id, name: name);
     user.avatar = avatar;
     user.birthday = birthday.toDate();
     user.bookmark = bookmark.cast<int>();

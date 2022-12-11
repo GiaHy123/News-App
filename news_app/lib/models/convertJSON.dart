@@ -24,4 +24,34 @@ class ConvertJSON {
     }
     return category;
   }
+
+  static Future<List<String>> readPrivacy() async {
+    final String response = await rootBundle.loadString('assets/data/privacy.json');
+    final data = await json.decode(response);
+    List<String> privacy = [];
+    for (var item in data){
+      privacy.add(item);
+    }
+    return privacy;
+  }
+
+  static Future<List<String>> readAboutUs() async {
+    final String response = await rootBundle.loadString('assets/data/aboutUs.json');
+    final data = await json.decode(response);
+    List<String> aboutUs = [];
+    for (var item in data){
+      aboutUs.add(item);
+    }
+    return aboutUs;
+  }
+
+  static Future<List<String>> readHelpAndSuport() async {
+    final String response = await rootBundle.loadString('assets/data/helpAndSuport.json');
+    final data = await json.decode(response);
+    List<String> helpAndSuport = [];
+    for (var item in data){
+      helpAndSuport.add(item);
+    }
+    return helpAndSuport;
+  }
 }
