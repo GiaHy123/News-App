@@ -7,7 +7,7 @@ import 'package:news_app/constants/collection.dart';
 import 'package:news_app/firebase/cloud_firesotre.dart';
 import 'package:news_app/models/news.dart';
 import 'package:news_app/models/news_status.dart';
-import 'package:news_app/models/user_info.dart';
+import 'package:news_app/models/user_info_db.dart';
 import 'package:news_app/provider/user_management.dart';
 import 'package:news_app/screens/comment/commentScreen.dart';
 import 'package:news_app/screens/login/loginUI.dart';
@@ -25,7 +25,7 @@ class ReadNews extends StatefulWidget {
 
 class _ReadNewsState extends State<ReadNews> {
   NewsStatus status = NewsStatus(comment: [], like: []);
-  late UserInfo user;
+  late UserInfoDB user;
   bool isLike = false;
   bool isBookmark = false;
   bool isChangeLike = false;

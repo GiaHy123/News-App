@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:news_app/constants/app_styles.dart';
 import 'package:news_app/provider/screen.dart';
 import 'package:news_app/provider/user_management.dart';
+import 'package:news_app/screens/login/widgets/alertLogout.dart';
+import 'package:news_app/screens/setting/widgets/AboutUs.dart';
+import 'package:news_app/screens/setting/widgets/HelpAndSuport.dart';
+import 'package:news_app/screens/setting/widgets/privacy.dart';
 import 'package:provider/provider.dart';
 
 class Setting extends StatefulWidget {
@@ -112,7 +116,7 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const Privacy())),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -152,7 +156,7 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const HelpAndSuport())),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -192,7 +196,7 @@ class _SettingState extends State<Setting> {
                 ),
                 height: 50,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const AboutUs())),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -235,7 +239,7 @@ class _SettingState extends State<Setting> {
                 height: 50,
                 child: TextButton(
                   onPressed: () {
-                    context.read<UserManagement>().logOut();
+                    alertLogout(context);
                   },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
